@@ -64,6 +64,88 @@ b:hover + #answer{
     
           Enter your name or pseudo: <input type="text" name="name"><br>
           <button type="button" onclick="document.getElementById('text').innerHTML = "Hello JavaScript!">Click Me!</button>    
-     
+
+
+<div >
+<center><h2 style="color:black;">English to Japanese Annotation</h2></center>
+<h3>Test size: 1,300 sentences</h3>
+<h4>Size of the sample to annotate: 100 sentences</h4>
+</div>
+
+<div style="overflow-x:auto;">
+<table style="width:100%">
+<tr>
+ <th>System</th>
+ <th style="width:60%"><center>Text</center></th>
+ <th> Overall score </th>
+ <th> Term score (flex) </th>
+ <th> Term score (rigid) </th>
+</tr>
+
+
+<tr>
+ <td>Source (En)</td>
+ <td style="width:60%">Will it become a <b>pandemic</b> worldwide, die down like <b>SARS</b> or relapse periodically like the <b>flu</b>? </td>
+ <td> <center>-</center> </td>
+ <td> <center>-</center> </td>
+ <td> <center>-</center> </td>
+</tr>
+
+<tr>
+<td>Target (Fr)</td>
+ <td style="width:60%">Va-t-il évoluer en <b>pandémie</b> 
+ <ul id="answer">
+ <li>pandémie</li>
+ <li>pandém</li>
+ <li>pandor</li>
+ </ul> 
+
+ mondiale, disparaître comme le <b>SARS</b> ou refaire surface régulièrement comme la <b>grippe</b> ?</td>
+ <td> <center>-</center> </td>
+ <td> <center>-</center> </td>
+ <td> <center>-</center> </td>
+</tr>
+
+<td>System 1</td>
+ <td style="width:60%">Deviendra-t-elle une <b>pandémie</b> mondiale, disparaîtra-t-elle comme le <b>SRAS</b> ou rechutera-t-elle périodiquement comme la <b>grippe</b> ?</td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option> </select> </td>
+ <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
+</tr>
+
+
+<td>System 2</td>
+ <td style="width:60%">Deviendra-t-elle une <b>pandémie</b> dans le monde entier, mourra-t-elle comme le <b>SRAS</b> ou la rechute périodiquement comme la <b>grippe</b> ?</td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option> </select> </td>
+ <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
+</tr>
+
+<td>System 3</td>
+ <td style="width:60%">Deviendra-t-elle une <b>pandémie</b> mondiale, disparaîtra-t-elle comme le <b>SRAS</b> ou des rechutes périodiques comme la <b>grippe</b> ?</td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option> </select> </td>
+ <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
+</tr>
+
+<td>System 4</td>
+ <td style="width:60%">Deviendra-t-elle une <b>pandémie</b> mondiale, s'éteindra comme le <b>SRAS</b> ou rechutera périodiquement comme la <b>grippe</b> ?</td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option> </select> </td>
+ <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
+</tr>
+
+<td>System 5</td>
+ <td style="width:60%">Se transformera-t-elle en <b>pandémie</b> mondiale, mourra-t-elle comme le <b>SRAS</b> ou rechutera-t-elle périodiquement comme la <b>grippe</b> ? </td>
+  <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option> </select> </td>
+ <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
+ <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
+</tr>
+
+</table>
+</div>
+        
   </body>  
+
+      
 </html>
