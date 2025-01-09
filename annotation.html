@@ -37,12 +37,18 @@
 /*  tr:nth-child(even) {background-color:#f2f2f2;}*/
 .answer {display:none;}
 /*b:hover +.answer{display:block;
-        color:red;}*/
+        color:red;}
 #answer{display:none;}  
 b:hover + #answer{
-             display:inline-block;
+             display:block;
              color:red;}    
+*/
 
+
+b:hover + .dropdown-content-term{
+             display:flex;
+             flex-direction:column;
+             color:black;}    
 
 
     </style>
@@ -68,14 +74,14 @@ b:hover + #answer{
 
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Details of <b> dose rate </b><ul id="answer"><li>線量率</li></ul> of `` Fugen Power Plant `` can be <b> calculated </b><ul id="answer"><li>計算</li></ul> by using <b> DERS </b><ul id="answer"><li>DERS</li></ul> <b> software </b><ul id="answer"><li>ソフトウエア</li><li>ソフトウェア</li></ul> .</td>
+<td style="width:60%">Details of <b> dose rate </b><div id="answer" class="dropdown-content-term"><span>線量率</span></div> of `` Fugen Power Plant `` can be <b> calculated </b><div id="answer" class="dropdown-content-term"><span>計算</span></div> by using <b> DERS </b><div id="answer" class="dropdown-content-term"><span>DERS</span></div> <b> software </b><div id="answer" class="dropdown-content-term"><span>ソフトウエア</span><span>ソフトウェア</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> DERS </b><ul id="answer"><li>DERS</li></ul> <b> ソフトウエア </b><ul id="answer"><li>software</li></ul> を用いて「ふげん発電所」の <b> 線量率 </b><ul id="answer"><li>dose rate</li><li>dosage rate</li><li>dose-rate</li></ul> を詳細に <b> 計算 </b><ul id="answer"><li>computation</li><li>calculation</li></ul> できる。</td>
+<td style="width:60%"><b> DERS </b><div id="answer" class="dropdown-content-term"><span>DERS</span></div> <b> ソフトウエア </b><div id="answer" class="dropdown-content-term"><span>software</span></div> を用いて「ふげん発電所」の <b> 線量率 </b><div id="answer" class="dropdown-content-term"><span>dose rate</span><span>dosage rate</span><span>dose-rate</span></div> を詳細に <b> 計算 </b><div id="answer" class="dropdown-content-term"><span>computation</span><span>calculation</span></div> できる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -88,14 +94,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Responding to these <b> changes </b><ul id="answer"><li>変化</li></ul> <b> DERS </b><ul id="answer"><li>DERS</li></ul> can <b> compute </b><ul id="answer"><li>計算</li></ul> new <b> dose rate </b><ul id="answer"><li>線量率</li></ul> .</td>
+<td style="width:60%">Responding to these <b> changes </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> <b> DERS </b><div id="answer" class="dropdown-content-term"><span>DERS</span></div> can <b> compute </b><div id="answer" class="dropdown-content-term"><span>計算</span></div> new <b> dose rate </b><div id="answer" class="dropdown-content-term"><span>線量率</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> DERS </b><ul id="answer"><li>DERS</li></ul> はこれらの <b> 変化 </b><ul id="answer"><li>change</li></ul> に対応して新たな <b> 線量率 </b><ul id="answer"><li>dose rate</li><li>dosage rate</li><li>dose-rate</li></ul> を <b> 計算 </b><ul id="answer"><li>computation</li><li>calculation</li></ul> できる。</td>
+<td style="width:60%"><b> DERS </b><div id="answer" class="dropdown-content-term"><span>DERS</span></div> はこれらの <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> に対応して新たな <b> 線量率 </b><div id="answer" class="dropdown-content-term"><span>dose rate</span><span>dosage rate</span><span>dose-rate</span></div> を <b> 計算 </b><div id="answer" class="dropdown-content-term"><span>computation</span><span>calculation</span></div> できる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -108,14 +114,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The characteristics of R5 <b> version </b><ul id="answer"><li>バージョン</li></ul> of this <b> software </b><ul id="answer"><li>ソフトウエア</li><li>ソフトウェア</li></ul> , instruction <b> manual </b><ul id="answer"><li>マニュアル</li></ul> , and <b> design </b><ul id="answer"><li>設計</li></ul> document were summarized .</td>
+<td style="width:60%">The characteristics of R5 <b> version </b><div id="answer" class="dropdown-content-term"><span>バージョン</span></div> of this <b> software </b><div id="answer" class="dropdown-content-term"><span>ソフトウエア</span><span>ソフトウェア</span></div> , instruction <b> manual </b><div id="answer" class="dropdown-content-term"><span>マニュアル</span></div> , and <b> design </b><div id="answer" class="dropdown-content-term"><span>設計</span></div> document were summarized .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> ソフトウエア </b><ul id="answer"><li>software</li></ul> のR5 <b> バージョン </b><ul id="answer"><li>version</li></ul> の特徴,利用 <b> マニュアル </b><ul id="answer"><li>manual</li></ul> と <b> 設計 </b><ul id="answer"><li>design</li></ul> 文書をまとめた。</td>
+<td style="width:60%">この <b> ソフトウエア </b><div id="answer" class="dropdown-content-term"><span>software</span></div> のR5 <b> バージョン </b><div id="answer" class="dropdown-content-term"><span>version</span></div> の特徴,利用 <b> マニュアル </b><div id="answer" class="dropdown-content-term"><span>manual</span></div> と <b> 設計 </b><div id="answer" class="dropdown-content-term"><span>design</span></div> 文書をまとめた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -128,14 +134,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">For the <b> <b> coil </b><ul id="answer"><li>コイル</li></ul>s </b><ul id="answer"><li>コイル</li></ul> , here were used two <b> <b> coil </b><ul id="answer"><li>コイル</li></ul>s </b><ul id="answer"><li>コイル</li></ul> with 6 <b> mm </b><ul id="answer"><li>mm</li><li>mm(unit)</li></ul> of inner diameter and 800 of <b> coil </b><ul id="answer"><li>コイル</li></ul> number by inversely connecting .</td>
+<td style="width:60%">For the <b> <b> coil </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div>s </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> , here were used two <b> <b> coil </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div>s </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> with 6 <b> mm </b><div id="answer" class="dropdown-content-term"><span>mm</span><span>mm(unit)</span></div> of inner diameter and 800 of <b> coil </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> number by inversely connecting .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> コイル </b><ul id="answer"><li>coir</li><li>coil</li></ul> としては,内径6 <b> mm </b><ul id="answer"><li>mm</li><li>mm(unit)</li></ul> で800ターンの2基の <b> コイル </b><ul id="answer"><li>coir</li><li>coil</li></ul> を逆接続して用いた。</td>
+<td style="width:60%"><b> コイル </b><div id="answer" class="dropdown-content-term"><span>coir</span><span>coil</span></div> としては,内径6 <b> mm </b><div id="answer" class="dropdown-content-term"><span>mm</span><span>mm(unit)</span></div> で800ターンの2基の <b> コイル </b><div id="answer" class="dropdown-content-term"><span>coir</span><span>coil</span></div> を逆接続して用いた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -148,14 +154,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">On a test , it was possible to analyze features of city water , <b> pure water </b><ul id="answer"><li>純水</li></ul> , city water treated by <b> magnetized </b><ul id="answer"><li>磁化</li></ul> <b> device </b><ul id="answer"><li>装置</li><li>デバイス</li></ul> by <b> changing </b><ul id="answer"><li>変化</li></ul> <b> frequency </b><ul id="answer"><li>周波数</li><li>振動数</li></ul> .</td>
+<td style="width:60%">On a test , it was possible to analyze features of city water , <b> pure water </b><div id="answer" class="dropdown-content-term"><span>純水</span></div> , city water treated by <b> magnetized </b><div id="answer" class="dropdown-content-term"><span>磁化</span></div> <b> device </b><div id="answer" class="dropdown-content-term"><span>装置</span><span>デバイス</span></div> by <b> changing </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> <b> frequency </b><div id="answer" class="dropdown-content-term"><span>周波数</span><span>振動数</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">実験では,水道水, <b> 純水 </b><ul id="answer"><li>pure water</li></ul> ,及び <b> 磁化 </b><ul id="answer"><li>magnetized</li></ul> <b> デバイス </b><ul id="answer"><li>device</li></ul> で処理した水道水の特性を <b> 周波数 </b><ul id="answer"><li>frequency</li></ul> <b> 変化 </b><ul id="answer"><li>change</li></ul> として分析することができた。</td>
+<td style="width:60%">実験では,水道水, <b> 純水 </b><div id="answer" class="dropdown-content-term"><span>pure water</span></div> ,及び <b> 磁化 </b><div id="answer" class="dropdown-content-term"><span>magnetized</span></div> <b> デバイス </b><div id="answer" class="dropdown-content-term"><span>device</span></div> で処理した水道水の特性を <b> 周波数 </b><div id="answer" class="dropdown-content-term"><span>frequency</span></div> <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> として分析することができた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -168,14 +174,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">And , it was confirmed to enable also to detect <b> change </b><ul id="answer"><li>変化</li></ul> of <b> flow rate </b><ul id="answer"><li>流量</li></ul> and volume .</td>
+<td style="width:60%">And , it was confirmed to enable also to detect <b> change </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> of <b> flow rate </b><div id="answer" class="dropdown-content-term"><span>流量</span></div> and volume .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また,流速と <b> 流量 </b><ul id="answer"><li>flow rate</li><li>quantity of flow</li><li>rate of flow</li></ul> の <b> 変化 </b><ul id="answer"><li>change</li></ul> も検出できることを確認した。</td>
+<td style="width:60%">また,流速と <b> 流量 </b><div id="answer" class="dropdown-content-term"><span>flow rate</span><span>quantity of flow</span><span>rate of flow</span></div> の <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> も検出できることを確認した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -188,14 +194,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">When supposing <b> SAW-RF </b><ul id="answer"><li>SAW-RF</li><li>SAW共振周波数</li></ul> and <b> frequency resolution </b><ul id="answer"><li>周波数分解能</li></ul> to 1 <b> G<b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul> </b><ul id="answer"><li>G<b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul></li><li>G<b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul>(unit)</li></ul> and 0.1 <b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul> , respectively , it could be <b> calculated </b><ul id="answer"><li>計算</li></ul> that detectable <b> strain </b><ul id="answer"><li>歪み</li></ul> was 10-10 .</td>
+<td style="width:60%">When supposing <b> SAW-RF </b><div id="answer" class="dropdown-content-term"><span>SAW-RF</span><span>SAW共振周波数</span></div> and <b> frequency resolution </b><div id="answer" class="dropdown-content-term"><span>周波数分解能</span></div> to 1 <b> G<b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div> </b><div id="answer" class="dropdown-content-term"><span>G<b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div></span><span>G<b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div>(unit)</span></div> and 0.1 <b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div> , respectively , it could be <b> calculated </b><div id="answer" class="dropdown-content-term"><span>計算</span></div> that detectable <b> strain </b><div id="answer" class="dropdown-content-term"><span>歪み</span></div> was 10-10 .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> SAW共振周波数 </b><ul id="answer"><li>SAW-RF</li><li>SAW resonant fequency</li></ul> と <b> 周波数分解能 </b><ul id="answer"><li>frequency resolution</li></ul> をそれぞれ1 <b> G<b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul> </b><ul id="answer"><li>G<b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul></li></ul> と0.1 <b> Hz </b><ul id="answer"><li>Hz</li><li>Hz(unit)</li></ul> と仮定すると,検出可能 <b> 歪み </b><ul id="answer"><li>strain</li></ul> は10-10と <b> 計算 </b><ul id="answer"><li>computation</li><li>calculation</li></ul> される。</td>
+<td style="width:60%"><b> SAW共振周波数 </b><div id="answer" class="dropdown-content-term"><span>SAW-RF</span><span>SAW resonant fequency</span></div> と <b> 周波数分解能 </b><div id="answer" class="dropdown-content-term"><span>frequency resolution</span></div> をそれぞれ1 <b> G<b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div> </b><div id="answer" class="dropdown-content-term"><span>G<b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div></span></div> と0.1 <b> Hz </b><div id="answer" class="dropdown-content-term"><span>Hz</span><span>Hz(unit)</span></div> と仮定すると,検出可能 <b> 歪み </b><div id="answer" class="dropdown-content-term"><span>strain</span></div> は10-10と <b> 計算 </b><div id="answer" class="dropdown-content-term"><span>computation</span><span>calculation</span></div> される。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -208,14 +214,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">As a result , it was found that its <b> minimum </b><ul id="answer"><li>最小</li></ul> <b> detection </b><ul id="answer"><li>検出</li></ul> <b> strain </b><ul id="answer"><li>歪み</li></ul> was 10-5 .</td>
+<td style="width:60%">As a result , it was found that its <b> minimum </b><div id="answer" class="dropdown-content-term"><span>最小</span></div> <b> detection </b><div id="answer" class="dropdown-content-term"><span>検出</span></div> <b> strain </b><div id="answer" class="dropdown-content-term"><span>歪み</span></div> was 10-5 .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 最小 </b><ul id="answer"><li>minimum</li><li>the least</li></ul> <b> 検出 </b><ul id="answer"><li>detection</li></ul> <b> 歪み </b><ul id="answer"><li>strain</li></ul> は10-5であった。</td>
+<td style="width:60%"><b> 最小 </b><div id="answer" class="dropdown-content-term"><span>minimum</span><span>the least</span></div> <b> 検出 </b><div id="answer" class="dropdown-content-term"><span>detection</span></div> <b> 歪み </b><div id="answer" class="dropdown-content-term"><span>strain</span></div> は10-5であった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -228,14 +234,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">If removing a <b> 3PCIS </b><ul id="answer"><li>3PCIS</li></ul> and a <b> three-phase reference signal generator </b><ul id="answer"><li>3相基準信号発生装置</li></ul> from <b> RT-PSRF </b><ul id="answer"><li>RT-PSRF</li></ul> , it is composed of the same <b> parts </b><ul id="answer"><li>部品</li></ul> as those of the conventional <b> optical stripe range finder </b><ul id="answer"><li>光ストライプ・レンジファインダー</li></ul> .</td>
+<td style="width:60%">If removing a <b> 3PCIS </b><div id="answer" class="dropdown-content-term"><span>3PCIS</span></div> and a <b> three-phase reference signal generator </b><div id="answer" class="dropdown-content-term"><span>3相基準信号発生装置</span></div> from <b> RT-PSRF </b><div id="answer" class="dropdown-content-term"><span>RT-PSRF</span></div> , it is composed of the same <b> parts </b><div id="answer" class="dropdown-content-term"><span>部品</span></div> as those of the conventional <b> optical stripe range finder </b><div id="answer" class="dropdown-content-term"><span>光ストライプ・レンジファインダー</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 3PCIS </b><ul id="answer"><li>3PCIS</li></ul> と <b> 3相基準信号発生装置 </b><ul id="answer"><li>three-phase reference signal generator</li></ul> を除けば,従来の <b> 光ストライプ・レンジファインダー </b><ul id="answer"><li>optical stripe range finder</li></ul> と同じ <b> 部品 </b><ul id="answer"><li>part</li><li>component</li></ul> から構成される。</td>
+<td style="width:60%"><b> 3PCIS </b><div id="answer" class="dropdown-content-term"><span>3PCIS</span></div> と <b> 3相基準信号発生装置 </b><div id="answer" class="dropdown-content-term"><span>three-phase reference signal generator</span></div> を除けば,従来の <b> 光ストライプ・レンジファインダー </b><div id="answer" class="dropdown-content-term"><span>optical stripe range finder</span></div> と同じ <b> 部品 </b><div id="answer" class="dropdown-content-term"><span>part</span><span>component</span></div> から構成される。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -248,14 +254,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">On <b> RT-PSRF </b><ul id="answer"><li>RT-PSRF</li></ul> , during single <b> scanning </b><ul id="answer"><li>走査</li></ul> using a <b> sheet beam </b><ul id="answer"><li>シートビーム</li></ul> , <b> phase </b><ul id="answer"><li>位相</li></ul> of the reference <b> signal </b><ul id="answer"><li>信号</li></ul> is stamped at a moment where the <b> optical stripes </b><ul id="answer"><li>光ストライプ</li></ul> are photographed on every pixels .</td>
+<td style="width:60%">On <b> RT-PSRF </b><div id="answer" class="dropdown-content-term"><span>RT-PSRF</span></div> , during single <b> scanning </b><div id="answer" class="dropdown-content-term"><span>走査</span></div> using a <b> sheet beam </b><div id="answer" class="dropdown-content-term"><span>シートビーム</span></div> , <b> phase </b><div id="answer" class="dropdown-content-term"><span>位相</span></div> of the reference <b> signal </b><div id="answer" class="dropdown-content-term"><span>信号</span></div> is stamped at a moment where the <b> optical stripes </b><div id="answer" class="dropdown-content-term"><span>光ストライプ</span></div> are photographed on every pixels .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> シートビーム </b><ul id="answer"><li>sheet beam</li></ul> で単一 <b> 走査 </b><ul id="answer"><li>scan</li><li>scanning</li></ul> が行われる間,各ピクセル上で <b> 光ストライプ </b><ul id="answer"><li>optical stripes</li></ul> が撮像された瞬間に <b> 3PCIS </b><ul id="answer"><li>3PCIS</li></ul> が基準 <b> 信号 </b><ul id="answer"><li>signal</li><li>signalling</li></ul> の <b> 位相 </b><ul id="answer"><li>phase</li></ul> をスタンプする。</td>
+<td style="width:60%"><b> シートビーム </b><div id="answer" class="dropdown-content-term"><span>sheet beam</span></div> で単一 <b> 走査 </b><div id="answer" class="dropdown-content-term"><span>scan</span><span>scanning</span></div> が行われる間,各ピクセル上で <b> 光ストライプ </b><div id="answer" class="dropdown-content-term"><span>optical stripes</span></div> が撮像された瞬間に <b> 3PCIS </b><div id="answer" class="dropdown-content-term"><span>3PCIS</span></div> が基準 <b> 信号 </b><div id="answer" class="dropdown-content-term"><span>signal</span><span>signalling</span></div> の <b> 位相 </b><div id="answer" class="dropdown-content-term"><span>phase</span></div> をスタンプする。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -268,14 +274,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">By converting the <b> phase </b><ul id="answer"><li>位相</li></ul> detected by such a method to <b> angle </b><ul id="answer"><li>角</li><li>角度</li></ul> of projected <b> sheet beam </b><ul id="answer"><li>シートビーム</li></ul> , there can be obtained <b> three-dimensional </b><ul id="answer"><li>3D</li><li>3-D</li><li>3次元</li><li>三次元</li></ul> shapes of the <b> object </b><ul id="answer"><li>対象物</li><li>対象物体</li></ul> in <b> real time </b><ul id="answer"><li>実時間</li><li>リアルタイム</li></ul> .</td>
+<td style="width:60%">By converting the <b> phase </b><div id="answer" class="dropdown-content-term"><span>位相</span></div> detected by such a method to <b> angle </b><div id="answer" class="dropdown-content-term"><span>角</span><span>角度</span></div> of projected <b> sheet beam </b><div id="answer" class="dropdown-content-term"><span>シートビーム</span></div> , there can be obtained <b> three-dimensional </b><div id="answer" class="dropdown-content-term"><span>3D</span><span>3-D</span><span>3次元</span><span>三次元</span></div> shapes of the <b> object </b><div id="answer" class="dropdown-content-term"><span>対象物</span><span>対象物体</span></div> in <b> real time </b><div id="answer" class="dropdown-content-term"><span>実時間</span><span>リアルタイム</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">こうして,検出された <b> 位相 </b><ul id="answer"><li>phase</li></ul> を投影 <b> シートビーム </b><ul id="answer"><li>sheet beam</li></ul> の <b> 角度 </b><ul id="answer"><li>angle</li></ul> に変換することにより, <b> 対象物 </b><ul id="answer"><li>object</li></ul> の <b> 3次元 </b><ul id="answer"><li>three-dimensional</li></ul> 形状が <b> 実時間 </b><ul id="answer"><li>real time</li><li>real-time</li></ul> で得られる。</td>
+<td style="width:60%">こうして,検出された <b> 位相 </b><div id="answer" class="dropdown-content-term"><span>phase</span></div> を投影 <b> シートビーム </b><div id="answer" class="dropdown-content-term"><span>sheet beam</span></div> の <b> 角度 </b><div id="answer" class="dropdown-content-term"><span>angle</span></div> に変換することにより, <b> 対象物 </b><div id="answer" class="dropdown-content-term"><span>object</span></div> の <b> 3次元 </b><div id="answer" class="dropdown-content-term"><span>three-dimensional</span></div> 形状が <b> 実時間 </b><div id="answer" class="dropdown-content-term"><span>real time</span><span>real-time</span></div> で得られる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -288,14 +294,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">And , the proposed <b> PSRF </b><ul id="answer"><li>PSRF</li></ul> has simpler <b> structure </b><ul id="answer"><li>構造</li></ul> than that of modulated <b> PSRF </b><ul id="answer"><li>PSRF</li></ul> .</td>
+<td style="width:60%">And , the proposed <b> PSRF </b><div id="answer" class="dropdown-content-term"><span>PSRF</span></div> has simpler <b> structure </b><div id="answer" class="dropdown-content-term"><span>構造</span></div> than that of modulated <b> PSRF </b><div id="answer" class="dropdown-content-term"><span>PSRF</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また提案 <b> PSRF </b><ul id="answer"><li>PSRF</li></ul> は変調型 <b> PSRF </b><ul id="answer"><li>PSRF</li></ul> より <b> 構造 </b><ul id="answer"><li>strucutre</li><li>structure</li></ul> が簡単である。</td>
+<td style="width:60%">また提案 <b> PSRF </b><div id="answer" class="dropdown-content-term"><span>PSRF</span></div> は変調型 <b> PSRF </b><div id="answer" class="dropdown-content-term"><span>PSRF</span></div> より <b> 構造 </b><div id="answer" class="dropdown-content-term"><span>strucutre</span><span>structure</span></div> が簡単である。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -308,14 +314,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">To begin with , various properties of water were explained on <b> hydrogen bond </b><ul id="answer"><li>水素結合</li></ul> in which the <b> force </b><ul id="answer"><li>力</li></ul> works among the water <b> molecules </b><ul id="answer"><li>分子</li></ul> and the <b> network </b><ul id="answer"><li>ネットワーク</li></ul> <b> structure </b><ul id="answer"><li>構造</li></ul> .</td>
+<td style="width:60%">To begin with , various properties of water were explained on <b> hydrogen bond </b><div id="answer" class="dropdown-content-term"><span>水素結合</span></div> in which the <b> force </b><div id="answer" class="dropdown-content-term"><span>力</span></div> works among the water <b> molecules </b><div id="answer" class="dropdown-content-term"><span>分子</span></div> and the <b> network </b><div id="answer" class="dropdown-content-term"><span>ネットワーク</span></div> <b> structure </b><div id="answer" class="dropdown-content-term"><span>構造</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">水の性質の多様性について,まず,水 <b> 分子 </b><ul id="answer"><li>molecule</li></ul> 同士の間に働く <b> 力 </b><ul id="answer"><li>force</li></ul> である <b> 水素結合 </b><ul id="answer"><li>hydrogen bond</li><li>hydrogen bonding</li></ul> と,その <b> ネットワーク </b><ul id="answer"><li>network</li><li>networks</li></ul> <b> 構造 </b><ul id="answer"><li>strucutre</li><li>structure</li></ul> について解説した。</td>
+<td style="width:60%">水の性質の多様性について,まず,水 <b> 分子 </b><div id="answer" class="dropdown-content-term"><span>molecule</span></div> 同士の間に働く <b> 力 </b><div id="answer" class="dropdown-content-term"><span>force</span></div> である <b> 水素結合 </b><div id="answer" class="dropdown-content-term"><span>hydrogen bond</span><span>hydrogen bonding</span></div> と,その <b> ネットワーク </b><div id="answer" class="dropdown-content-term"><span>network</span><span>networks</span></div> <b> 構造 </b><div id="answer" class="dropdown-content-term"><span>strucutre</span><span>structure</span></div> について解説した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -328,14 +334,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Next , the <b> change </b><ul id="answer"><li>変化</li></ul> of <b> hydrogen bond </b><ul id="answer"><li>水素結合</li></ul> <b> networks </b><ul id="answer"><li>ネットワーク</li></ul> which was a basis of the <b> motion </b><ul id="answer"><li>運動</li></ul> of the water was explained .</td>
+<td style="width:60%">Next , the <b> change </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> of <b> hydrogen bond </b><div id="answer" class="dropdown-content-term"><span>水素結合</span></div> <b> networks </b><div id="answer" class="dropdown-content-term"><span>ネットワーク</span></div> which was a basis of the <b> motion </b><div id="answer" class="dropdown-content-term"><span>運動</span></div> of the water was explained .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">次に,水の <b> 運動 </b><ul id="answer"><li>motion</li></ul> の基本である <b> 水素結合 </b><ul id="answer"><li>hydrogen bond</li><li>hydrogen bonding</li></ul> <b> ネットワーク </b><ul id="answer"><li>network</li><li>networks</li></ul> の <b> 変化 </b><ul id="answer"><li>change</li></ul> を説明した。</td>
+<td style="width:60%">次に,水の <b> 運動 </b><div id="answer" class="dropdown-content-term"><span>motion</span></div> の基本である <b> 水素結合 </b><div id="answer" class="dropdown-content-term"><span>hydrogen bond</span><span>hydrogen bonding</span></div> <b> ネットワーク </b><div id="answer" class="dropdown-content-term"><span>network</span><span>networks</span></div> の <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> を説明した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -348,14 +354,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The motion of water <b> molecules </b><ul id="answer"><li>分子</li></ul> of local parts which have made <b> hydrogen bond </b><ul id="answer"><li>水素結合</li></ul> move collectively while water <b> molecules </b><ul id="answer"><li>分子</li></ul> of the other parts do not move .</td>
+<td style="width:60%">The motion of water <b> molecules </b><div id="answer" class="dropdown-content-term"><span>分子</span></div> of local parts which have made <b> hydrogen bond </b><div id="answer" class="dropdown-content-term"><span>水素結合</span></div> move collectively while water <b> molecules </b><div id="answer" class="dropdown-content-term"><span>分子</span></div> of the other parts do not move .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 水素結合 </b><ul id="answer"><li>hydrogen bond</li><li>hydrogen bonding</li></ul> を成している局所部分の水 <b> 分子 </b><ul id="answer"><li>molecule</li></ul> が集団的に動き,他の部分の水 <b> 分子 </b><ul id="answer"><li>molecule</li></ul> は動いていない。</td>
+<td style="width:60%"><b> 水素結合 </b><div id="answer" class="dropdown-content-term"><span>hydrogen bond</span><span>hydrogen bonding</span></div> を成している局所部分の水 <b> 分子 </b><div id="answer" class="dropdown-content-term"><span>molecule</span></div> が集団的に動き,他の部分の水 <b> 分子 </b><div id="answer" class="dropdown-content-term"><span>molecule</span></div> は動いていない。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -368,14 +374,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Energy fluctuations </b><ul id="answer"><li>エネルギー揺らぎ</li></ul> with such <b> intermittent movement </b><ul id="answer"><li>間欠運動</li></ul> were shown .</td>
+<td style="width:60%"><b> Energy fluctuations </b><div id="answer" class="dropdown-content-term"><span>エネルギー揺らぎ</span></div> with such <b> intermittent movement </b><div id="answer" class="dropdown-content-term"><span>間欠運動</span></div> were shown .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">このような <b> 間欠運動 </b><ul id="answer"><li>intermittent movement</li></ul> に伴う <b> エネルギー揺らぎ </b><ul id="answer"><li>energy fluctuations</li></ul> を示した。</td>
+<td style="width:60%">このような <b> 間欠運動 </b><div id="answer" class="dropdown-content-term"><span>intermittent movement</span></div> に伴う <b> エネルギー揺らぎ </b><div id="answer" class="dropdown-content-term"><span>energy fluctuations</span></div> を示した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -388,14 +394,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Finally , freezing conditions , the aspects of <b> changing </b><ul id="answer"><li>変化</li></ul> in <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> and meaning of <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> 7 of water were explained .</td>
+<td style="width:60%">Finally , freezing conditions , the aspects of <b> changing </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> in <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> and meaning of <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> 7 of water were explained .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">最後に,水の凍り方および水の <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> の <b> 変化 </b><ul id="answer"><li>change</li></ul> の様子と <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> 7の意味を説明した。</td>
+<td style="width:60%">最後に,水の凍り方および水の <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> の <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> の様子と <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> 7の意味を説明した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -408,14 +414,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The article introduces technological progresses to fabricate <b> single crystal </b><ul id="answer"><li>単結晶</li></ul> thin films of <b> insulator </b><ul id="answer"><li>絶縁体</li><li>絶縁物</li></ul> , <b> metal </b><ul id="answer"><li>金属</li></ul> and <b> ferroelectrics </b><ul id="answer"><li>強誘電体</li></ul> on a <b> silicon </b><ul id="answer"><li>シリコン</li></ul> <b> substrate </b><ul id="answer"><li>基板</li></ul> .</td>
+<td style="width:60%">The article introduces technological progresses to fabricate <b> single crystal </b><div id="answer" class="dropdown-content-term"><span>単結晶</span></div> thin films of <b> insulator </b><div id="answer" class="dropdown-content-term"><span>絶縁体</span><span>絶縁物</span></div> , <b> metal </b><div id="answer" class="dropdown-content-term"><span>金属</span></div> and <b> ferroelectrics </b><div id="answer" class="dropdown-content-term"><span>強誘電体</span></div> on a <b> silicon </b><div id="answer" class="dropdown-content-term"><span>シリコン</span></div> <b> substrate </b><div id="answer" class="dropdown-content-term"><span>基板</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> シリコン </b><ul id="answer"><li>silicon</li></ul> <b> 基板 </b><ul id="answer"><li>substrate</li><li>basal plate</li></ul> 上に <b> 絶縁体 </b><ul id="answer"><li>insulator</li><li>insulating material</li></ul> や <b> 金属 </b><ul id="answer"><li>metal</li></ul> , <b> 強誘電体 </b><ul id="answer"><li>ferroelectrics</li></ul> の <b> 単結晶 </b><ul id="answer"><li>single crystal</li></ul> 膜を形成する技術成果について紹介した。</td>
+<td style="width:60%"><b> シリコン </b><div id="answer" class="dropdown-content-term"><span>silicon</span></div> <b> 基板 </b><div id="answer" class="dropdown-content-term"><span>substrate</span><span>basal plate</span></div> 上に <b> 絶縁体 </b><div id="answer" class="dropdown-content-term"><span>insulator</span><span>insulating material</span></div> や <b> 金属 </b><div id="answer" class="dropdown-content-term"><span>metal</span></div> , <b> 強誘電体 </b><div id="answer" class="dropdown-content-term"><span>ferroelectrics</span></div> の <b> 単結晶 </b><div id="answer" class="dropdown-content-term"><span>single crystal</span></div> 膜を形成する技術成果について紹介した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -428,14 +434,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The key <b> technology </b><ul id="answer"><li>技術</li></ul> is to produce a <b> thin film </b><ul id="answer"><li>薄膜</li></ul> of <b> γ-alumina </b><ul id="answer"><li>γ-アルミナ</li></ul> on the <b> silicon </b><ul id="answer"><li>シリコン</li></ul> <b> substrate </b><ul id="answer"><li>基板</li></ul> .</td>
+<td style="width:60%">The key <b> technology </b><div id="answer" class="dropdown-content-term"><span>技術</span></div> is to produce a <b> thin film </b><div id="answer" class="dropdown-content-term"><span>薄膜</span></div> of <b> γ-alumina </b><div id="answer" class="dropdown-content-term"><span>γ-アルミナ</span></div> on the <b> silicon </b><div id="answer" class="dropdown-content-term"><span>シリコン</span></div> <b> substrate </b><div id="answer" class="dropdown-content-term"><span>基板</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">キーとなる <b> 技術 </b><ul id="answer"><li>technology</li></ul> は <b> シリコン </b><ul id="answer"><li>silicon</li></ul> <b> 基板 </b><ul id="answer"><li>substrate</li></ul> 上に <b> γ-アルミナ </b><ul id="answer"><li>γ-alumina</li></ul> の <b> 薄膜 </b><ul id="answer"><li>thin film</li></ul> を作製する <b> 技術 </b><ul id="answer"><li>technology</li></ul> である。</td>
+<td style="width:60%">キーとなる <b> 技術 </b><div id="answer" class="dropdown-content-term"><span>technology</span></div> は <b> シリコン </b><div id="answer" class="dropdown-content-term"><span>silicon</span></div> <b> 基板 </b><div id="answer" class="dropdown-content-term"><span>substrate</span></div> 上に <b> γ-アルミナ </b><div id="answer" class="dropdown-content-term"><span>γ-alumina</span></div> の <b> 薄膜 </b><div id="answer" class="dropdown-content-term"><span>thin film</span></div> を作製する <b> 技術 </b><div id="answer" class="dropdown-content-term"><span>technology</span></div> である。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -448,14 +454,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Over <b> chemically </b><ul id="answer"><li>化学的</li></ul> <b> stable </b><ul id="answer"><li>安定</li></ul> <b> alumina </b><ul id="answer"><li>アルミナ</li></ul> film , various <b> functional thin films </b><ul id="answer"><li>機能性薄膜</li></ul> can be formed by <b> CVD </b><ul id="answer"><li>CVD</li></ul> and <b> MBE </b><ul id="answer"><li>MBE</li></ul> methods .</td>
+<td style="width:60%">Over <b> chemically </b><div id="answer" class="dropdown-content-term"><span>化学的</span></div> <b> stable </b><div id="answer" class="dropdown-content-term"><span>安定</span></div> <b> alumina </b><div id="answer" class="dropdown-content-term"><span>アルミナ</span></div> film , various <b> functional thin films </b><div id="answer" class="dropdown-content-term"><span>機能性薄膜</span></div> can be formed by <b> CVD </b><div id="answer" class="dropdown-content-term"><span>CVD</span></div> and <b> MBE </b><div id="answer" class="dropdown-content-term"><span>MBE</span></div> methods .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 化学的 </b><ul id="answer"><li>chemically</li></ul> に <b> 安定 </b><ul id="answer"><li>stability</li><li>stable</li></ul> な <b> アルミナ </b><ul id="answer"><li>alumina</li></ul> 膜の上には, <b> CVD </b><ul id="answer"><li>CVD</li></ul> 法や <b> MBE </b><ul id="answer"><li>MBE</li></ul> 法により種々の <b> 機能性薄膜 </b><ul id="answer"><li>functional thin film</li><li>functional thin films</li></ul> を形成できる。</td>
+<td style="width:60%"><b> 化学的 </b><div id="answer" class="dropdown-content-term"><span>chemically</span></div> に <b> 安定 </b><div id="answer" class="dropdown-content-term"><span>stability</span><span>stable</span></div> な <b> アルミナ </b><div id="answer" class="dropdown-content-term"><span>alumina</span></div> 膜の上には, <b> CVD </b><div id="answer" class="dropdown-content-term"><span>CVD</span></div> 法や <b> MBE </b><div id="answer" class="dropdown-content-term"><span>MBE</span></div> 法により種々の <b> 機能性薄膜 </b><div id="answer" class="dropdown-content-term"><span>functional thin film</span><span>functional thin films</span></div> を形成できる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -468,14 +474,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Various <b> sensors </b><ul id="answer"><li>センサ</li><li>検知器</li><li>センサー</li><li>検出器</li></ul> have been realized with <b> multilayer </b><ul id="answer"><li>多層</li></ul> <b> thin films </b><ul id="answer"><li>薄膜</li></ul> .</td>
+<td style="width:60%">Various <b> sensors </b><div id="answer" class="dropdown-content-term"><span>センサ</span><span>検知器</span><span>センサー</span><span>検出器</span></div> have been realized with <b> multilayer </b><div id="answer" class="dropdown-content-term"><span>多層</span></div> <b> thin films </b><div id="answer" class="dropdown-content-term"><span>薄膜</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 多層 </b><ul id="answer"><li>multi-layer</li><li>multilayer</li></ul> <b> 薄膜 </b><ul id="answer"><li>thin film</li></ul> による各種の <b> センサ </b><ul id="answer"><li>sensor</li><li>sensors</li></ul> を実現しているとした。</td>
+<td style="width:60%"><b> 多層 </b><div id="answer" class="dropdown-content-term"><span>multi-layer</span><span>multilayer</span></div> <b> 薄膜 </b><div id="answer" class="dropdown-content-term"><span>thin film</span></div> による各種の <b> センサ </b><div id="answer" class="dropdown-content-term"><span>sensor</span><span>sensors</span></div> を実現しているとした。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -488,14 +494,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">There were two <b> problem </b><ul id="answer"><li>問題</li></ul>s in solution of the <b> electrification </b><ul id="answer"><li>帯電</li></ul> <b> problem </b><ul id="answer"><li>問題</li></ul> .</td>
+<td style="width:60%">There were two <b> problem </b><div id="answer" class="dropdown-content-term"><span>問題</span></div>s in solution of the <b> electrification </b><div id="answer" class="dropdown-content-term"><span>帯電</span></div> <b> problem </b><div id="answer" class="dropdown-content-term"><span>問題</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 帯電 </b><ul id="answer"><li>electrification</li></ul> <b> 問題 </b><ul id="answer"><li>problem</li></ul> の解決には二つの課題があった。</td>
+<td style="width:60%"><b> 帯電 </b><div id="answer" class="dropdown-content-term"><span>electrification</span></div> <b> 問題 </b><div id="answer" class="dropdown-content-term"><span>problem</span></div> の解決には二つの課題があった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -508,14 +514,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Hafnium-related <b> thin film </b><ul id="answer"><li>薄膜</li></ul> <b> oxides </b><ul id="answer"><li>酸化物</li></ul> are widely studied as <b> tip gate dielectrics </b><ul id="answer"><li>先端ゲート誘電体</li></ul> for <b> field effect transistors </b><ul id="answer"><li>フィールド効果トランジスタ</li><li><b> FET </b><ul id="answer"><li>フィールド効果トランジスタ</li><li>FET</li></ul></li></ul> ( <b> FET </b><ul id="answer"><li>フィールド効果トランジスタ</li><li>FET</li></ul> ) .</td>
+<td style="width:60%">Hafnium-related <b> thin film </b><div id="answer" class="dropdown-content-term"><span>薄膜</span></div> <b> oxides </b><div id="answer" class="dropdown-content-term"><span>酸化物</span></div> are widely studied as <b> tip gate dielectrics </b><div id="answer" class="dropdown-content-term"><span>先端ゲート誘電体</span></div> for <b> field effect transistors </b><div id="answer" class="dropdown-content-term"><span>フィールド効果トランジスタ</span><span><b> FET </b><div id="answer" class="dropdown-content-term"><span>フィールド効果トランジスタ</span><span>FET</span></div></span></div> ( <b> FET </b><div id="answer" class="dropdown-content-term"><span>フィールド効果トランジスタ</span><span>FET</span></div> ) .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">標記のハフニウム関連 <b> 薄膜 </b><ul id="answer"><li>thin film</li></ul> <b> 酸化物 </b><ul id="answer"><li>oxides</li></ul> は <b> フィールド効果トランジスタ </b><ul id="answer"><li>field effect transistors</li><li><b> FET </b><ul id="answer"><li>field effect transistors</li><li>FET</li></ul></li></ul> ( <b> FET </b><ul id="answer"><li>field effect transistors</li><li>FET</li></ul> )用の <b> 先端ゲート誘電体 </b><ul id="answer"><li>tip gate dielectrics</li></ul> として広く研究されている。</td>
+<td style="width:60%">標記のハフニウム関連 <b> 薄膜 </b><div id="answer" class="dropdown-content-term"><span>thin film</span></div> <b> 酸化物 </b><div id="answer" class="dropdown-content-term"><span>oxides</span></div> は <b> フィールド効果トランジスタ </b><div id="answer" class="dropdown-content-term"><span>field effect transistors</span><span><b> FET </b><div id="answer" class="dropdown-content-term"><span>field effect transistors</span><span>FET</span></div></span></div> ( <b> FET </b><div id="answer" class="dropdown-content-term"><span>field effect transistors</span><span>FET</span></div> )用の <b> 先端ゲート誘電体 </b><div id="answer" class="dropdown-content-term"><span>tip gate dielectrics</span></div> として広く研究されている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -528,14 +534,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The authors examined the <b> physical properties </b><ul id="answer"><li>物理特性</li></ul> of high <b> k nano-laminate materials </b><ul id="answer"><li>kナノラミネート材料</li></ul> composed of <b> HfO2 </b><ul id="answer"><li>HfO2</li><li>HfO2(compound)</li></ul> and <b> SiNx </b><ul id="answer"><li>SiNx</li><li>SiNx(compound)</li></ul> .</td>
+<td style="width:60%">The authors examined the <b> physical properties </b><div id="answer" class="dropdown-content-term"><span>物理特性</span></div> of high <b> k nano-laminate materials </b><div id="answer" class="dropdown-content-term"><span>kナノラミネート材料</span></div> composed of <b> HfO2 </b><div id="answer" class="dropdown-content-term"><span>HfO2</span><span>HfO2(compound)</span></div> and <b> SiNx </b><div id="answer" class="dropdown-content-term"><span>SiNx</span><span>SiNx(compound)</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">そこで <b> HfO2 </b><ul id="answer"><li>HfO2</li><li>HfO2(compound)</li></ul> 及び <b> SiNx </b><ul id="answer"><li>SiNx</li><li>SiNx(compound)</li></ul> から構成される高い <b> kナノラミネート材料 </b><ul id="answer"><li>k nano-laminate materials</li></ul> の <b> 物理特性 </b><ul id="answer"><li>physical properties</li></ul> を検討した。</td>
+<td style="width:60%">そこで <b> HfO2 </b><div id="answer" class="dropdown-content-term"><span>HfO2</span><span>HfO2(compound)</span></div> 及び <b> SiNx </b><div id="answer" class="dropdown-content-term"><span>SiNx</span><span>SiNx(compound)</span></div> から構成される高い <b> kナノラミネート材料 </b><div id="answer" class="dropdown-content-term"><span>k nano-laminate materials</span></div> の <b> 物理特性 </b><div id="answer" class="dropdown-content-term"><span>physical properties</span></div> を検討した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -548,14 +554,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">They examined the <b> effect </b><ul id="answer"><li>影響</li></ul> of <b> deposition </b><ul id="answer"><li>沈着</li></ul> <b> process </b><ul id="answer"><li>プロセス</li><li>過程</li></ul> and <b> annealing </b><ul id="answer"><li>アニーリング</li></ul> <b> process </b><ul id="answer"><li>プロセス</li><li>過程</li></ul> using a <b> surface analysis method </b><ul id="answer"><li>表面分析法</li></ul> .</td>
+<td style="width:60%">They examined the <b> effect </b><div id="answer" class="dropdown-content-term"><span>影響</span></div> of <b> deposition </b><div id="answer" class="dropdown-content-term"><span>沈着</span></div> <b> process </b><div id="answer" class="dropdown-content-term"><span>プロセス</span><span>過程</span></div> and <b> annealing </b><div id="answer" class="dropdown-content-term"><span>アニーリング</span></div> <b> process </b><div id="answer" class="dropdown-content-term"><span>プロセス</span><span>過程</span></div> using a <b> surface analysis method </b><div id="answer" class="dropdown-content-term"><span>表面分析法</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 表面分析法 </b><ul id="answer"><li>surface analysis method</li></ul> を用いて <b> 沈着 </b><ul id="answer"><li>deposition</li></ul> <b> プロセス </b><ul id="answer"><li>process</li></ul> 及び <b> アニーリング </b><ul id="answer"><li>annealing</li></ul> <b> プロセス </b><ul id="answer"><li>process</li></ul> の <b> 影響 </b><ul id="answer"><li>effect</li><li>influence</li></ul> を調べた。</td>
+<td style="width:60%"><b> 表面分析法 </b><div id="answer" class="dropdown-content-term"><span>surface analysis method</span></div> を用いて <b> 沈着 </b><div id="answer" class="dropdown-content-term"><span>deposition</span></div> <b> プロセス </b><div id="answer" class="dropdown-content-term"><span>process</span></div> 及び <b> アニーリング </b><div id="answer" class="dropdown-content-term"><span>annealing</span></div> <b> プロセス </b><div id="answer" class="dropdown-content-term"><span>process</span></div> の <b> 影響 </b><div id="answer" class="dropdown-content-term"><span>effect</span><span>influence</span></div> を調べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -568,14 +574,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">They also examined the <b> bandgap </b><ul id="answer"><li>バンドギャップ</li></ul> using <b> ESEELS method </b><ul id="answer"><li>ESEELS法</li></ul> ( <b> elastic scattering </b><ul id="answer"><li>弾性散乱</li></ul> <b> electronic energy </b><ul id="answer"><li>電子エネルギー</li></ul> loss <b> spectrum </b><ul id="answer"><li>スペクトル</li></ul> ) .</td>
+<td style="width:60%">They also examined the <b> bandgap </b><div id="answer" class="dropdown-content-term"><span>バンドギャップ</span></div> using <b> ESEELS method </b><div id="answer" class="dropdown-content-term"><span>ESEELS法</span></div> ( <b> elastic scattering </b><div id="answer" class="dropdown-content-term"><span>弾性散乱</span></div> <b> electronic energy </b><div id="answer" class="dropdown-content-term"><span>電子エネルギー</span></div> loss <b> spectrum </b><div id="answer" class="dropdown-content-term"><span>スペクトル</span></div> ) .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また <b> ESEELS法 </b><ul id="answer"><li>ESEELS method</li></ul> ( <b> 弾性散乱 </b><ul id="answer"><li>elastic scattering</li></ul> <b> 電子エネルギー </b><ul id="answer"><li>electronic energy</li></ul> <b> ロス </b><ul id="answer"><li>loss</li></ul> <b> スペクトル </b><ul id="answer"><li>spectrum</li></ul> )を用いて <b> バンドギャップ </b><ul id="answer"><li>bandgap</li></ul> を調べた。</td>
+<td style="width:60%">また <b> ESEELS法 </b><div id="answer" class="dropdown-content-term"><span>ESEELS method</span></div> ( <b> 弾性散乱 </b><div id="answer" class="dropdown-content-term"><span>elastic scattering</span></div> <b> 電子エネルギー </b><div id="answer" class="dropdown-content-term"><span>electronic energy</span></div> <b> ロス </b><div id="answer" class="dropdown-content-term"><span>loss</span></div> <b> スペクトル </b><div id="answer" class="dropdown-content-term"><span>spectrum</span></div> )を用いて <b> バンドギャップ </b><div id="answer" class="dropdown-content-term"><span>bandgap</span></div> を調べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -588,14 +594,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It was clarified that although <b> Hf/(Hf+Si) </b><ul id="answer"><li>Hf/(Hf+Si)</li></ul> <b> ratio </b><ul id="answer"><li>比</li></ul> did not affect the bandgap , it affected the <b> band offset </b><ul id="answer"><li>バンドオフセット</li></ul> for <b> nano-laminate </b><ul id="answer"><li>ナノラミネート</li></ul> .</td>
+<td style="width:60%">It was clarified that although <b> Hf/(Hf+Si) </b><div id="answer" class="dropdown-content-term"><span>Hf/(Hf+Si)</span></div> <b> ratio </b><div id="answer" class="dropdown-content-term"><span>比</span></div> did not affect the bandgap , it affected the <b> band offset </b><div id="answer" class="dropdown-content-term"><span>バンドオフセット</span></div> for <b> nano-laminate </b><div id="answer" class="dropdown-content-term"><span>ナノラミネート</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> Hf/(Hf+Si) </b><ul id="answer"><li>Hf/(Hf+Si)</li></ul> <b> 比 </b><ul id="answer"><li>ratio</li></ul> は <b> バンドギャップ </b><ul id="answer"><li>bandgap</li></ul> に影響を与えないが, <b> ナノラミネート </b><ul id="answer"><li>nano-laminate</li></ul> に対する <b> バンドオフセット </b><ul id="answer"><li>band offset</li></ul> に対しては影響をもたらす,ことが明らかになった。</td>
+<td style="width:60%"><b> Hf/(Hf+Si) </b><div id="answer" class="dropdown-content-term"><span>Hf/(Hf+Si)</span></div> <b> 比 </b><div id="answer" class="dropdown-content-term"><span>ratio</span></div> は <b> バンドギャップ </b><div id="answer" class="dropdown-content-term"><span>bandgap</span></div> に影響を与えないが, <b> ナノラミネート </b><div id="answer" class="dropdown-content-term"><span>nano-laminate</span></div> に対する <b> バンドオフセット </b><div id="answer" class="dropdown-content-term"><span>band offset</span></div> に対しては影響をもたらす,ことが明らかになった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -608,14 +614,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Using <b> Hartree-Fock-Bogoliubov method </b><ul id="answer"><li>Hartree-Fock-Bogoliubov法</li></ul> , pairing <b> density distribution </b><ul id="answer"><li>密度分布</li></ul> of the deformed <b> nuclei </b><ul id="answer"><li>原子核</li></ul> was investigated .</td>
+<td style="width:60%">Using <b> Hartree-Fock-Bogoliubov method </b><div id="answer" class="dropdown-content-term"><span>Hartree-Fock-Bogoliubov法</span></div> , pairing <b> density distribution </b><div id="answer" class="dropdown-content-term"><span>密度分布</span></div> of the deformed <b> nuclei </b><div id="answer" class="dropdown-content-term"><span>原子核</span></div> was investigated .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> Hartree-Fock-Bogoliubov法 </b><ul id="answer"><li>Hartree-Fock-Bogoliubov method</li></ul> を用いて変形した <b> 原子核 </b><ul id="answer"><li>nuclei</li></ul> の対 <b> 密度分布 </b><ul id="answer"><li>density distribution</li></ul> を調べた。</td>
+<td style="width:60%"><b> Hartree-Fock-Bogoliubov法 </b><div id="answer" class="dropdown-content-term"><span>Hartree-Fock-Bogoliubov method</span></div> を用いて変形した <b> 原子核 </b><div id="answer" class="dropdown-content-term"><span>nuclei</span></div> の対 <b> 密度分布 </b><div id="answer" class="dropdown-content-term"><span>density distribution</span></div> を調べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -628,14 +634,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Axial symmetric </b><ul id="answer"><li>軸対称</li></ul> <b> quadrupole deformed </b><ul id="answer"><li>四重極変形</li><li>四重極変形した</li></ul> <b> nuclei </b><ul id="answer"><li>原子核</li></ul> were examined .</td>
+<td style="width:60%"><b> Axial symmetric </b><div id="answer" class="dropdown-content-term"><span>軸対称</span></div> <b> quadrupole deformed </b><div id="answer" class="dropdown-content-term"><span>四重極変形</span><span>四重極変形した</span></div> <b> nuclei </b><div id="answer" class="dropdown-content-term"><span>原子核</span></div> were examined .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 軸対称 </b><ul id="answer"><li>Axial symmetric</li></ul> な <b> 四重極変形 </b><ul id="answer"><li>quadrupole deformed</li><li>quadrupole deform</li></ul> した <b> 原子核 </b><ul id="answer"><li>nuclei</li></ul> を対象にした。</td>
+<td style="width:60%"><b> 軸対称 </b><div id="answer" class="dropdown-content-term"><span>Axial symmetric</span></div> な <b> 四重極変形 </b><div id="answer" class="dropdown-content-term"><span>quadrupole deformed</span><span>quadrupole deform</span></div> した <b> 原子核 </b><div id="answer" class="dropdown-content-term"><span>nuclei</span></div> を対象にした。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -648,14 +654,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Angular dependences </b><ul id="answer"><li>角度依存性</li></ul> of the <b> density distribution </b><ul id="answer"><li>密度分布</li></ul> and pairing <b> density distribution </b><ul id="answer"><li>密度分布</li></ul> were obtained with the <b> surface type pairing correlation </b><ul id="answer"><li>表面型対相関</li></ul> .</td>
+<td style="width:60%"><b> Angular dependences </b><div id="answer" class="dropdown-content-term"><span>角度依存性</span></div> of the <b> density distribution </b><div id="answer" class="dropdown-content-term"><span>密度分布</span></div> and pairing <b> density distribution </b><div id="answer" class="dropdown-content-term"><span>密度分布</span></div> were obtained with the <b> surface type pairing correlation </b><div id="answer" class="dropdown-content-term"><span>表面型対相関</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 表面型対相関 </b><ul id="answer"><li>surface type pairing correlation</li></ul> を用いて <b> 密度分布 </b><ul id="answer"><li>density distribution</li></ul> と対 <b> 密度分布 </b><ul id="answer"><li>density distribution</li></ul> の <b> 角度依存性 </b><ul id="answer"><li>angular dependences</li><li>Angular dependence</li></ul> を求めた。</td>
+<td style="width:60%"><b> 表面型対相関 </b><div id="answer" class="dropdown-content-term"><span>surface type pairing correlation</span></div> を用いて <b> 密度分布 </b><div id="answer" class="dropdown-content-term"><span>density distribution</span></div> と対 <b> 密度分布 </b><div id="answer" class="dropdown-content-term"><span>density distribution</span></div> の <b> 角度依存性 </b><div id="answer" class="dropdown-content-term"><span>angular dependences</span><span>Angular dependence</span></div> を求めた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -668,14 +674,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Analyses were performed for 102 <b> Zr </b><ul id="answer"><li>Zr</li><li>Zr(atom)</li></ul> at the <b> angle </b><ul id="answer"><li>角度</li></ul> of 0 , π/4 , π/2 from <b> radial </b><ul id="answer"><li>動径</li></ul> axis .</td>
+<td style="width:60%">Analyses were performed for 102 <b> Zr </b><div id="answer" class="dropdown-content-term"><span>Zr</span><span>Zr(atom)</span></div> at the <b> angle </b><div id="answer" class="dropdown-content-term"><span>角度</span></div> of 0 , π/4 , π/2 from <b> radial </b><div id="answer" class="dropdown-content-term"><span>動径</span></div> axis .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 動径 </b><ul id="answer"><li>radial</li></ul> <b> 軸 </b><ul id="answer"><li>axis</li></ul> から0,π/4,π/2の <b> 角度 </b><ul id="answer"><li>angle</li></ul> について102 <b> Zr </b><ul id="answer"><li>Zr</li><li>Zr(atom)</li></ul> を解析した。</td>
+<td style="width:60%"><b> 動径 </b><div id="answer" class="dropdown-content-term"><span>radial</span></div> <b> 軸 </b><div id="answer" class="dropdown-content-term"><span>axis</span></div> から0,π/4,π/2の <b> 角度 </b><div id="answer" class="dropdown-content-term"><span>angle</span></div> について102 <b> Zr </b><div id="answer" class="dropdown-content-term"><span>Zr</span><span>Zr(atom)</span></div> を解析した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -688,14 +694,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It was found that the <b> deformation </b><ul id="answer"><li>変形</li></ul> gave effects to the pairing <b> density distribution </b><ul id="answer"><li>密度分布</li></ul> .</td>
+<td style="width:60%">It was found that the <b> deformation </b><div id="answer" class="dropdown-content-term"><span>変形</span></div> gave effects to the pairing <b> density distribution </b><div id="answer" class="dropdown-content-term"><span>密度分布</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 変形 </b><ul id="answer"><li>deformation</li></ul> が対 <b> 密度分布 </b><ul id="answer"><li>density distribution</li></ul> に影響していることが分かった。</td>
+<td style="width:60%"><b> 変形 </b><div id="answer" class="dropdown-content-term"><span>deformation</span></div> が対 <b> 密度分布 </b><div id="answer" class="dropdown-content-term"><span>density distribution</span></div> に影響していることが分かった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -708,14 +714,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Doping </b><ul id="answer"><li>ドーピング</li></ul> induced a noticeable <b> change </b><ul id="answer"><li>変化</li></ul> at the <b> lower boundary </b><ul id="answer"><li>下界</li></ul> of the <b> three-dimensional orderly vortex </b><ul id="answer"><li>三次元規則的渦糸</li></ul> <b> phase </b><ul id="answer"><li>相</li></ul> .</td>
+<td style="width:60%"><b> Doping </b><div id="answer" class="dropdown-content-term"><span>ドーピング</span></div> induced a noticeable <b> change </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> at the <b> lower boundary </b><div id="answer" class="dropdown-content-term"><span>下界</span></div> of the <b> three-dimensional orderly vortex </b><div id="answer" class="dropdown-content-term"><span>三次元規則的渦糸</span></div> <b> phase </b><div id="answer" class="dropdown-content-term"><span>相</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> ドーピング </b><ul id="answer"><li>doping</li></ul> により <b> 三次元規則的渦糸 </b><ul id="answer"><li>three-dimensional orderly vortex</li></ul> <b> 相 </b><ul id="answer"><li>phase</li></ul> の <b> 下界 </b><ul id="answer"><li>lower boundary</li></ul> に著しい <b> 変化 </b><ul id="answer"><li>change</li></ul> が生じた。</td>
+<td style="width:60%"><b> ドーピング </b><div id="answer" class="dropdown-content-term"><span>doping</span></div> により <b> 三次元規則的渦糸 </b><div id="answer" class="dropdown-content-term"><span>three-dimensional orderly vortex</span></div> <b> 相 </b><div id="answer" class="dropdown-content-term"><span>phase</span></div> の <b> 下界 </b><div id="answer" class="dropdown-content-term"><span>lower boundary</span></div> に著しい <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> が生じた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -728,14 +734,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> title </b><ul id="answer"><li>標題</li><li>表題</li></ul> subject <b> tapes </b><ul id="answer"><li>テープ</li></ul> were fabricated by <b> PIT method </b><ul id="answer"><li>PIT法</li></ul> .</td>
+<td style="width:60%">The <b> title </b><div id="answer" class="dropdown-content-term"><span>標題</span><span>表題</span></div> subject <b> tapes </b><div id="answer" class="dropdown-content-term"><span>テープ</span></div> were fabricated by <b> PIT method </b><div id="answer" class="dropdown-content-term"><span>PIT法</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 標題 </b><ul id="answer"><li>title</li></ul> <b> テープ </b><ul id="answer"><li>tape</li></ul> を <b> PIT法 </b><ul id="answer"><li>PIT method</li></ul> で作製した。</td>
+<td style="width:60%"><b> 標題 </b><div id="answer" class="dropdown-content-term"><span>title</span></div> <b> テープ </b><div id="answer" class="dropdown-content-term"><span>tape</span></div> を <b> PIT法 </b><div id="answer" class="dropdown-content-term"><span>PIT method</span></div> で作製した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -748,14 +754,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">In this process, <b> Ag </b><ul id="answer"><li>Ag</li><li>Ag(atom)</li></ul> and <b> Ag </b><ul id="answer"><li>Ag</li><li>Ag(atom)</li></ul> -0.3 <b> wt.% </b><ul id="answer"><li>重量%</li></ul> <b> Mn </b><ul id="answer"><li>Mn</li><li>Mn(atom)</li></ul> were used as the inner and outer <b> sheath </b><ul id="answer"><li>シース</li></ul> materials, respectively .</td>
+<td style="width:60%">In this process, <b> Ag </b><div id="answer" class="dropdown-content-term"><span>Ag</span><span>Ag(atom)</span></div> and <b> Ag </b><div id="answer" class="dropdown-content-term"><span>Ag</span><span>Ag(atom)</span></div> -0.3 <b> wt.% </b><div id="answer" class="dropdown-content-term"><span>重量%</span></div> <b> Mn </b><div id="answer" class="dropdown-content-term"><span>Mn</span><span>Mn(atom)</span></div> were used as the inner and outer <b> sheath </b><div id="answer" class="dropdown-content-term"><span>シース</span></div> materials, respectively .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">その際,内部および外部 <b> シース </b><ul id="answer"><li>sheath</li></ul> 材料として,それぞれ <b> Ag </b><ul id="answer"><li>Ag</li><li>Ag(atom)</li></ul> および <b> Ag </b><ul id="answer"><li>Ag</li><li>Ag(atom)</li></ul> -0.3 <b> 重量% </b><ul id="answer"><li>wt.%</li></ul> <b> Mn </b><ul id="answer"><li>Mn</li><li>Mn(atom)</li></ul> を用いた。</td>
+<td style="width:60%">その際,内部および外部 <b> シース </b><div id="answer" class="dropdown-content-term"><span>sheath</span></div> 材料として,それぞれ <b> Ag </b><div id="answer" class="dropdown-content-term"><span>Ag</span><span>Ag(atom)</span></div> および <b> Ag </b><div id="answer" class="dropdown-content-term"><span>Ag</span><span>Ag(atom)</span></div> -0.3 <b> 重量% </b><div id="answer" class="dropdown-content-term"><span>wt.%</span></div> <b> Mn </b><div id="answer" class="dropdown-content-term"><span>Mn</span><span>Mn(atom)</span></div> を用いた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -768,14 +774,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> mechanical properties </b><ul id="answer"><li>機械特性</li></ul> and <b> critical current </b><ul id="answer"><li>臨界電流</li></ul> <b> deterioration </b><ul id="answer"><li>劣化</li><li>老朽化</li></ul> under axial <b> fatigue </b><ul id="answer"><li>疲れ</li></ul> <b> loading </b><ul id="answer"><li>荷重</li></ul> were investigated for these <b> tapes </b><ul id="answer"><li>テープ</li></ul> .</td>
+<td style="width:60%">The <b> mechanical properties </b><div id="answer" class="dropdown-content-term"><span>機械特性</span></div> and <b> critical current </b><div id="answer" class="dropdown-content-term"><span>臨界電流</span></div> <b> deterioration </b><div id="answer" class="dropdown-content-term"><span>劣化</span><span>老朽化</span></div> under axial <b> fatigue </b><div id="answer" class="dropdown-content-term"><span>疲れ</span></div> <b> loading </b><div id="answer" class="dropdown-content-term"><span>荷重</span></div> were investigated for these <b> tapes </b><div id="answer" class="dropdown-content-term"><span>テープ</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> テープ </b><ul id="answer"><li>tape</li></ul> について,軸性 <b> 疲れ </b><ul id="answer"><li>fatigue</li></ul> <b> 荷重 </b><ul id="answer"><li>loading</li></ul> 下での <b> 機械特性 </b><ul id="answer"><li>mechanical properties</li></ul> と <b> 臨界電流 </b><ul id="answer"><li>critical current</li></ul> <b> 劣化 </b><ul id="answer"><li>deterioration</li></ul> とを調べた。</td>
+<td style="width:60%">この <b> テープ </b><div id="answer" class="dropdown-content-term"><span>tape</span></div> について,軸性 <b> 疲れ </b><div id="answer" class="dropdown-content-term"><span>fatigue</span></div> <b> 荷重 </b><div id="answer" class="dropdown-content-term"><span>loading</span></div> 下での <b> 機械特性 </b><div id="answer" class="dropdown-content-term"><span>mechanical properties</span></div> と <b> 臨界電流 </b><div id="answer" class="dropdown-content-term"><span>critical current</span></div> <b> 劣化 </b><div id="answer" class="dropdown-content-term"><span>deterioration</span></div> とを調べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -788,14 +794,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> title </b><ul id="answer"><li>標題</li><li>表題</li></ul> subject <b> detector </b><ul id="answer"><li>検出器</li><li>検知器</li></ul> was developed using a <b> superconducting </b><ul id="answer"><li>超伝導</li></ul> <b> tunnel junction </b><ul id="answer"><li>トンネル接合</li></ul> ( <b> STJ </b><ul id="answer"><li>STJ</li></ul> ) .</td>
+<td style="width:60%">The <b> title </b><div id="answer" class="dropdown-content-term"><span>標題</span><span>表題</span></div> subject <b> detector </b><div id="answer" class="dropdown-content-term"><span>検出器</span><span>検知器</span></div> was developed using a <b> superconducting </b><div id="answer" class="dropdown-content-term"><span>超伝導</span></div> <b> tunnel junction </b><div id="answer" class="dropdown-content-term"><span>トンネル接合</span></div> ( <b> STJ </b><div id="answer" class="dropdown-content-term"><span>STJ</span></div> ) .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 超伝導 </b><ul id="answer"><li>superconductivity</li><li>superconducting</li></ul> <b> トンネル接合 </b><ul id="answer"><li>tunnel junction</li></ul> ( <b> STJ </b><ul id="answer"><li>STJ</li></ul> )を用いた <b> 標題 </b><ul id="answer"><li>title</li></ul> <b> 検出器 </b><ul id="answer"><li>detector</li><li>sensor</li></ul> を開発した。</td>
+<td style="width:60%"><b> 超伝導 </b><div id="answer" class="dropdown-content-term"><span>superconductivity</span><span>superconducting</span></div> <b> トンネル接合 </b><div id="answer" class="dropdown-content-term"><span>tunnel junction</span></div> ( <b> STJ </b><div id="answer" class="dropdown-content-term"><span>STJ</span></div> )を用いた <b> 標題 </b><div id="answer" class="dropdown-content-term"><span>title</span></div> <b> 検出器 </b><div id="answer" class="dropdown-content-term"><span>detector</span><span>sensor</span></div> を開発した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -808,14 +814,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Consequently , the <b> THz waves </b><ul id="answer"><li>THz波</li></ul> can be detected as <b> tunneling current signals </b><ul id="answer"><li>トンネリング電流信号</li></ul> at <b> STJ </b><ul id="answer"><li>STJ</li></ul> .</td>
+<td style="width:60%">Consequently , the <b> THz waves </b><div id="answer" class="dropdown-content-term"><span>THz波</span></div> can be detected as <b> tunneling current signals </b><div id="answer" class="dropdown-content-term"><span>トンネリング電流信号</span></div> at <b> STJ </b><div id="answer" class="dropdown-content-term"><span>STJ</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">その結果, <b> THz波 </b><ul id="answer"><li>THz wave</li></ul> は <b> STJ </b><ul id="answer"><li>STJ</li></ul> での <b> トンネリング電流信号 </b><ul id="answer"><li>tunneling current signals</li></ul> として検出できる。</td>
+<td style="width:60%">その結果, <b> THz波 </b><div id="answer" class="dropdown-content-term"><span>THz wave</span></div> は <b> STJ </b><div id="answer" class="dropdown-content-term"><span>STJ</span></div> での <b> トンネリング電流信号 </b><div id="answer" class="dropdown-content-term"><span>tunneling current signals</span></div> として検出できる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -828,14 +834,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> fabrication </b><ul id="answer"><li>製作</li></ul> and property <b> evaluation </b><ul id="answer"><li>評価</li></ul> of this <b> detector </b><ul id="answer"><li>検出器</li><li>検知器</li></ul> were described .</td>
+<td style="width:60%">The <b> fabrication </b><div id="answer" class="dropdown-content-term"><span>製作</span></div> and property <b> evaluation </b><div id="answer" class="dropdown-content-term"><span>評価</span></div> of this <b> detector </b><div id="answer" class="dropdown-content-term"><span>検出器</span><span>検知器</span></div> were described .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> 検出器 </b><ul id="answer"><li>detector</li><li>sensor</li></ul> の <b> 製作 </b><ul id="answer"><li>fabrication</li></ul> および特性 <b> 評価 </b><ul id="answer"><li>evaluation</li></ul> について記した。</td>
+<td style="width:60%">この <b> 検出器 </b><div id="answer" class="dropdown-content-term"><span>detector</span><span>sensor</span></div> の <b> 製作 </b><div id="answer" class="dropdown-content-term"><span>fabrication</span></div> および特性 <b> 評価 </b><div id="answer" class="dropdown-content-term"><span>evaluation</span></div> について記した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -848,14 +854,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> conductively coupled plasma </b><ul id="answer"><li>導電結合プラズマ</li></ul> ( <b> CCP </b><ul id="answer"><li>CCP</li></ul> ) <b> source </b><ul id="answer"><li>源</li></ul> was used for the former , and an <b> inductively coupled plasma </b><ul id="answer"><li>誘導結合プラズマ</li></ul> ( <b> ICP </b><ul id="answer"><li>ICP</li></ul> ) <b> source </b><ul id="answer"><li>源</li></ul> was used for the latter .</td>
+<td style="width:60%">A <b> conductively coupled plasma </b><div id="answer" class="dropdown-content-term"><span>導電結合プラズマ</span></div> ( <b> CCP </b><div id="answer" class="dropdown-content-term"><span>CCP</span></div> ) <b> source </b><div id="answer" class="dropdown-content-term"><span>源</span></div> was used for the former , and an <b> inductively coupled plasma </b><div id="answer" class="dropdown-content-term"><span>誘導結合プラズマ</span></div> ( <b> ICP </b><div id="answer" class="dropdown-content-term"><span>ICP</span></div> ) <b> source </b><div id="answer" class="dropdown-content-term"><span>源</span></div> was used for the latter .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">前者は, <b> 導電結合プラズマ </b><ul id="answer"><li>conductively coupled plasma</li></ul> ( <b> CCP </b><ul id="answer"><li>CCP</li></ul> ) <b> 源 </b><ul id="answer"><li>source</li></ul> を,後者の場合は <b> 誘導結合プラズマ </b><ul id="answer"><li>inductively coupled plasma</li></ul> ( <b> ICP </b><ul id="answer"><li>ICP</li></ul> ) <b> 源 </b><ul id="answer"><li>source</li></ul> を使用した。</td>
+<td style="width:60%">前者は, <b> 導電結合プラズマ </b><div id="answer" class="dropdown-content-term"><span>conductively coupled plasma</span></div> ( <b> CCP </b><div id="answer" class="dropdown-content-term"><span>CCP</span></div> ) <b> 源 </b><div id="answer" class="dropdown-content-term"><span>source</span></div> を,後者の場合は <b> 誘導結合プラズマ </b><div id="answer" class="dropdown-content-term"><span>inductively coupled plasma</span></div> ( <b> ICP </b><div id="answer" class="dropdown-content-term"><span>ICP</span></div> ) <b> 源 </b><div id="answer" class="dropdown-content-term"><span>source</span></div> を使用した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -868,14 +874,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> density </b><ul id="answer"><li>密度</li><li>濃度</li></ul> and <b> diameter </b><ul id="answer"><li>直径</li></ul> <b> distribution </b><ul id="answer"><li>分布</li></ul> of <b> Si dots </b><ul id="answer"><li>Siドット</li></ul> could be <b> changed </b><ul id="answer"><li>変化</li></ul> through <b> formation </b><ul id="answer"><li>生成</li></ul> temperatures .</td>
+<td style="width:60%">The <b> density </b><div id="answer" class="dropdown-content-term"><span>密度</span><span>濃度</span></div> and <b> diameter </b><div id="answer" class="dropdown-content-term"><span>直径</span></div> <b> distribution </b><div id="answer" class="dropdown-content-term"><span>分布</span></div> of <b> Si dots </b><div id="answer" class="dropdown-content-term"><span>Siドット</span></div> could be <b> changed </b><div id="answer" class="dropdown-content-term"><span>変化</span></div> through <b> formation </b><div id="answer" class="dropdown-content-term"><span>生成</span></div> temperatures .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> Siドット </b><ul id="answer"><li>Si dots</li></ul> の <b> 密度 </b><ul id="answer"><li>density</li></ul> および <b> 直径 </b><ul id="answer"><li>diameter</li></ul> <b> 分布 </b><ul id="answer"><li>distribution</li></ul> は <b> 生成 </b><ul id="answer"><li>formation</li></ul> 温度により <b> 変化 </b><ul id="answer"><li>change</li></ul> させることができた。</td>
+<td style="width:60%"><b> Siドット </b><div id="answer" class="dropdown-content-term"><span>Si dots</span></div> の <b> 密度 </b><div id="answer" class="dropdown-content-term"><span>density</span></div> および <b> 直径 </b><div id="answer" class="dropdown-content-term"><span>diameter</span></div> <b> 分布 </b><div id="answer" class="dropdown-content-term"><span>distribution</span></div> は <b> 生成 </b><div id="answer" class="dropdown-content-term"><span>formation</span></div> 温度により <b> 変化 </b><div id="answer" class="dropdown-content-term"><span>change</span></div> させることができた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -888,14 +894,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It was also proven that the <b> shape </b><ul id="answer"><li>形状</li></ul> and <b> crystallinity </b><ul id="answer"><li>結晶性</li></ul> of the <b> dots </b><ul id="answer"><li>ドット</li></ul> were dependent on temperatures .</td>
+<td style="width:60%">It was also proven that the <b> shape </b><div id="answer" class="dropdown-content-term"><span>形状</span></div> and <b> crystallinity </b><div id="answer" class="dropdown-content-term"><span>結晶性</span></div> of the <b> dots </b><div id="answer" class="dropdown-content-term"><span>ドット</span></div> were dependent on temperatures .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また, <b> ドット </b><ul id="answer"><li>dots</li></ul> の <b> 形状 </b><ul id="answer"><li>shape</li></ul> および <b> 結晶性 </b><ul id="answer"><li>crystallinity</li></ul> は温度に依存することも分かった。</td>
+<td style="width:60%">また, <b> ドット </b><div id="answer" class="dropdown-content-term"><span>dots</span></div> の <b> 形状 </b><div id="answer" class="dropdown-content-term"><span>shape</span></div> および <b> 結晶性 </b><div id="answer" class="dropdown-content-term"><span>crystallinity</span></div> は温度に依存することも分かった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -908,14 +914,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Protein </b><ul id="answer"><li>蛋白質</li></ul> <b> localization </b><ul id="answer"><li>局在</li></ul> and dynamic phase in the <b> reproductive cell </b><ul id="answer"><li>生殖細胞</li></ul> of the <b> reproduction granule composition protein </b><ul id="answer"><li>生殖顆粒構成蛋白質</li></ul> were examined .</td>
+<td style="width:60%"><b> Protein </b><div id="answer" class="dropdown-content-term"><span>蛋白質</span></div> <b> localization </b><div id="answer" class="dropdown-content-term"><span>局在</span></div> and dynamic phase in the <b> reproductive cell </b><div id="answer" class="dropdown-content-term"><span>生殖細胞</span></div> of the <b> reproduction granule composition protein </b><div id="answer" class="dropdown-content-term"><span>生殖顆粒構成蛋白質</span></div> were examined .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 生殖顆粒構成<b> 蛋白質 </b><ul id="answer"><li>protain</li></ul> </b><ul id="answer"><li>reproduction granule composition protein</li></ul> の <b> 生殖細胞 </b><ul id="answer"><li>reproductive cell</li></ul> 内での <b> 蛋白質 </b><ul id="answer"><li>protain</li></ul> <b> 局在 </b><ul id="answer"><li>localization</li></ul> と動態について検討した。</td>
+<td style="width:60%"><b> 生殖顆粒構成<b> 蛋白質 </b><div id="answer" class="dropdown-content-term"><span>protain</span></div> </b><div id="answer" class="dropdown-content-term"><span>reproduction granule composition protein</span></div> の <b> 生殖細胞 </b><div id="answer" class="dropdown-content-term"><span>reproductive cell</span></div> 内での <b> 蛋白質 </b><div id="answer" class="dropdown-content-term"><span>protain</span></div> <b> 局在 </b><div id="answer" class="dropdown-content-term"><span>localization</span></div> と動態について検討した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -928,14 +934,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> CAM </b><ul id="answer"><li>接触角測定</li><li>CAM</li></ul> in these three surfaces it is shown that the <b> static </b><ul id="answer"><li>静的</li></ul> water <b> contact angle </b><ul id="answer"><li>接触角</li></ul> is >115° , and it is shown that the <b> wet hysteresis </b><ul id="answer"><li>湿潤ヒステリシス</li></ul> is determine almost constant and the high and <b> hydrophobicity </b><ul id="answer"><li>疏水性</li><li>疎水性</li></ul> good <b> resistance </b><ul id="answer"><li>抵抗</li></ul> is shown .</td>
+<td style="width:60%"><b> CAM </b><div id="answer" class="dropdown-content-term"><span>接触角測定</span><span>CAM</span></div> in these three surfaces it is shown that the <b> static </b><div id="answer" class="dropdown-content-term"><span>静的</span></div> water <b> contact angle </b><div id="answer" class="dropdown-content-term"><span>接触角</span></div> is >115° , and it is shown that the <b> wet hysteresis </b><div id="answer" class="dropdown-content-term"><span>湿潤ヒステリシス</span></div> is determine almost constant and the high and <b> hydrophobicity </b><div id="answer" class="dropdown-content-term"><span>疏水性</span><span>疎水性</span></div> good <b> resistance </b><div id="answer" class="dropdown-content-term"><span>抵抗</span></div> is shown .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この三つの表面で行った <b> CAM </b><ul id="answer"><li>contact angle measurement</li><li>CAM</li></ul> は, <b> 静的 </b><ul id="answer"><li>static</li></ul> な水 <b> 接触角 </b><ul id="answer"><li>contact angle</li></ul> が>115°であることを示し, <b> 湿潤ヒステリシス </b><ul id="answer"><li>wet hysteresis</li></ul> がほぼ一定であることを示し,高い <b> 疎水性 </b><ul id="answer"><li>hydrophobicity</li><li>hydrophobic property</li></ul> とよい <b> 抵抗 </b><ul id="answer"><li>resistance</li></ul> を示している。</td>
+<td style="width:60%">この三つの表面で行った <b> CAM </b><div id="answer" class="dropdown-content-term"><span>contact angle measurement</span><span>CAM</span></div> は, <b> 静的 </b><div id="answer" class="dropdown-content-term"><span>static</span></div> な水 <b> 接触角 </b><div id="answer" class="dropdown-content-term"><span>contact angle</span></div> が>115°であることを示し, <b> 湿潤ヒステリシス </b><div id="answer" class="dropdown-content-term"><span>wet hysteresis</span></div> がほぼ一定であることを示し,高い <b> 疎水性 </b><div id="answer" class="dropdown-content-term"><span>hydrophobicity</span><span>hydrophobic property</span></div> とよい <b> 抵抗 </b><div id="answer" class="dropdown-content-term"><span>resistance</span></div> を示している。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -948,14 +954,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">That is to say , the <b> stability </b><ul id="answer"><li>安定性</li></ul> of <b> PFTS/Al/Si </b><ul id="answer"><li>PFTS/Al/Si</li></ul> to the <b> nitric acid </b><ul id="answer"><li>硝酸</li></ul> ( <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> <1.8,60 <b> ℃ </b><ul id="answer"><li>℃</li><li>℃(unit)</li></ul> , 30 minute ) is shown .</td>
+<td style="width:60%">That is to say , the <b> stability </b><div id="answer" class="dropdown-content-term"><span>安定性</span></div> of <b> PFTS/Al/Si </b><div id="answer" class="dropdown-content-term"><span>PFTS/Al/Si</span></div> to the <b> nitric acid </b><div id="answer" class="dropdown-content-term"><span>硝酸</span></div> ( <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> <1.8,60 <b> ℃ </b><div id="answer" class="dropdown-content-term"><span>℃</span><span>℃(unit)</span></div> , 30 minute ) is shown .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">すなわち, <b> PFTS/Al/Si </b><ul id="answer"><li>PFTS/Al/Si</li></ul> の <b> 硝酸 </b><ul id="answer"><li>nitrate</li><li>nitric acid</li></ul> ( <b> pH </b><ul id="answer"><li>pH</li><li>pH(unit)</li></ul> <1.8,60 <b> ℃ </b><ul id="answer"><li>℃</li><li>℃(unit)</li></ul> ,30分)への <b> 安定性 </b><ul id="answer"><li>stability</li></ul> を示している。</td>
+<td style="width:60%">すなわち, <b> PFTS/Al/Si </b><div id="answer" class="dropdown-content-term"><span>PFTS/Al/Si</span></div> の <b> 硝酸 </b><div id="answer" class="dropdown-content-term"><span>nitrate</span><span>nitric acid</span></div> ( <b> pH </b><div id="answer" class="dropdown-content-term"><span>pH</span><span>pH(unit)</span></div> <1.8,60 <b> ℃ </b><div id="answer" class="dropdown-content-term"><span>℃</span><span>℃(unit)</span></div> ,30分)への <b> 安定性 </b><div id="answer" class="dropdown-content-term"><span>stability</span></div> を示している。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -968,14 +974,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Liquid crystals have a great deal of potentialities for their application to various <b> functional materials </b><ul id="answer"><li>機能性材料</li></ul> .</td>
+<td style="width:60%">Liquid crystals have a great deal of potentialities for their application to various <b> functional materials </b><div id="answer" class="dropdown-content-term"><span>機能性材料</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">液晶は,様々な <b> 機能性材料 </b><ul id="answer"><li>functional materials</li></ul> へ応用ができる限りない可能性を秘めている。</td>
+<td style="width:60%">液晶は,様々な <b> 機能性材料 </b><div id="answer" class="dropdown-content-term"><span>functional materials</span></div> へ応用ができる限りない可能性を秘めている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -988,14 +994,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Building of the organizational <b> structure </b><ul id="answer"><li>構造</li></ul> by <b> molecular design </b><ul id="answer"><li>分子設計</li></ul> , and new functionalization were tried .</td>
+<td style="width:60%">Building of the organizational <b> structure </b><div id="answer" class="dropdown-content-term"><span>構造</span></div> by <b> molecular design </b><div id="answer" class="dropdown-content-term"><span>分子設計</span></div> , and new functionalization were tried .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 分子設計 </b><ul id="answer"><li>molecular design</li></ul> による <b> 組織 </b><ul id="answer"><li>organizational</li><li>organization</li></ul> 体の <b> 構造 </b><ul id="answer"><li>strucutre</li><li>structure</li></ul> の構築,新しい機能化が試みられている。</td>
+<td style="width:60%"><b> 分子設計 </b><div id="answer" class="dropdown-content-term"><span>molecular design</span></div> による <b> 組織 </b><div id="answer" class="dropdown-content-term"><span>organizational</span><span>organization</span></div> 体の <b> 構造 </b><div id="answer" class="dropdown-content-term"><span>strucutre</span><span>structure</span></div> の構築,新しい機能化が試みられている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1008,14 +1014,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Design </b><ul id="answer"><li>設計</li></ul> of liquid crystals and <b> nanophase </b><ul id="answer"><li>ナノ相</li></ul> <b> separation </b><ul id="answer"><li>分離</li></ul> <b> structure </b><ul id="answer"><li>構造</li></ul> , <b> mass transport </b><ul id="answer"><li>物質輸送</li></ul> and <b> separation </b><ul id="answer"><li>分離</li></ul> by liquid crystals , and electrical functions of liquid crystals were described .</td>
+<td style="width:60%"><b> Design </b><div id="answer" class="dropdown-content-term"><span>設計</span></div> of liquid crystals and <b> nanophase </b><div id="answer" class="dropdown-content-term"><span>ナノ相</span></div> <b> separation </b><div id="answer" class="dropdown-content-term"><span>分離</span></div> <b> structure </b><div id="answer" class="dropdown-content-term"><span>構造</span></div> , <b> mass transport </b><div id="answer" class="dropdown-content-term"><span>物質輸送</span></div> and <b> separation </b><div id="answer" class="dropdown-content-term"><span>分離</span></div> by liquid crystals , and electrical functions of liquid crystals were described .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">液晶の <b> 設計 </b><ul id="answer"><li>design</li></ul> と <b> ナノ相 </b><ul id="answer"><li>nanophase</li></ul> <b> 分離 </b><ul id="answer"><li>separation</li></ul> <b> 構造 </b><ul id="answer"><li>strucutre</li><li>structure</li></ul> ,液晶による <b> 物質輸送 </b><ul id="answer"><li>mass transport</li></ul> と <b> 分離 </b><ul id="answer"><li>separation</li></ul> ,液晶の電気的機能について述べた。</td>
+<td style="width:60%">液晶の <b> 設計 </b><div id="answer" class="dropdown-content-term"><span>design</span></div> と <b> ナノ相 </b><div id="answer" class="dropdown-content-term"><span>nanophase</span></div> <b> 分離 </b><div id="answer" class="dropdown-content-term"><span>separation</span></div> <b> 構造 </b><div id="answer" class="dropdown-content-term"><span>strucutre</span><span>structure</span></div> ,液晶による <b> 物質輸送 </b><div id="answer" class="dropdown-content-term"><span>mass transport</span></div> と <b> 分離 </b><div id="answer" class="dropdown-content-term"><span>separation</span></div> ,液晶の電気的機能について述べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1028,14 +1034,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Molecular </b><ul id="answer"><li>分子</li></ul> shape and <b> intermolecular interaction </b><ul id="answer"><li>分子間相互作用</li></ul> <b> influence </b><ul id="answer"><li>影響</li></ul> <b> self-assembled structures </b><ul id="answer"><li>自己組織化構造</li></ul> greatly .</td>
+<td style="width:60%"><b> Molecular </b><div id="answer" class="dropdown-content-term"><span>分子</span></div> shape and <b> intermolecular interaction </b><div id="answer" class="dropdown-content-term"><span>分子間相互作用</span></div> <b> influence </b><div id="answer" class="dropdown-content-term"><span>影響</span></div> <b> self-assembled structures </b><div id="answer" class="dropdown-content-term"><span>自己組織化構造</span></div> greatly .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 自己組織化構造 </b><ul id="answer"><li>self-assembled structures</li></ul> に <b> 分子 </b><ul id="answer"><li>molecule</li></ul> の形と <b> 分子 </b><ul id="answer"><li>molecule</li></ul>間相互作用 が大きく <b> 影響 </b><ul id="answer"><li>effect</li><li>influence</li></ul> する。</td>
+<td style="width:60%"><b> 自己組織化構造 </b><div id="answer" class="dropdown-content-term"><span>self-assembled structures</span></div> に <b> 分子 </b><div id="answer" class="dropdown-content-term"><span>molecule</span></div> の形と <b> 分子 </b><div id="answer" class="dropdown-content-term"><span>molecule</span></div>間相互作用 が大きく <b> 影響 </b><div id="answer" class="dropdown-content-term"><span>effect</span><span>influence</span></div> する。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1048,14 +1054,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">After describing the characteristics of <b> particle transport </b><ul id="answer"><li>粒子輸送</li></ul> and <b> dielectric breakdown </b><ul id="answer"><li>絶縁破壊</li></ul> under <b> atmospheric pressure </b><ul id="answer"><li>気圧</li><li>大気圧</li></ul> , typical <b> atmospheric thermal nonequilibrium plasmas </b><ul id="answer"><li>大気圧非熱平衡プラズマ源</li></ul> are discussed , and their properties and characteristics are reviewed .</td>
+<td style="width:60%">After describing the characteristics of <b> particle transport </b><div id="answer" class="dropdown-content-term"><span>粒子輸送</span></div> and <b> dielectric breakdown </b><div id="answer" class="dropdown-content-term"><span>絶縁破壊</span></div> under <b> atmospheric pressure </b><div id="answer" class="dropdown-content-term"><span>気圧</span><span>大気圧</span></div> , typical <b> atmospheric thermal nonequilibrium plasmas </b><div id="answer" class="dropdown-content-term"><span>大気圧非熱平衡プラズマ源</span></div> are discussed , and their properties and characteristics are reviewed .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 大気圧 </b><ul id="answer"><li>atmospheric pressure</li></ul> 下での <b> 粒子輸送 </b><ul id="answer"><li>particle transport</li></ul> の特徴と <b> 絶縁破壊 </b><ul id="answer"><li>dielectric breakdown</li></ul> について述べた後,代表的な <b> 大気圧 </b><ul id="answer"><li>atmospheric pressure</li></ul>非熱平衡プラズマ源 を取り上げ,その性質や特徴を概説した。</td>
+<td style="width:60%"><b> 大気圧 </b><div id="answer" class="dropdown-content-term"><span>atmospheric pressure</span></div> 下での <b> 粒子輸送 </b><div id="answer" class="dropdown-content-term"><span>particle transport</span></div> の特徴と <b> 絶縁破壊 </b><div id="answer" class="dropdown-content-term"><span>dielectric breakdown</span></div> について述べた後,代表的な <b> 大気圧 </b><div id="answer" class="dropdown-content-term"><span>atmospheric pressure</span></div>非熱平衡プラズマ源 を取り上げ,その性質や特徴を概説した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1068,14 +1074,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> micro </b><ul id="answer"><li>マイクロ</li></ul> <b> discharge </b><ul id="answer"><li>放電</li></ul> having a filament shape is one mode of the most common dielectric barrier <b> discharge </b><ul id="answer"><li>放電</li></ul>s , and <b> discharge </b><ul id="answer"><li>放電</li></ul> filaments appear on the entire surfaces of the <b> electrodes </b><ul id="answer"><li>電極</li></ul> .</td>
+<td style="width:60%">The <b> micro </b><div id="answer" class="dropdown-content-term"><span>マイクロ</span></div> <b> discharge </b><div id="answer" class="dropdown-content-term"><span>放電</span></div> having a filament shape is one mode of the most common dielectric barrier <b> discharge </b><div id="answer" class="dropdown-content-term"><span>放電</span></div>s , and <b> discharge </b><div id="answer" class="dropdown-content-term"><span>放電</span></div> filaments appear on the entire surfaces of the <b> electrodes </b><div id="answer" class="dropdown-content-term"><span>電極</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">フィラメント状の <b> マイクロ </b><ul id="answer"><li>micro</li></ul> <b> 放電 </b><ul id="answer"><li>discharge</li><li>electric discharge</li></ul> は,最も一般的な 誘電体バリア<b> 放電 </b><ul id="answer"><li>discharge</li><li>electric discharge</li></ul> の形態であり,細い <b> 放電 </b><ul id="answer"><li>discharge</li><li>electric discharge</li></ul> 柱(フィラメント)が <b> 電極 </b><ul id="answer"><li>electrodes</li></ul> 全面に現れる。</td>
+<td style="width:60%">フィラメント状の <b> マイクロ </b><div id="answer" class="dropdown-content-term"><span>micro</span></div> <b> 放電 </b><div id="answer" class="dropdown-content-term"><span>discharge</span><span>electric discharge</span></div> は,最も一般的な 誘電体バリア<b> 放電 </b><div id="answer" class="dropdown-content-term"><span>discharge</span><span>electric discharge</span></div> の形態であり,細い <b> 放電 </b><div id="answer" class="dropdown-content-term"><span>discharge</span><span>electric discharge</span></div> 柱(フィラメント)が <b> 電極 </b><div id="answer" class="dropdown-content-term"><span>electrodes</span></div> 全面に現れる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1088,14 +1094,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Optical <b> polarization </b><ul id="answer"><li>偏光</li></ul> continues to play an increasingly important role in industries ranging from <b> liquid crystal displays </b><ul id="answer"><li>液晶ディスプレイ</li><li>LCD</li></ul> to <b> optical recording </b><ul id="answer"><li>光学記録</li></ul> , and from <b> biotechnology </b><ul id="answer"><li>生体工学</li></ul> to <b> remote sensing </b><ul id="answer"><li>リモートセンシング</li><li>遠隔探査</li></ul> .</td>
+<td style="width:60%">Optical <b> polarization </b><div id="answer" class="dropdown-content-term"><span>偏光</span></div> continues to play an increasingly important role in industries ranging from <b> liquid crystal displays </b><div id="answer" class="dropdown-content-term"><span>液晶ディスプレイ</span><span>LCD</span></div> to <b> optical recording </b><div id="answer" class="dropdown-content-term"><span>光学記録</span></div> , and from <b> biotechnology </b><div id="answer" class="dropdown-content-term"><span>生体工学</span></div> to <b> remote sensing </b><div id="answer" class="dropdown-content-term"><span>リモートセンシング</span><span>遠隔探査</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 液晶ディスプレイ </b><ul id="answer"><li>liquid crystal displays</li><li>LCD</li></ul> から <b> 光学記録 </b><ul id="answer"><li>optical recording</li></ul> まで,また <b> 生体工学 </b><ul id="answer"><li>biotechnology</li></ul> から <b> リモートセンシング </b><ul id="answer"><li>remote sensing</li></ul> にわたる産業分野において, <b> 偏光 </b><ul id="answer"><li>polarization</li></ul> はますます重要な役割を果たしている。</td>
+<td style="width:60%"><b> 液晶ディスプレイ </b><div id="answer" class="dropdown-content-term"><span>liquid crystal displays</span><span>LCD</span></div> から <b> 光学記録 </b><div id="answer" class="dropdown-content-term"><span>optical recording</span></div> まで,また <b> 生体工学 </b><div id="answer" class="dropdown-content-term"><span>biotechnology</span></div> から <b> リモートセンシング </b><div id="answer" class="dropdown-content-term"><span>remote sensing</span></div> にわたる産業分野において, <b> 偏光 </b><div id="answer" class="dropdown-content-term"><span>polarization</span></div> はますます重要な役割を果たしている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1108,14 +1114,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Furthermore , the products using <b> polarization </b><ul id="answer"><li>偏光</li></ul> <b> elements </b><ul id="answer"><li>素子</li></ul> and <b> polarization </b><ul id="answer"><li>偏光</li></ul> <b> elements </b><ul id="answer"><li>素子</li></ul> themselves have been complicatedly applied more than ever .</td>
+<td style="width:60%">Furthermore , the products using <b> polarization </b><div id="answer" class="dropdown-content-term"><span>偏光</span></div> <b> elements </b><div id="answer" class="dropdown-content-term"><span>素子</span></div> and <b> polarization </b><div id="answer" class="dropdown-content-term"><span>偏光</span></div> <b> elements </b><div id="answer" class="dropdown-content-term"><span>素子</span></div> themselves have been complicatedly applied more than ever .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">さらに, <b> 偏光 </b><ul id="answer"><li>polarization</li></ul> <b> 素子 </b><ul id="answer"><li>elements</li></ul> を用いた製品及び <b> 偏光 </b><ul id="answer"><li>polarization</li></ul> <b> 素子 </b><ul id="answer"><li>elements</li></ul> そのものがますます複雑になって使用されている。</td>
+<td style="width:60%">さらに, <b> 偏光 </b><div id="answer" class="dropdown-content-term"><span>polarization</span></div> <b> 素子 </b><div id="answer" class="dropdown-content-term"><span>elements</span></div> を用いた製品及び <b> 偏光 </b><div id="answer" class="dropdown-content-term"><span>polarization</span></div> <b> 素子 </b><div id="answer" class="dropdown-content-term"><span>elements</span></div> そのものがますます複雑になって使用されている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1128,14 +1134,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">In this article , we will briefly describe the basic types of <b> polarization </b><ul id="answer"><li>偏光</li></ul> <b> measurements </b><ul id="answer"><li>測定</li><li>計測</li></ul> , and remind readers of the <b> Mueller matrix </b><ul id="answer"><li>Mueller行列</li></ul> for describing the <b> polarization </b><ul id="answer"><li>偏光</li></ul> properties of a <b> sample </b><ul id="answer"><li>試料</li><li>サンプル</li></ul> .</td>
+<td style="width:60%">In this article , we will briefly describe the basic types of <b> polarization </b><div id="answer" class="dropdown-content-term"><span>偏光</span></div> <b> measurements </b><div id="answer" class="dropdown-content-term"><span>測定</span><span>計測</span></div> , and remind readers of the <b> Mueller matrix </b><div id="answer" class="dropdown-content-term"><span>Mueller行列</span></div> for describing the <b> polarization </b><div id="answer" class="dropdown-content-term"><span>偏光</span></div> properties of a <b> sample </b><div id="answer" class="dropdown-content-term"><span>試料</span><span>サンプル</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">ここでは簡単に <b> 偏光 </b><ul id="answer"><li>polarization</li></ul> <b> 測定 </b><ul id="answer"><li>measurement</li></ul> の基礎を述べ, <b> 試料 </b><ul id="answer"><li>sample</li><li>specimen</li></ul> の <b> 偏光 </b><ul id="answer"><li>polarization</li></ul> 特性を記述するための <b> Mueller行列 </b><ul id="answer"><li>Mueller matrix</li></ul> について解説する。</td>
+<td style="width:60%">ここでは簡単に <b> 偏光 </b><div id="answer" class="dropdown-content-term"><span>polarization</span></div> <b> 測定 </b><div id="answer" class="dropdown-content-term"><span>measurement</span></div> の基礎を述べ, <b> 試料 </b><div id="answer" class="dropdown-content-term"><span>sample</span><span>specimen</span></div> の <b> 偏光 </b><div id="answer" class="dropdown-content-term"><span>polarization</span></div> 特性を記述するための <b> Mueller行列 </b><div id="answer" class="dropdown-content-term"><span>Mueller matrix</span></div> について解説する。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1148,14 +1154,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> sequential control </b><ul id="answer"><li>シーケンス制御</li></ul> is explained , by introducing the <b> automatic control </b><ul id="answer"><li>自動制御</li></ul> of <b> flow rate </b><ul id="answer"><li>流量</li></ul> .</td>
+<td style="width:60%">A <b> sequential control </b><div id="answer" class="dropdown-content-term"><span>シーケンス制御</span></div> is explained , by introducing the <b> automatic control </b><div id="answer" class="dropdown-content-term"><span>自動制御</span></div> of <b> flow rate </b><div id="answer" class="dropdown-content-term"><span>流量</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 流量 </b><ul id="answer"><li>flow rate</li><li>quantity of flow</li><li>rate of flow</li></ul> の <b> 自動制御 </b><ul id="answer"><li>automatic control</li></ul> を述べ, <b> シーケンス制御 </b><ul id="answer"><li>sequential control</li><li>sequence control</li></ul> を説明。</td>
+<td style="width:60%"><b> 流量 </b><div id="answer" class="dropdown-content-term"><span>flow rate</span><span>quantity of flow</span><span>rate of flow</span></div> の <b> 自動制御 </b><div id="answer" class="dropdown-content-term"><span>automatic control</span></div> を述べ, <b> シーケンス制御 </b><div id="answer" class="dropdown-content-term"><span>sequential control</span><span>sequence control</span></div> を説明。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1168,14 +1174,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Shown here are <b> type </b><ul id="answer"><li>型</li><li>型式</li><li>形式</li></ul> and basic <b> configuration </b><ul id="answer"><li>構成</li></ul> and standards of this <b> flow </b><ul id="answer"><li>フロー</li></ul> with some diagrams .</td>
+<td style="width:60%">Shown here are <b> type </b><div id="answer" class="dropdown-content-term"><span>型</span><span>型式</span><span>形式</span></div> and basic <b> configuration </b><div id="answer" class="dropdown-content-term"><span>構成</span></div> and standards of this <b> flow </b><div id="answer" class="dropdown-content-term"><span>フロー</span></div> with some diagrams .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">本 <b> フロー </b><ul id="answer"><li>flow</li></ul> センサーの <b> 型式 </b><ul id="answer"><li>type</li></ul> と基本 <b> 構成 </b><ul id="answer"><li>configuration</li></ul> ,規格を図示,紹介。</td>
+<td style="width:60%">本 <b> フロー </b><div id="answer" class="dropdown-content-term"><span>flow</span></div> センサーの <b> 型式 </b><div id="answer" class="dropdown-content-term"><span>type</span></div> と基本 <b> 構成 </b><div id="answer" class="dropdown-content-term"><span>configuration</span></div> ,規格を図示,紹介。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1188,14 +1194,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Standards </b><ul id="answer"><li>基準</li></ul> for <b> type </b><ul id="answer"><li>型</li><li>型式</li><li>形式</li></ul> selection , and applications to systems precaution , for <b> standard </b><ul id="answer"><li>標準</li></ul> <b> measurement </b><ul id="answer"><li>測定</li><li>計測</li></ul> are described , giving examples of <b> constant flow </b><ul id="answer"><li>定流量</li></ul> <b> control </b><ul id="answer"><li>制御</li></ul> .</td>
+<td style="width:60%"><b> Standards </b><div id="answer" class="dropdown-content-term"><span>基準</span></div> for <b> type </b><div id="answer" class="dropdown-content-term"><span>型</span><span>型式</span><span>形式</span></div> selection , and applications to systems precaution , for <b> standard </b><div id="answer" class="dropdown-content-term"><span>標準</span></div> <b> measurement </b><div id="answer" class="dropdown-content-term"><span>測定</span><span>計測</span></div> are described , giving examples of <b> constant flow </b><div id="answer" class="dropdown-content-term"><span>定流量</span></div> <b> control </b><div id="answer" class="dropdown-content-term"><span>制御</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 型式 </b><ul id="answer"><li>type</li></ul> 選定の <b> 基準 </b><ul id="answer"><li>criterion</li><li>standard</li></ul> と注意事項, <b> 標準 </b><ul id="answer"><li>criterion</li><li>standard</li></ul> <b> 計測 </b><ul id="answer"><li>measurement</li></ul> システム例を述べ,応用例として <b> 定流量 </b><ul id="answer"><li>constant flow</li></ul> <b> 制御 </b><ul id="answer"><li>control</li></ul> を紹介</td>
+<td style="width:60%"><b> 型式 </b><div id="answer" class="dropdown-content-term"><span>type</span></div> 選定の <b> 基準 </b><div id="answer" class="dropdown-content-term"><span>criterion</span><span>standard</span></div> と注意事項, <b> 標準 </b><div id="answer" class="dropdown-content-term"><span>criterion</span><span>standard</span></div> <b> 計測 </b><div id="answer" class="dropdown-content-term"><span>measurement</span></div> システム例を述べ,応用例として <b> 定流量 </b><div id="answer" class="dropdown-content-term"><span>constant flow</span></div> <b> 制御 </b><div id="answer" class="dropdown-content-term"><span>control</span></div> を紹介</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1208,14 +1214,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The establishment of an optical fiber <b> attenuation </b><ul id="answer"><li>減衰量</li></ul> <b> standard </b><ul id="answer"><li>標準</li></ul> was attempted .</td>
+<td style="width:60%">The establishment of an optical fiber <b> attenuation </b><div id="answer" class="dropdown-content-term"><span>減衰量</span></div> <b> standard </b><div id="answer" class="dropdown-content-term"><span>標準</span></div> was attempted .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">標記 <b> 減衰量 </b><ul id="answer"><li>attenuation</li></ul> <b> 標準 </b><ul id="answer"><li>criterion</li><li>standard</li></ul> の確立を試みた。</td>
+<td style="width:60%">標記 <b> 減衰量 </b><div id="answer" class="dropdown-content-term"><span>attenuation</span></div> <b> 標準 </b><div id="answer" class="dropdown-content-term"><span>criterion</span><span>standard</span></div> の確立を試みた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1228,14 +1234,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Measuring </b><ul id="answer"><li>測定</li></ul> <b> temperature </b><ul id="answer"><li>温度</li></ul> was set at 22 <b> ℃ </b><ul id="answer"><li>℃</li><li>℃(unit)</li></ul> and <b> measuring range </b><ul id="answer"><li>測定範囲</li></ul> of the <b> attenuation </b><ul id="answer"><li>減衰量</li></ul> was set at 10-50 <b> dB </b><ul id="answer"><li>dB</li><li>dB(unit)</li></ul> .</td>
+<td style="width:60%"><b> Measuring </b><div id="answer" class="dropdown-content-term"><span>測定</span></div> <b> temperature </b><div id="answer" class="dropdown-content-term"><span>温度</span></div> was set at 22 <b> ℃ </b><div id="answer" class="dropdown-content-term"><span>℃</span><span>℃(unit)</span></div> and <b> measuring range </b><div id="answer" class="dropdown-content-term"><span>測定範囲</span></div> of the <b> attenuation </b><div id="answer" class="dropdown-content-term"><span>減衰量</span></div> was set at 10-50 <b> dB </b><div id="answer" class="dropdown-content-term"><span>dB</span><span>dB(unit)</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 測定 </b><ul id="answer"><li>measurement</li></ul> <b> 温度 </b><ul id="answer"><li>temperature</li></ul> は22 <b> ℃ </b><ul id="answer"><li>℃</li><li>℃(unit)</li></ul> , <b> 減衰量 </b><ul id="answer"><li>attenuation</li></ul> の <b> 測定 </b><ul id="answer"><li>measurement</li></ul>範囲 は10-50 <b> dB </b><ul id="answer"><li>dB</li><li>dB(unit)</li></ul> とした。</td>
+<td style="width:60%"><b> 測定 </b><div id="answer" class="dropdown-content-term"><span>measurement</span></div> <b> 温度 </b><div id="answer" class="dropdown-content-term"><span>temperature</span></div> は22 <b> ℃ </b><div id="answer" class="dropdown-content-term"><span>℃</span><span>℃(unit)</span></div> , <b> 減衰量 </b><div id="answer" class="dropdown-content-term"><span>attenuation</span></div> の <b> 測定 </b><div id="answer" class="dropdown-content-term"><span>measurement</span></div>範囲 は10-50 <b> dB </b><div id="answer" class="dropdown-content-term"><span>dB</span><span>dB(unit)</span></div> とした。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1248,14 +1254,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Power failure </b><ul id="answer"><li>停電</li></ul> and equipment <b> damage </b><ul id="answer"><li>損傷</li></ul> by <b> lightning </b><ul id="answer"><li>雷</li></ul> become a <b> problem </b><ul id="answer"><li>問題</li></ul> for a <b> radio relay station </b><ul id="answer"><li>無線中継所</li><li>無線中継局</li></ul> , since it is installed at the tip of a high <b> altitude </b><ul id="answer"><li>標高</li><li>海抜高度</li></ul> location .</td>
+<td style="width:60%"><b> Power failure </b><div id="answer" class="dropdown-content-term"><span>停電</span></div> and equipment <b> damage </b><div id="answer" class="dropdown-content-term"><span>損傷</span></div> by <b> lightning </b><div id="answer" class="dropdown-content-term"><span>雷</span></div> become a <b> problem </b><div id="answer" class="dropdown-content-term"><span>問題</span></div> for a <b> radio relay station </b><div id="answer" class="dropdown-content-term"><span>無線中継所</span><span>無線中継局</span></div> , since it is installed at the tip of a high <b> altitude </b><div id="answer" class="dropdown-content-term"><span>標高</span><span>海抜高度</span></div> location .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 無線中継所 </b><ul id="answer"><li>radio relay station</li></ul> は高 <b> 標高 </b><ul id="answer"><li>altitude</li></ul> の山頂に設置されるため, <b> 雷 </b><ul id="answer"><li>lightning</li><li>thunder</li></ul> による <b> 停電 </b><ul id="answer"><li>Power failure</li></ul> と機器 <b> 損傷 </b><ul id="answer"><li>damage</li></ul> が <b> 問題 </b><ul id="answer"><li>problem</li></ul> となる。</td>
+<td style="width:60%"><b> 無線中継所 </b><div id="answer" class="dropdown-content-term"><span>radio relay station</span></div> は高 <b> 標高 </b><div id="answer" class="dropdown-content-term"><span>altitude</span></div> の山頂に設置されるため, <b> 雷 </b><div id="answer" class="dropdown-content-term"><span>lightning</span><span>thunder</span></div> による <b> 停電 </b><div id="answer" class="dropdown-content-term"><span>Power failure</span></div> と機器 <b> 損傷 </b><div id="answer" class="dropdown-content-term"><span>damage</span></div> が <b> 問題 </b><div id="answer" class="dropdown-content-term"><span>problem</span></div> となる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1268,14 +1274,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Lightning stroke </b><ul id="answer"><li>雷撃</li></ul> <b> ratio </b><ul id="answer"><li>比</li></ul> of the radio tower to <b> distribution lines </b><ul id="answer"><li>配電線</li></ul> is equal .</td>
+<td style="width:60%"><b> Lightning stroke </b><div id="answer" class="dropdown-content-term"><span>雷撃</span></div> <b> ratio </b><div id="answer" class="dropdown-content-term"><span>比</span></div> of the radio tower to <b> distribution lines </b><div id="answer" class="dropdown-content-term"><span>配電線</span></div> is equal .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">無線塔と <b> 配電線 </b><ul id="answer"><li>distribution line</li></ul> への <b> 雷撃 </b><ul id="answer"><li>lightning stroke</li><li>thunderstroke</li></ul> <b> 比 </b><ul id="answer"><li>ratio</li></ul> は等しい</td>
+<td style="width:60%">無線塔と <b> 配電線 </b><div id="answer" class="dropdown-content-term"><span>distribution line</span></div> への <b> 雷撃 </b><div id="answer" class="dropdown-content-term"><span>lightning stroke</span><span>thunderstroke</span></div> <b> 比 </b><div id="answer" class="dropdown-content-term"><span>ratio</span></div> は等しい</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1288,14 +1294,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The United States intends to promote the international and domestic competitive power and superiority as a supreme proposition by close <b> cooperation </b><ul id="answer"><li>協力</li></ul> of <b> government </b><ul id="answer"><li>政府</li></ul> , <b> industry </b><ul id="answer"><li>産業界</li></ul> , and <b> university </b><ul id="answer"><li>大学</li></ul> .</td>
+<td style="width:60%">The United States intends to promote the international and domestic competitive power and superiority as a supreme proposition by close <b> cooperation </b><div id="answer" class="dropdown-content-term"><span>協力</span></div> of <b> government </b><div id="answer" class="dropdown-content-term"><span>政府</span></div> , <b> industry </b><div id="answer" class="dropdown-content-term"><span>産業界</span></div> , and <b> university </b><div id="answer" class="dropdown-content-term"><span>大学</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">米国は自国の国際競争力優位を至上命題として <b> 政府 </b><ul id="answer"><li>government</li></ul> ・ <b> 産業界 </b><ul id="answer"><li>industry</li></ul> ・ <b> 大学 </b><ul id="answer"><li>college</li><li>university</li></ul> の密接な <b> 協力 </b><ul id="answer"><li>cooperation</li><li>collaboration</li></ul> によって推進しようとしている。</td>
+<td style="width:60%">米国は自国の国際競争力優位を至上命題として <b> 政府 </b><div id="answer" class="dropdown-content-term"><span>government</span></div> ・ <b> 産業界 </b><div id="answer" class="dropdown-content-term"><span>industry</span></div> ・ <b> 大学 </b><div id="answer" class="dropdown-content-term"><span>college</span><span>university</span></div> の密接な <b> 協力 </b><div id="answer" class="dropdown-content-term"><span>cooperation</span><span>collaboration</span></div> によって推進しようとしている。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1308,14 +1314,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The worldwide <b> research </b><ul id="answer"><li>研究</li></ul> <b> competition </b><ul id="answer"><li>競合</li><li>競争</li></ul> began in early 1987 reports on experiments of <b> high temperature superconductivity </b><ul id="answer"><li>高温超伝導</li></ul> of <b> yttrium </b><ul id="answer"><li>イットリウム</li></ul> and <b> copper </b><ul id="answer"><li>銅</li></ul> <b> oxides </b><ul id="answer"><li>酸化物</li></ul> , and especially , national promotion policy was taken not to be left far behind Japan .</td>
+<td style="width:60%">The worldwide <b> research </b><div id="answer" class="dropdown-content-term"><span>研究</span></div> <b> competition </b><div id="answer" class="dropdown-content-term"><span>競合</span><span>競争</span></div> began in early 1987 reports on experiments of <b> high temperature superconductivity </b><div id="answer" class="dropdown-content-term"><span>高温超伝導</span></div> of <b> yttrium </b><div id="answer" class="dropdown-content-term"><span>イットリウム</span></div> and <b> copper </b><div id="answer" class="dropdown-content-term"><span>銅</span></div> <b> oxides </b><div id="answer" class="dropdown-content-term"><span>酸化物</span></div> , and especially , national promotion policy was taken not to be left far behind Japan .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">1987年初頭に <b> イットリウム </b><ul id="answer"><li>yttrium</li></ul> と <b> 銅 </b><ul id="answer"><li>copper</li></ul> の <b> 酸化物 </b><ul id="answer"><li>oxides</li></ul> の <b> 高温超伝導 </b><ul id="answer"><li>high temperature superconductivity</li></ul> の実験が報告されて世界的な <b> 研究 </b><ul id="answer"><li>research</li></ul> <b> 競争 </b><ul id="answer"><li>competition</li></ul> が始まり,特に日本に遅れないように国を挙げての推進政策が取られた。</td>
+<td style="width:60%">1987年初頭に <b> イットリウム </b><div id="answer" class="dropdown-content-term"><span>yttrium</span></div> と <b> 銅 </b><div id="answer" class="dropdown-content-term"><span>copper</span></div> の <b> 酸化物 </b><div id="answer" class="dropdown-content-term"><span>oxides</span></div> の <b> 高温超伝導 </b><div id="answer" class="dropdown-content-term"><span>high temperature superconductivity</span></div> の実験が報告されて世界的な <b> 研究 </b><div id="answer" class="dropdown-content-term"><span>research</span></div> <b> 競争 </b><div id="answer" class="dropdown-content-term"><span>competition</span></div> が始まり,特に日本に遅れないように国を挙げての推進政策が取られた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1328,14 +1334,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The aid policy of the <b> development system </b><ul id="answer"><li>開発体制</li></ul> of <b> industry-government-university </b><ul id="answer"><li>産官学</li></ul> was advocated in President Reagan's speech , and concrete <b> legislation </b><ul id="answer"><li>立法</li></ul> and <b> administrative </b><ul id="answer"><li>行政</li></ul> measures were taken , and 5 <b> strengthening bills </b><ul id="answer"><li>強化法案</li></ul> were proposed .</td>
+<td style="width:60%">The aid policy of the <b> development system </b><div id="answer" class="dropdown-content-term"><span>開発体制</span></div> of <b> industry-government-university </b><div id="answer" class="dropdown-content-term"><span>産官学</span></div> was advocated in President Reagan's speech , and concrete <b> legislation </b><div id="answer" class="dropdown-content-term"><span>立法</span></div> and <b> administrative </b><div id="answer" class="dropdown-content-term"><span>行政</span></div> measures were taken , and 5 <b> strengthening bills </b><div id="answer" class="dropdown-content-term"><span>強化法案</span></div> were proposed .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">レーガン大統領の演説で <b> 産官学 </b><ul id="answer"><li>industry-government-university</li></ul> の <b> 開発体制 </b><ul id="answer"><li>development system</li></ul> の助成策が提唱され,具体的な <b> 立法 </b><ul id="answer"><li>legislation</li></ul> ・ <b> 行政 </b><ul id="answer"><li>administrative</li></ul> 措置が取られ,5件の <b> 強化法案 </b><ul id="answer"><li>strengthening bills</li></ul> が提案された。</td>
+<td style="width:60%">レーガン大統領の演説で <b> 産官学 </b><div id="answer" class="dropdown-content-term"><span>industry-government-university</span></div> の <b> 開発体制 </b><div id="answer" class="dropdown-content-term"><span>development system</span></div> の助成策が提唱され,具体的な <b> 立法 </b><div id="answer" class="dropdown-content-term"><span>legislation</span></div> ・ <b> 行政 </b><div id="answer" class="dropdown-content-term"><span>administrative</span></div> 措置が取られ,5件の <b> 強化法案 </b><div id="answer" class="dropdown-content-term"><span>strengthening bills</span></div> が提案された。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1348,14 +1354,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">As a system of federal <b> research and development </b><ul id="answer"><li>研究開発</li></ul> organizations , the budgets of the <b> Department of Defense </b><ul id="answer"><li>国防総省</li><li>国防総省(proper noun)</li></ul> ($ 11500000) , the <b> Department of Energy </b><ul id="answer"><li>連邦エネルギー省</li><li>連邦エネルギー省(proper noun)</li></ul> ($ 10000000) , <b> National Science Foundation </b><ul id="answer"><li>全米科学財団</li><li>全米科学財団(proper noun)</li></ul> ($ 6600000) , <b> NASA </b><ul id="answer"><li>航空宇宙局</li><li>航空宇宙局(proper noun)</li></ul> ($ 750000) , and the <b> Department of Commerce </b><ul id="answer"><li>商務省</li><li>商務省(proper noun)</li></ul> ($ 150000) were made .</td>
+<td style="width:60%">As a system of federal <b> research and development </b><div id="answer" class="dropdown-content-term"><span>研究開発</span></div> organizations , the budgets of the <b> Department of Defense </b><div id="answer" class="dropdown-content-term"><span>国防総省</span><span>国防総省(proper noun)</span></div> ($ 11500000) , the <b> Department of Energy </b><div id="answer" class="dropdown-content-term"><span>連邦エネルギー省</span><span>連邦エネルギー省(proper noun)</span></div> ($ 10000000) , <b> National Science Foundation </b><div id="answer" class="dropdown-content-term"><span>全米科学財団</span><span>全米科学財団(proper noun)</span></div> ($ 6600000) , <b> NASA </b><div id="answer" class="dropdown-content-term"><span>航空宇宙局</span><span>航空宇宙局(proper noun)</span></div> ($ 750000) , and the <b> Department of Commerce </b><div id="answer" class="dropdown-content-term"><span>商務省</span><span>商務省(proper noun)</span></div> ($ 150000) were made .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">連邦 <b> 研究開発 </b><ul id="answer"><li>research and development</li></ul> 機関の体制として, <b> 国防総省 </b><ul id="answer"><li>Department of Defense</li><li>Department of Defense(proper noun)</li></ul> (1150万ドル), <b> 連邦エネルギー省 </b><ul id="answer"><li>Department of Energy</li><li>Department of Energy(proper noun)</li></ul> (1000万ドル), <b> 全米科学財団 </b><ul id="answer"><li>National Science Foundation</li><li>National Science Foundation(proper noun)</li></ul> (660万ドル), <b> 航空宇宙局 </b><ul id="answer"><li>NASA</li><li>NASA(proper noun)</li></ul> (75万ドル), <b> 商務省 </b><ul id="answer"><li>Department of Commerce</li><li>Department of Commerce(proper noun)</li></ul> (15万ドル)の予算が組まれた[1988.1]</td>
+<td style="width:60%">連邦 <b> 研究開発 </b><div id="answer" class="dropdown-content-term"><span>research and development</span></div> 機関の体制として, <b> 国防総省 </b><div id="answer" class="dropdown-content-term"><span>Department of Defense</span><span>Department of Defense(proper noun)</span></div> (1150万ドル), <b> 連邦エネルギー省 </b><div id="answer" class="dropdown-content-term"><span>Department of Energy</span><span>Department of Energy(proper noun)</span></div> (1000万ドル), <b> 全米科学財団 </b><div id="answer" class="dropdown-content-term"><span>National Science Foundation</span><span>National Science Foundation(proper noun)</span></div> (660万ドル), <b> 航空宇宙局 </b><div id="answer" class="dropdown-content-term"><span>NASA</span><span>NASA(proper noun)</span></div> (75万ドル), <b> 商務省 </b><div id="answer" class="dropdown-content-term"><span>Department of Commerce</span><span>Department of Commerce(proper noun)</span></div> (15万ドル)の予算が組まれた[1988.1]</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1368,14 +1374,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The following are described as recent trends of <b> forming technologies </b><ul id="answer"><li>成形加工技術</li></ul> : Methods including <b> mold designs </b><ul id="answer"><li>金型設計</li></ul> to utilize materials <b> characteristics </b><ul id="answer"><li>特性</li></ul> , and those to improve <b> weld </b><ul id="answer"><li>ウェルド</li></ul> <b> strength </b><ul id="answer"><li>強度</li></ul> .</td>
+<td style="width:60%">The following are described as recent trends of <b> forming technologies </b><div id="answer" class="dropdown-content-term"><span>成形加工技術</span></div> : Methods including <b> mold designs </b><div id="answer" class="dropdown-content-term"><span>金型設計</span></div> to utilize materials <b> characteristics </b><div id="answer" class="dropdown-content-term"><span>特性</span></div> , and those to improve <b> weld </b><div id="answer" class="dropdown-content-term"><span>ウェルド</span></div> <b> strength </b><div id="answer" class="dropdown-content-term"><span>強度</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 成形加工技術 </b><ul id="answer"><li>forming technologies</li></ul> における最近の動向として, <b> 特性 </b><ul id="answer"><li>character</li><li>characteristic</li><li>characteristics</li></ul> を活かすための <b> 金型設計 </b><ul id="answer"><li>mold designs</li></ul> を含めた成形法及び <b> ウェルド </b><ul id="answer"><li>weld</li></ul> <b> 強度 </b><ul id="answer"><li>strength</li></ul> を改良する成形法について述べた。</td>
+<td style="width:60%"><b> 成形加工技術 </b><div id="answer" class="dropdown-content-term"><span>forming technologies</span></div> における最近の動向として, <b> 特性 </b><div id="answer" class="dropdown-content-term"><span>character</span><span>characteristic</span><span>characteristics</span></div> を活かすための <b> 金型設計 </b><div id="answer" class="dropdown-content-term"><span>mold designs</span></div> を含めた成形法及び <b> ウェルド </b><div id="answer" class="dropdown-content-term"><span>weld</span></div> <b> 強度 </b><div id="answer" class="dropdown-content-term"><span>strength</span></div> を改良する成形法について述べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1388,14 +1394,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">On application technologies, trends and prospect are described in the following fields : <b> Injection molded products </b><ul id="answer"><li>射出成形品</li></ul> , <b> extrusion molded products </b><ul id="answer"><li>押出成形品</li></ul> , and <b> polymer alloys </b><ul id="answer"><li>ポリマアロイ</li></ul> .</td>
+<td style="width:60%">On application technologies, trends and prospect are described in the following fields : <b> Injection molded products </b><div id="answer" class="dropdown-content-term"><span>射出成形品</span></div> , <b> extrusion molded products </b><div id="answer" class="dropdown-content-term"><span>押出成形品</span></div> , and <b> polymer alloys </b><div id="answer" class="dropdown-content-term"><span>ポリマアロイ</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">応用について, <b> 射出成形品 </b><ul id="answer"><li>injection molded products</li></ul> 及び <b> 押出成形品 </b><ul id="answer"><li>extrusion molded products</li></ul> 各分野と <b> ポリマアロイ </b><ul id="answer"><li>polymer alloys</li></ul> での動向と展望を述べた。</td>
+<td style="width:60%">応用について, <b> 射出成形品 </b><div id="answer" class="dropdown-content-term"><span>injection molded products</span></div> 及び <b> 押出成形品 </b><div id="answer" class="dropdown-content-term"><span>extrusion molded products</span></div> 各分野と <b> ポリマアロイ </b><div id="answer" class="dropdown-content-term"><span>polymer alloys</span></div> での動向と展望を述べた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1408,14 +1414,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Both <b> coils </b><ul id="answer"><li>コイル</li></ul> are cooled by a <b> GM </b><ul id="answer"><li>GM</li></ul> <b> refrigerating machine </b><ul id="answer"><li>冷凍機</li></ul> .</td>
+<td style="width:60%">Both <b> coils </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> are cooled by a <b> GM </b><div id="answer" class="dropdown-content-term"><span>GM</span></div> <b> refrigerating machine </b><div id="answer" class="dropdown-content-term"><span>冷凍機</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">いずれも <b> GM </b><ul id="answer"><li>GM</li></ul> <b> 冷凍機 </b><ul id="answer"><li>refrigerating machine</li><li>refrigerator</li></ul> により冷却した。</td>
+<td style="width:60%">いずれも <b> GM </b><div id="answer" class="dropdown-content-term"><span>GM</span></div> <b> 冷凍機 </b><div id="answer" class="dropdown-content-term"><span>refrigerating machine</span><span>refrigerator</span></div> により冷却した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1428,14 +1434,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul>he 1.0 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> <b> coil </b><ul id="answer"><li>コイル</li></ul> succeeded in <b> continuous running </b><ul id="answer"><li>連続運転</li></ul> of 100 hours .</td>
+<td style="width:60%"><b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div>he 1.0 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> <b> coil </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> succeeded in <b> continuous running </b><div id="answer" class="dropdown-content-term"><span>連続運転</span></div> of 100 hours .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">1.0 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> <b> コイル </b><ul id="answer"><li>coir</li><li>coil</li></ul> は100時間の <b> 連続運転 </b><ul id="answer"><li>continuous running</li><li>continuous operation</li><li>uninterrupted operation</li></ul> に成功した。</td>
+<td style="width:60%">1.0 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> <b> コイル </b><div id="answer" class="dropdown-content-term"><span>coir</span><span>coil</span></div> は100時間の <b> 連続運転 </b><div id="answer" class="dropdown-content-term"><span>continuous running</span><span>continuous operation</span><span>uninterrupted operation</span></div> に成功した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1448,14 +1454,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul>he latter <b> coil </b><ul id="answer"><li>コイル</li></ul> generated 2.2 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> in <b> liquid helium </b><ul id="answer"><li>液体ヘリウム</li></ul> .</td>
+<td style="width:60%"><b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div>he latter <b> coil </b><div id="answer" class="dropdown-content-term"><span>コイル</span></div> generated 2.2 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> in <b> liquid helium </b><div id="answer" class="dropdown-content-term"><span>液体ヘリウム</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">後者の <b> コイル </b><ul id="answer"><li>coir</li><li>coil</li></ul> は <b> 液体ヘリウム </b><ul id="answer"><li>liquid helium</li></ul> 中で2.2 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> を出した。</td>
+<td style="width:60%">後者の <b> コイル </b><div id="answer" class="dropdown-content-term"><span>coir</span><span>coil</span></div> は <b> 液体ヘリウム </b><div id="answer" class="dropdown-content-term"><span>liquid helium</span></div> 中で2.2 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> を出した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1468,14 +1474,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It generated 0.56 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> even at 64 <b> K </b><ul id="answer"><li>K</li><li>K(unit)</li></ul> .</td>
+<td style="width:60%">It generated 0.56 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> even at 64 <b> K </b><div id="answer" class="dropdown-content-term"><span>K</span><span>K(unit)</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">64 <b> K </b><ul id="answer"><li>K</li><li>K(unit)</li></ul> でも0.56 <b> T </b><ul id="answer"><li>T</li><li>T(unit)</li></ul> を出している</td>
+<td style="width:60%">64 <b> K </b><div id="answer" class="dropdown-content-term"><span>K</span><span>K(unit)</span></div> でも0.56 <b> T </b><div id="answer" class="dropdown-content-term"><span>T</span><span>T(unit)</span></div> を出している</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1488,14 +1494,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Full color <b> hologram </b><ul id="answer"><li>ホログラム</li></ul> will follow mass production .</td>
+<td style="width:60%">Full color <b> hologram </b><div id="answer" class="dropdown-content-term"><span>ホログラム</span></div> will follow mass production .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> ホログラム </b><ul id="answer"><li>hologram</li></ul> の量産化の次はフルカラー化であろう。</td>
+<td style="width:60%"><b> ホログラム </b><div id="answer" class="dropdown-content-term"><span>hologram</span></div> の量産化の次はフルカラー化であろう。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1508,14 +1514,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">This <b> hologram </b><ul id="answer"><li>ホログラム</li></ul> has a <b> feature </b><ul id="answer"><li>形質</li><li>特徴</li></ul> of reproducing bright and clear images under white <b> scattered light </b><ul id="answer"><li>散乱光</li></ul> , and will have high value added in the future from <b> chemical treatment </b><ul id="answer"><li>化学処理</li></ul> <b> process </b><ul id="answer"><li>処理</li><li>プロセス</li><li>過程</li></ul> <b> technology </b><ul id="answer"><li>技術</li></ul> .</td>
+<td style="width:60%">This <b> hologram </b><div id="answer" class="dropdown-content-term"><span>ホログラム</span></div> has a <b> feature </b><div id="answer" class="dropdown-content-term"><span>形質</span><span>特徴</span></div> of reproducing bright and clear images under white <b> scattered light </b><div id="answer" class="dropdown-content-term"><span>散乱光</span></div> , and will have high value added in the future from <b> chemical treatment </b><div id="answer" class="dropdown-content-term"><span>化学処理</span></div> <b> process </b><div id="answer" class="dropdown-content-term"><span>処理</span><span>プロセス</span><span>過程</span></div> <b> technology </b><div id="answer" class="dropdown-content-term"><span>技術</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> ホログラム </b><ul id="answer"><li>hologram</li></ul> は白色 <b> 散乱光 </b><ul id="answer"><li>scattered light</li></ul> 下で明るいはっきりとした画像を再生する <b> 特徴 </b><ul id="answer"><li>feature</li></ul> を持ち, <b> 化学処理 </b><ul id="answer"><li>chemical processing</li><li>chemical treatment</li></ul> <b> プロセス </b><ul id="answer"><li>process</li></ul> <b> 技術 </b><ul id="answer"><li>technology</li></ul> から将来高付加価値を持つ。</td>
+<td style="width:60%">この <b> ホログラム </b><div id="answer" class="dropdown-content-term"><span>hologram</span></div> は白色 <b> 散乱光 </b><div id="answer" class="dropdown-content-term"><span>scattered light</span></div> 下で明るいはっきりとした画像を再生する <b> 特徴 </b><div id="answer" class="dropdown-content-term"><span>feature</span></div> を持ち, <b> 化学処理 </b><div id="answer" class="dropdown-content-term"><span>chemical processing</span><span>chemical treatment</span></div> <b> プロセス </b><div id="answer" class="dropdown-content-term"><span>process</span></div> <b> 技術 </b><div id="answer" class="dropdown-content-term"><span>technology</span></div> から将来高付加価値を持つ。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1528,14 +1534,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Properties of a <b> photopolymer </b><ul id="answer"><li>フォトポリマー</li></ul> and <b> record </b><ul id="answer"><li>記録</li><li>レコード</li></ul> <b> processes </b><ul id="answer"><li>処理</li><li>プロセス</li><li>過程</li></ul> are explained .</td>
+<td style="width:60%">Properties of a <b> photopolymer </b><div id="answer" class="dropdown-content-term"><span>フォトポリマー</span></div> and <b> record </b><div id="answer" class="dropdown-content-term"><span>記録</span><span>レコード</span></div> <b> processes </b><div id="answer" class="dropdown-content-term"><span>処理</span><span>プロセス</span><span>過程</span></div> are explained .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> フォトポリマー </b><ul id="answer"><li>photopolymer</li></ul> の特性と <b> 記録 </b><ul id="answer"><li>record</li><li>recording</li></ul> <b> プロセス </b><ul id="answer"><li>process</li></ul> を解説した</td>
+<td style="width:60%"><b> フォトポリマー </b><div id="answer" class="dropdown-content-term"><span>photopolymer</span></div> の特性と <b> 記録 </b><div id="answer" class="dropdown-content-term"><span>record</span><span>recording</span></div> <b> プロセス </b><div id="answer" class="dropdown-content-term"><span>process</span></div> を解説した</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1548,14 +1554,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> time-of-flight </b><ul id="answer"><li>飛行時間</li></ul> method using <b> pulsed laser </b><ul id="answer"><li>パルスレーザ</li></ul> was used as a <b> photoconduction </b><ul id="answer"><li>光伝導</li><li>光導電</li></ul> measuring method .</td>
+<td style="width:60%">A <b> time-of-flight </b><div id="answer" class="dropdown-content-term"><span>飛行時間</span></div> method using <b> pulsed laser </b><div id="answer" class="dropdown-content-term"><span>パルスレーザ</span></div> was used as a <b> photoconduction </b><div id="answer" class="dropdown-content-term"><span>光伝導</span><span>光導電</span></div> measuring method .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 光伝導 </b><ul id="answer"><li>photoconduction</li></ul> 測定法として <b> パルスレーザ </b><ul id="answer"><li>pulsed laser</li></ul> を用いた <b> 飛行時間 </b><ul id="answer"><li>time-of-flight</li></ul> 法を用いた。</td>
+<td style="width:60%"><b> 光伝導 </b><div id="answer" class="dropdown-content-term"><span>photoconduction</span></div> 測定法として <b> パルスレーザ </b><div id="answer" class="dropdown-content-term"><span>pulsed laser</span></div> を用いた <b> 飛行時間 </b><div id="answer" class="dropdown-content-term"><span>time-of-flight</span></div> 法を用いた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1568,14 +1574,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> photocurrent </b><ul id="answer"><li>光電流</li></ul> <b> signal </b><ul id="answer"><li>信号</li></ul> is produced using <b> light </b><ul id="answer"><li>光</li></ul> of 420 <b> nm </b><ul id="answer"><li>nm</li><li>nm(unit)</li></ul> , which is directly <b> proportional </b><ul id="answer"><li>比例</li></ul> to the square of <b> radiation intensity </b><ul id="answer"><li>光強度</li></ul> .</td>
+<td style="width:60%">A <b> photocurrent </b><div id="answer" class="dropdown-content-term"><span>光電流</span></div> <b> signal </b><div id="answer" class="dropdown-content-term"><span>信号</span></div> is produced using <b> light </b><div id="answer" class="dropdown-content-term"><span>光</span></div> of 420 <b> nm </b><div id="answer" class="dropdown-content-term"><span>nm</span><span>nm(unit)</span></div> , which is directly <b> proportional </b><div id="answer" class="dropdown-content-term"><span>比例</span></div> to the square of <b> radiation intensity </b><div id="answer" class="dropdown-content-term"><span>光強度</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">420 <b> nm </b><ul id="answer"><li>nm</li><li>nm(unit)</li></ul> の <b> 光 </b><ul id="answer"><li>light</li></ul> により <b> 光 </b><ul id="answer"><li>light</li></ul>強度 の2次に <b> 比例 </b><ul id="answer"><li>proportional</li></ul> した <b> 光 </b><ul id="answer"><li>light</li></ul>電流 <b> 信号 </b><ul id="answer"><li>signal</li><li>signalling</li></ul> が発生する。</td>
+<td style="width:60%">420 <b> nm </b><div id="answer" class="dropdown-content-term"><span>nm</span><span>nm(unit)</span></div> の <b> 光 </b><div id="answer" class="dropdown-content-term"><span>light</span></div> により <b> 光 </b><div id="answer" class="dropdown-content-term"><span>light</span></div>強度 の2次に <b> 比例 </b><div id="answer" class="dropdown-content-term"><span>proportional</span></div> した <b> 光 </b><div id="answer" class="dropdown-content-term"><span>light</span></div>電流 <b> 信号 </b><div id="answer" class="dropdown-content-term"><span>signal</span><span>signalling</span></div> が発生する。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1588,14 +1594,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Through the detailed <b> analysis </b><ul id="answer"><li>解析</li><li>分析</li></ul> of the <b> intensity </b><ul id="answer"><li>強度</li></ul> <b> dependence </b><ul id="answer"><li>依存性</li></ul> of <b> excited light </b><ul id="answer"><li>励起光</li></ul> , this is judged to be due to <b> photoionization </b><ul id="answer"><li>光イオン化</li></ul> .</td>
+<td style="width:60%">Through the detailed <b> analysis </b><div id="answer" class="dropdown-content-term"><span>解析</span><span>分析</span></div> of the <b> intensity </b><div id="answer" class="dropdown-content-term"><span>強度</span></div> <b> dependence </b><div id="answer" class="dropdown-content-term"><span>依存性</span></div> of <b> excited light </b><div id="answer" class="dropdown-content-term"><span>励起光</span></div> , this is judged to be due to <b> photoionization </b><div id="answer" class="dropdown-content-term"><span>光イオン化</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 励起光 </b><ul id="answer"><li>excited light</li></ul> <b> 強度 </b><ul id="answer"><li>intensity</li></ul> <b> 依存性 </b><ul id="answer"><li>dependence</li></ul> の詳細 <b> 解析 </b><ul id="answer"><li>analysis</li></ul> により, <b> 光イオン化 </b><ul id="answer"><li>photoionization</li></ul> によるものと判断した</td>
+<td style="width:60%"><b> 励起光 </b><div id="answer" class="dropdown-content-term"><span>excited light</span></div> <b> 強度 </b><div id="answer" class="dropdown-content-term"><span>intensity</span></div> <b> 依存性 </b><div id="answer" class="dropdown-content-term"><span>dependence</span></div> の詳細 <b> 解析 </b><div id="answer" class="dropdown-content-term"><span>analysis</span></div> により, <b> 光イオン化 </b><div id="answer" class="dropdown-content-term"><span>photoionization</span></div> によるものと判断した</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1608,14 +1614,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> geometric-optical </b><ul id="answer"><li>幾何光学的</li></ul> <b> theory </b><ul id="answer"><li>理論</li></ul> of <b> standing wave </b><ul id="answer"><li>定常波</li></ul> based on <b> ray </b><ul id="answer"><li>光線</li></ul> <b> coincidence </b><ul id="answer"><li>一致</li></ul> is presented .</td>
+<td style="width:60%">The <b> geometric-optical </b><div id="answer" class="dropdown-content-term"><span>幾何光学的</span></div> <b> theory </b><div id="answer" class="dropdown-content-term"><span>理論</span></div> of <b> standing wave </b><div id="answer" class="dropdown-content-term"><span>定常波</span></div> based on <b> ray </b><div id="answer" class="dropdown-content-term"><span>光線</span></div> <b> coincidence </b><div id="answer" class="dropdown-content-term"><span>一致</span></div> is presented .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 光線 </b><ul id="answer"><li>ray</li></ul> <b> 一致 </b><ul id="answer"><li>coincidence</li></ul> に基づく <b> 定常波 </b><ul id="answer"><li>standing wave</li><li>stationary wave</li></ul> の <b> 幾何光学的 </b><ul id="answer"><li>geometric-optical</li></ul> <b> 理論 </b><ul id="answer"><li>theory</li></ul> を展開した。</td>
+<td style="width:60%"><b> 光線 </b><div id="answer" class="dropdown-content-term"><span>ray</span></div> <b> 一致 </b><div id="answer" class="dropdown-content-term"><span>coincidence</span></div> に基づく <b> 定常波 </b><div id="answer" class="dropdown-content-term"><span>standing wave</span><span>stationary wave</span></div> の <b> 幾何光学的 </b><div id="answer" class="dropdown-content-term"><span>geometric-optical</span></div> <b> 理論 </b><div id="answer" class="dropdown-content-term"><span>theory</span></div> を展開した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1628,14 +1634,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">This kind of <b> ray </b><ul id="answer"><li>光線</li></ul> can be called wave normal <b> ray </b><ul id="answer"><li>光線</li></ul> .</td>
+<td style="width:60%">This kind of <b> ray </b><div id="answer" class="dropdown-content-term"><span>光線</span></div> can be called wave normal <b> ray </b><div id="answer" class="dropdown-content-term"><span>光線</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この種の <b> 光線 </b><ul id="answer"><li>ray</li></ul> は, <b> 波面法線 </b><ul id="answer"><li>wave normal</li></ul> <b> 光線 </b><ul id="answer"><li>ray</li></ul> と呼ぶことができる。</td>
+<td style="width:60%">この種の <b> 光線 </b><div id="answer" class="dropdown-content-term"><span>ray</span></div> は, <b> 波面法線 </b><div id="answer" class="dropdown-content-term"><span>wave normal</span></div> <b> 光線 </b><div id="answer" class="dropdown-content-term"><span>ray</span></div> と呼ぶことができる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1648,14 +1654,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">And , this paper described a new <b> expression form </b><ul id="answer"><li>表現形式</li></ul> of the <b> Snell's law </b><ul id="answer"><li>Snellの法則</li></ul> on <b> refraction </b><ul id="answer"><li>屈折</li></ul> .</td>
+<td style="width:60%">And , this paper described a new <b> expression form </b><div id="answer" class="dropdown-content-term"><span>表現形式</span></div> of the <b> Snell's law </b><div id="answer" class="dropdown-content-term"><span>Snellの法則</span></div> on <b> refraction </b><div id="answer" class="dropdown-content-term"><span>屈折</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また, <b> 屈折 </b><ul id="answer"><li>refraction</li></ul> に関する <b> Snellの法則 </b><ul id="answer"><li>Snell's law</li></ul> の新しい <b> 表現形式 </b><ul id="answer"><li>expression form</li><li>form of presentation</li></ul> について述べた</td>
+<td style="width:60%">また, <b> 屈折 </b><div id="answer" class="dropdown-content-term"><span>refraction</span></div> に関する <b> Snellの法則 </b><div id="answer" class="dropdown-content-term"><span>Snell's law</span></div> の新しい <b> 表現形式 </b><div id="answer" class="dropdown-content-term"><span>expression form</span><span>form of presentation</span></div> について述べた</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1668,14 +1674,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It is an essential <b> concept </b><ul id="answer"><li>概念</li></ul> for establishing an image of chemical world and its historical details are described .</td>
+<td style="width:60%">It is an essential <b> concept </b><div id="answer" class="dropdown-content-term"><span>概念</span></div> for establishing an image of chemical world and its historical details are described .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">化学的世界像を築くための最重要 <b> 概念 </b><ul id="answer"><li>concept</li></ul> であり,その歴史的経緯を述べる。</td>
+<td style="width:60%">化学的世界像を築くための最重要 <b> 概念 </b><div id="answer" class="dropdown-content-term"><span>concept</span></div> であり,その歴史的経緯を述べる。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1688,14 +1694,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">It originates from the <b> law of conservation of mass </b><ul id="answer"><li>質量保存の法則</li><li>質量保存則</li></ul> to explain <b> combustion </b><ul id="answer"><li>燃焼</li></ul> in 17th Century and advanced to the <b> law of definite proportions </b><ul id="answer"><li>定比例の法則</li></ul> ( 1799 ) , <b> atom hypothesis </b><ul id="answer"><li>原子仮説</li></ul> ( 1803 ) , <b> law of multiple proportions </b><ul id="answer"><li>倍数比例の法則</li></ul> , and the <b> law of gas reactions </b><ul id="answer"><li>気体反応の法則</li></ul> ( 1808 ) .</td>
+<td style="width:60%">It originates from the <b> law of conservation of mass </b><div id="answer" class="dropdown-content-term"><span>質量保存の法則</span><span>質量保存則</span></div> to explain <b> combustion </b><div id="answer" class="dropdown-content-term"><span>燃焼</span></div> in 17th Century and advanced to the <b> law of definite proportions </b><div id="answer" class="dropdown-content-term"><span>定比例の法則</span></div> ( 1799 ) , <b> atom hypothesis </b><div id="answer" class="dropdown-content-term"><span>原子仮説</span></div> ( 1803 ) , <b> law of multiple proportions </b><div id="answer" class="dropdown-content-term"><span>倍数比例の法則</span></div> , and the <b> law of gas reactions </b><div id="answer" class="dropdown-content-term"><span>気体反応の法則</span></div> ( 1808 ) .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">17世紀, <b> 燃焼 </b><ul id="answer"><li>burning</li><li>combustion</li></ul> を説明した <b> 質量保存則 </b><ul id="answer"><li>law of mass conservation</li><li>mass conservation law</li><li>law of conservation of mass</li></ul> に端を発し, <b> 定比例の法則 </b><ul id="answer"><li>law of definite proportion</li><li>law of definite proportions</li></ul> (1799), <b> 原子仮説 </b><ul id="answer"><li>atom hypothesis</li></ul> (1803), <b> 倍数比例の法則 </b><ul id="answer"><li>law of multiple proportion</li><li>law of multiple proportions</li></ul> , <b> 気体反応の法則 </b><ul id="answer"><li>law of gas reactions</li></ul> (1808)へと進んだ。</td>
+<td style="width:60%">17世紀, <b> 燃焼 </b><div id="answer" class="dropdown-content-term"><span>burning</span><span>combustion</span></div> を説明した <b> 質量保存則 </b><div id="answer" class="dropdown-content-term"><span>law of mass conservation</span><span>mass conservation law</span><span>law of conservation of mass</span></div> に端を発し, <b> 定比例の法則 </b><div id="answer" class="dropdown-content-term"><span>law of definite proportion</span><span>law of definite proportions</span></div> (1799), <b> 原子仮説 </b><div id="answer" class="dropdown-content-term"><span>atom hypothesis</span></div> (1803), <b> 倍数比例の法則 </b><div id="answer" class="dropdown-content-term"><span>law of multiple proportion</span><span>law of multiple proportions</span></div> , <b> 気体反応の法則 </b><div id="answer" class="dropdown-content-term"><span>law of gas reactions</span></div> (1808)へと進んだ。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1708,14 +1714,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Avogadro's hypothesis </b><ul id="answer"><li>Avogadroの仮説</li></ul> ( 1811 ) contributed to the <b> development </b><ul id="answer"><li>発展</li></ul> in since then .</td>
+<td style="width:60%"><b> Avogadro's hypothesis </b><div id="answer" class="dropdown-content-term"><span>Avogadroの仮説</span></div> ( 1811 ) contributed to the <b> development </b><div id="answer" class="dropdown-content-term"><span>発展</span></div> in since then .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> Avogadroの仮説 </b><ul id="answer"><li>Avogadro's hypothesis</li></ul> (1811)は,以後の <b> 発展 </b><ul id="answer"><li>development</li></ul> に貢献した。</td>
+<td style="width:60%"><b> Avogadroの仮説 </b><div id="answer" class="dropdown-content-term"><span>Avogadro's hypothesis</span></div> (1811)は,以後の <b> 発展 </b><div id="answer" class="dropdown-content-term"><span>development</span></div> に貢献した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1728,14 +1734,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">And , <b> Faraday's law </b><ul id="answer"><li>Faradayの法則</li></ul> ( 1834 ) recognized an <b> ion </b><ul id="answer"><li>イオン</li></ul> , and it opened the way toward the <b> research </b><ul id="answer"><li>研究</li></ul> of <b> isotopes </b><ul id="answer"><li>同位元素</li></ul> .</td>
+<td style="width:60%">And , <b> Faraday's law </b><div id="answer" class="dropdown-content-term"><span>Faradayの法則</span></div> ( 1834 ) recognized an <b> ion </b><div id="answer" class="dropdown-content-term"><span>イオン</span></div> , and it opened the way toward the <b> research </b><div id="answer" class="dropdown-content-term"><span>研究</span></div> of <b> isotopes </b><div id="answer" class="dropdown-content-term"><span>同位元素</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">また, <b> Faradayの法則 </b><ul id="answer"><li>Faraday's law</li></ul> (1834)は <b> イオン </b><ul id="answer"><li>ion</li></ul> を認知し, <b> 同位元素 </b><ul id="answer"><li>isotopes</li></ul> の <b> 研究 </b><ul id="answer"><li>research</li></ul> へ道を開いた。</td>
+<td style="width:60%">また, <b> Faradayの法則 </b><div id="answer" class="dropdown-content-term"><span>Faraday's law</span></div> (1834)は <b> イオン </b><div id="answer" class="dropdown-content-term"><span>ion</span></div> を認知し, <b> 同位元素 </b><div id="answer" class="dropdown-content-term"><span>isotopes</span></div> の <b> 研究 </b><div id="answer" class="dropdown-content-term"><span>research</span></div> へ道を開いた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1748,14 +1754,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> problem </b><ul id="answer"><li>問題</li></ul> on the <b> notation of units </b><ul id="answer"><li>単位表記</li></ul> of <b> atomic weight </b><ul id="answer"><li>原子量</li></ul> is also mentioned .</td>
+<td style="width:60%">A <b> problem </b><div id="answer" class="dropdown-content-term"><span>問題</span></div> on the <b> notation of units </b><div id="answer" class="dropdown-content-term"><span>単位表記</span></div> of <b> atomic weight </b><div id="answer" class="dropdown-content-term"><span>原子量</span></div> is also mentioned .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 原子量 </b><ul id="answer"><li>atomic weight</li></ul> の <b> 単位表記 </b><ul id="answer"><li>notation of units</li></ul> の <b> 問題 </b><ul id="answer"><li>problem</li></ul> にも言及する</td>
+<td style="width:60%"><b> 原子量 </b><div id="answer" class="dropdown-content-term"><span>atomic weight</span></div> の <b> 単位表記 </b><div id="answer" class="dropdown-content-term"><span>notation of units</span></div> の <b> 問題 </b><div id="answer" class="dropdown-content-term"><span>problem</span></div> にも言及する</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1768,14 +1774,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">For <b> material </b><ul id="answer"><li>材料</li></ul> production , it is necessary to precisely <b> control </b><ul id="answer"><li>制御</li></ul> <b> thermal phenomena </b><ul id="answer"><li>熱的現象</li></ul> such as <b> fusion </b><ul id="answer"><li>融解</li></ul> , <b> solidification </b><ul id="answer"><li>凝固</li></ul> , and rapid cooling of a <b> substance </b><ul id="answer"><li>物質</li></ul> .</td>
+<td style="width:60%">For <b> material </b><div id="answer" class="dropdown-content-term"><span>材料</span></div> production , it is necessary to precisely <b> control </b><div id="answer" class="dropdown-content-term"><span>制御</span></div> <b> thermal phenomena </b><div id="answer" class="dropdown-content-term"><span>熱的現象</span></div> such as <b> fusion </b><div id="answer" class="dropdown-content-term"><span>融解</span></div> , <b> solidification </b><div id="answer" class="dropdown-content-term"><span>凝固</span></div> , and rapid cooling of a <b> substance </b><div id="answer" class="dropdown-content-term"><span>物質</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 材料 </b><ul id="answer"><li>material</li></ul> 製造プロセスでは, <b> 物質 </b><ul id="answer"><li>materials</li><li>substance</li></ul> の <b> 融解 </b><ul id="answer"><li>fusion</li><li>melting</li></ul> ・ <b> 凝固 </b><ul id="answer"><li>freezing</li><li>solidification</li></ul> ・急冷などの <b> 熱的現象 </b><ul id="answer"><li>thermal phenomena</li></ul> を,精密に <b> 制御 </b><ul id="answer"><li>control</li></ul> することが必要である。</td>
+<td style="width:60%"><b> 材料 </b><div id="answer" class="dropdown-content-term"><span>material</span></div> 製造プロセスでは, <b> 物質 </b><div id="answer" class="dropdown-content-term"><span>materials</span><span>substance</span></div> の <b> 融解 </b><div id="answer" class="dropdown-content-term"><span>fusion</span><span>melting</span></div> ・ <b> 凝固 </b><div id="answer" class="dropdown-content-term"><span>freezing</span><span>solidification</span></div> ・急冷などの <b> 熱的現象 </b><div id="answer" class="dropdown-content-term"><span>thermal phenomena</span></div> を,精密に <b> 制御 </b><div id="answer" class="dropdown-content-term"><span>control</span></div> することが必要である。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1788,14 +1794,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> heat transfer </b><ul id="answer"><li>熱伝達</li><li>伝熱</li></ul> <b> mechanism </b><ul id="answer"><li>メカニズム</li><li>機構</li></ul> of <b> transient critical </b><ul id="answer"><li>遷臨界</li></ul> <b> process </b><ul id="answer"><li>プロセス</li><li>過程</li></ul> of <b> fluid </b><ul id="answer"><li>流体</li></ul> was <b> elucidated </b><ul id="answer"><li>解明</li></ul> .</td>
+<td style="width:60%">The <b> heat transfer </b><div id="answer" class="dropdown-content-term"><span>熱伝達</span><span>伝熱</span></div> <b> mechanism </b><div id="answer" class="dropdown-content-term"><span>メカニズム</span><span>機構</span></div> of <b> transient critical </b><div id="answer" class="dropdown-content-term"><span>遷臨界</span></div> <b> process </b><div id="answer" class="dropdown-content-term"><span>プロセス</span><span>過程</span></div> of <b> fluid </b><div id="answer" class="dropdown-content-term"><span>流体</span></div> was <b> elucidated </b><div id="answer" class="dropdown-content-term"><span>解明</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 流体 </b><ul id="answer"><li>fluid</li></ul> の <b> 遷臨界 </b><ul id="answer"><li>transient critical</li></ul> <b> 過程 </b><ul id="answer"><li>process</li><li>course</li></ul> における <b> 伝熱 </b><ul id="answer"><li>heat transfer</li><li>heat transmission</li></ul> <b> 機構 </b><ul id="answer"><li>mechanism</li></ul> を <b> 解明 </b><ul id="answer"><li>elucidate</li></ul> した。</td>
+<td style="width:60%"><b> 流体 </b><div id="answer" class="dropdown-content-term"><span>fluid</span></div> の <b> 遷臨界 </b><div id="answer" class="dropdown-content-term"><span>transient critical</span></div> <b> 過程 </b><div id="answer" class="dropdown-content-term"><span>process</span><span>course</span></div> における <b> 伝熱 </b><div id="answer" class="dropdown-content-term"><span>heat transfer</span><span>heat transmission</span></div> <b> 機構 </b><div id="answer" class="dropdown-content-term"><span>mechanism</span></div> を <b> 解明 </b><div id="answer" class="dropdown-content-term"><span>elucidate</span></div> した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1808,14 +1814,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">Macroscopic <b> heat transfer </b><ul id="answer"><li>熱伝達</li><li>伝熱</li></ul> <b> characteristics </b><ul id="answer"><li>特性</li></ul> of <b> fluid </b><ul id="answer"><li>流体</li></ul> in the <b> vicinity </b><ul id="answer"><li>近傍</li></ul> of a <b> critical point </b><ul id="answer"><li>臨界点</li></ul> was clarified by experiments and <b> numerical analysis </b><ul id="answer"><li>数値解析</li></ul> .</td>
+<td style="width:60%">Macroscopic <b> heat transfer </b><div id="answer" class="dropdown-content-term"><span>熱伝達</span><span>伝熱</span></div> <b> characteristics </b><div id="answer" class="dropdown-content-term"><span>特性</span></div> of <b> fluid </b><div id="answer" class="dropdown-content-term"><span>流体</span></div> in the <b> vicinity </b><div id="answer" class="dropdown-content-term"><span>近傍</span></div> of a <b> critical point </b><div id="answer" class="dropdown-content-term"><span>臨界点</span></div> was clarified by experiments and <b> numerical analysis </b><div id="answer" class="dropdown-content-term"><span>数値解析</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 臨界点 </b><ul id="answer"><li>critical point</li></ul> <b> 近傍 </b><ul id="answer"><li>vicinity</li></ul> の <b> 流体 </b><ul id="answer"><li>fluid</li></ul> の巨視的な <b> 伝熱 </b><ul id="answer"><li>heat transfer</li><li>heat transmission</li></ul> <b> 特性 </b><ul id="answer"><li>character</li><li>characteristic</li><li>characteristics</li></ul> を,実験及び <b> 数値解析 </b><ul id="answer"><li>numerical analysis</li></ul> によって明らかにした。</td>
+<td style="width:60%"><b> 臨界点 </b><div id="answer" class="dropdown-content-term"><span>critical point</span></div> <b> 近傍 </b><div id="answer" class="dropdown-content-term"><span>vicinity</span></div> の <b> 流体 </b><div id="answer" class="dropdown-content-term"><span>fluid</span></div> の巨視的な <b> 伝熱 </b><div id="answer" class="dropdown-content-term"><span>heat transfer</span><span>heat transmission</span></div> <b> 特性 </b><div id="answer" class="dropdown-content-term"><span>character</span><span>characteristic</span><span>characteristics</span></div> を,実験及び <b> 数値解析 </b><div id="answer" class="dropdown-content-term"><span>numerical analysis</span></div> によって明らかにした。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1828,14 +1834,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">This paper describes the <b> development </b><ul id="answer"><li>開発</li></ul> of the <b> title </b><ul id="answer"><li>標題</li><li>表題</li></ul> for the <b> coating </b><ul id="answer"><li>コーティング</li></ul> of <b> particles </b><ul id="answer"><li>粒子</li></ul> by <b> plasma </b><ul id="answer"><li>プラズマ</li></ul> <b> CVD </b><ul id="answer"><li>CVD</li></ul> .</td>
+<td style="width:60%">This paper describes the <b> development </b><div id="answer" class="dropdown-content-term"><span>開発</span></div> of the <b> title </b><div id="answer" class="dropdown-content-term"><span>標題</span><span>表題</span></div> for the <b> coating </b><div id="answer" class="dropdown-content-term"><span>コーティング</span></div> of <b> particles </b><div id="answer" class="dropdown-content-term"><span>粒子</span></div> by <b> plasma </b><div id="answer" class="dropdown-content-term"><span>プラズマ</span></div> <b> CVD </b><div id="answer" class="dropdown-content-term"><span>CVD</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> プラズマ </b><ul id="answer"><li>plasma</li></ul> <b> CVD </b><ul id="answer"><li>CVD</li></ul> による <b> 粒子 </b><ul id="answer"><li>particle</li></ul> の <b> コーティング </b><ul id="answer"><li>coating</li></ul> のための <b> 標題 </b><ul id="answer"><li>title</li></ul> の <b> 開発 </b><ul id="answer"><li>development</li></ul> をのべた。</td>
+<td style="width:60%"><b> プラズマ </b><div id="answer" class="dropdown-content-term"><span>plasma</span></div> <b> CVD </b><div id="answer" class="dropdown-content-term"><span>CVD</span></div> による <b> 粒子 </b><div id="answer" class="dropdown-content-term"><span>particle</span></div> の <b> コーティング </b><div id="answer" class="dropdown-content-term"><span>coating</span></div> のための <b> 標題 </b><div id="answer" class="dropdown-content-term"><span>title</span></div> の <b> 開発 </b><div id="answer" class="dropdown-content-term"><span>development</span></div> をのべた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1848,14 +1854,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Methane conversion </b><ul id="answer"><li>メタンコンバージョン</li></ul> was used in the <b> research </b><ul id="answer"><li>研究</li></ul> on the <b> characteristics </b><ul id="answer"><li>特性</li></ul> of this <b> type </b><ul id="answer"><li>型</li><li>型式</li><li>形式</li></ul> of <b> reactor </b><ul id="answer"><li>反応器</li></ul> .</td>
+<td style="width:60%"><b> Methane conversion </b><div id="answer" class="dropdown-content-term"><span>メタンコンバージョン</span></div> was used in the <b> research </b><div id="answer" class="dropdown-content-term"><span>研究</span></div> on the <b> characteristics </b><div id="answer" class="dropdown-content-term"><span>特性</span></div> of this <b> type </b><div id="answer" class="dropdown-content-term"><span>型</span><span>型式</span><span>形式</span></div> of <b> reactor </b><div id="answer" class="dropdown-content-term"><span>反応器</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> 形式 </b><ul id="answer"><li>type</li></ul> の <b> 反応器 </b><ul id="answer"><li>reactor</li></ul> の <b> 特性 </b><ul id="answer"><li>character</li><li>characteristic</li><li>characteristics</li></ul> の <b> 研究 </b><ul id="answer"><li>research</li></ul> に <b> メタンコンバージョン </b><ul id="answer"><li>methane conversion</li></ul> を用いた。</td>
+<td style="width:60%">この <b> 形式 </b><div id="answer" class="dropdown-content-term"><span>type</span></div> の <b> 反応器 </b><div id="answer" class="dropdown-content-term"><span>reactor</span></div> の <b> 特性 </b><div id="answer" class="dropdown-content-term"><span>character</span><span>characteristic</span><span>characteristics</span></div> の <b> 研究 </b><div id="answer" class="dropdown-content-term"><span>research</span></div> に <b> メタンコンバージョン </b><div id="answer" class="dropdown-content-term"><span>methane conversion</span></div> を用いた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1868,14 +1874,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A foam <b> hollow </b><ul id="answer"><li>中空</li></ul> <b> sphere </b><ul id="answer"><li>球</li><li>球体</li></ul> was manufactured by a <b> density matching emulsion technique </b><ul id="answer"><li>密度整合エマルジョン法</li></ul> .</td>
+<td style="width:60%">A foam <b> hollow </b><div id="answer" class="dropdown-content-term"><span>中空</span></div> <b> sphere </b><div id="answer" class="dropdown-content-term"><span>球</span><span>球体</span></div> was manufactured by a <b> density matching emulsion technique </b><div id="answer" class="dropdown-content-term"><span>密度整合エマルジョン法</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">フォーム状 <b> 中空 </b><ul id="answer"><li>hollow</li></ul> <b> 球 </b><ul id="answer"><li>sphere</li><li>globe</li></ul> は <b> 密度整合エマルジョン法 </b><ul id="answer"><li>density matching emulsion technique</li></ul> で製作した。</td>
+<td style="width:60%">フォーム状 <b> 中空 </b><div id="answer" class="dropdown-content-term"><span>hollow</span></div> <b> 球 </b><div id="answer" class="dropdown-content-term"><span>sphere</span><span>globe</span></div> は <b> 密度整合エマルジョン法 </b><div id="answer" class="dropdown-content-term"><span>density matching emulsion technique</span></div> で製作した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1888,14 +1894,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">A <b> low-density </b><ul id="answer"><li>低密度</li></ul> <b> ablator </b><ul id="answer"><li>アブレータ</li></ul> <b> layer </b><ul id="answer"><li>層</li></ul> was formed in the outside .</td>
+<td style="width:60%">A <b> low-density </b><div id="answer" class="dropdown-content-term"><span>低密度</span></div> <b> ablator </b><div id="answer" class="dropdown-content-term"><span>アブレータ</span></div> <b> layer </b><div id="answer" class="dropdown-content-term"><span>層</span></div> was formed in the outside .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">外側には <b> 低密度 </b><ul id="answer"><li>low-density</li></ul> の <b> アブレータ </b><ul id="answer"><li>ablator</li></ul> <b> 層 </b><ul id="answer"><li>layer</li></ul> を形成した。</td>
+<td style="width:60%">外側には <b> 低密度 </b><div id="answer" class="dropdown-content-term"><span>low-density</span></div> の <b> アブレータ </b><div id="answer" class="dropdown-content-term"><span>ablator</span></div> <b> 層 </b><div id="answer" class="dropdown-content-term"><span>layer</span></div> を形成した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1908,14 +1914,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> machining accuracy </b><ul id="answer"><li>加工精度</li></ul> was determined by the <b> SEM </b><ul id="answer"><li>SEM</li></ul> , <b> interferometry </b><ul id="answer"><li>干渉計測</li></ul> , and the <b> mechanical strength </b><ul id="answer"><li>機械的強度</li></ul> was determined by the <b> tensile stress </b><ul id="answer"><li>引っ張り応力</li></ul> <b> measurement </b><ul id="answer"><li>測定</li><li>計測</li></ul> .</td>
+<td style="width:60%">The <b> machining accuracy </b><div id="answer" class="dropdown-content-term"><span>加工精度</span></div> was determined by the <b> SEM </b><div id="answer" class="dropdown-content-term"><span>SEM</span></div> , <b> interferometry </b><div id="answer" class="dropdown-content-term"><span>干渉計測</span></div> , and the <b> mechanical strength </b><div id="answer" class="dropdown-content-term"><span>機械的強度</span></div> was determined by the <b> tensile stress </b><div id="answer" class="dropdown-content-term"><span>引っ張り応力</span></div> <b> measurement </b><div id="answer" class="dropdown-content-term"><span>測定</span><span>計測</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%"><b> 加工精度 </b><ul id="answer"><li>machining accuracy</li></ul> は <b> SEM </b><ul id="answer"><li>SEM</li></ul> ・ <b> 干渉計測 </b><ul id="answer"><li>interferometry</li></ul> で, <b> 機械的強度 </b><ul id="answer"><li>mechanical strength</li></ul> は <b> 引っ張り応力 </b><ul id="answer"><li>tensile stress</li></ul> <b> 測定 </b><ul id="answer"><li>measurement</li></ul> で求めた。</td>
+<td style="width:60%"><b> 加工精度 </b><div id="answer" class="dropdown-content-term"><span>machining accuracy</span></div> は <b> SEM </b><div id="answer" class="dropdown-content-term"><span>SEM</span></div> ・ <b> 干渉計測 </b><div id="answer" class="dropdown-content-term"><span>interferometry</span></div> で, <b> 機械的強度 </b><div id="answer" class="dropdown-content-term"><span>mechanical strength</span></div> は <b> 引っ張り応力 </b><div id="answer" class="dropdown-content-term"><span>tensile stress</span></div> <b> 測定 </b><div id="answer" class="dropdown-content-term"><span>measurement</span></div> で求めた。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1928,14 +1934,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The <b> sphericity </b><ul id="answer"><li>真球性</li></ul> and the <b> film </b><ul id="answer"><li>膜</li></ul> <b> thickness uniformity </b><ul id="answer"><li>厚一様性</li></ul> over 98 <b> % </b><ul id="answer"><li>%</li><li>%(unit)</li></ul> as well as the <b> smoothness </b><ul id="answer"><li>平滑性</li></ul> of 0.2 <b> μm </b><ul id="answer"><li>μm</li><li>μm(unit)</li></ul> or less were realized .</td>
+<td style="width:60%">The <b> sphericity </b><div id="answer" class="dropdown-content-term"><span>真球性</span></div> and the <b> film </b><div id="answer" class="dropdown-content-term"><span>膜</span></div> <b> thickness uniformity </b><div id="answer" class="dropdown-content-term"><span>厚一様性</span></div> over 98 <b> % </b><div id="answer" class="dropdown-content-term"><span>%</span><span>%(unit)</span></div> as well as the <b> smoothness </b><div id="answer" class="dropdown-content-term"><span>平滑性</span></div> of 0.2 <b> μm </b><div id="answer" class="dropdown-content-term"><span>μm</span><span>μm(unit)</span></div> or less were realized .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">98 <b> % </b><ul id="answer"><li>%</li><li>%(unit)</li></ul> 以上の <b> 真球性 </b><ul id="answer"><li>sphericity</li></ul> ・ <b> 膜 </b><ul id="answer"><li>membrane</li><li>film</li></ul> <b> 厚一様性 </b><ul id="answer"><li>thickness uniformity</li></ul> ,0.2 <b> μm </b><ul id="answer"><li>μm</li><li>μm(unit)</li></ul> 以下の <b> 平滑性 </b><ul id="answer"><li>smoothness</li></ul> を実現した</td>
+<td style="width:60%">98 <b> % </b><div id="answer" class="dropdown-content-term"><span>%</span><span>%(unit)</span></div> 以上の <b> 真球性 </b><div id="answer" class="dropdown-content-term"><span>sphericity</span></div> ・ <b> 膜 </b><div id="answer" class="dropdown-content-term"><span>membrane</span><span>film</span></div> <b> 厚一様性 </b><div id="answer" class="dropdown-content-term"><span>thickness uniformity</span></div> ,0.2 <b> μm </b><div id="answer" class="dropdown-content-term"><span>μm</span><span>μm(unit)</span></div> 以下の <b> 平滑性 </b><div id="answer" class="dropdown-content-term"><span>smoothness</span></div> を実現した</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1948,14 +1954,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">In the different conditions , the <b> as-grown BiSrCaCuO </b><ul id="answer"><li>as-grown BiSrCaCuO</li></ul> <b> thin film </b><ul id="answer"><li>薄膜</li></ul> was prepared .</td>
+<td style="width:60%">In the different conditions , the <b> as-grown BiSrCaCuO </b><div id="answer" class="dropdown-content-term"><span>as-grown BiSrCaCuO</span></div> <b> thin film </b><div id="answer" class="dropdown-content-term"><span>薄膜</span></div> was prepared .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">二種類の異なった作製条件において, <b> as-grown BiSrCaCuO </b><ul id="answer"><li>as-grown BiSrCaCuO</li></ul> <b> 薄膜 </b><ul id="answer"><li>thin film</li></ul> を作製した。</td>
+<td style="width:60%">二種類の異なった作製条件において, <b> as-grown BiSrCaCuO </b><div id="answer" class="dropdown-content-term"><span>as-grown BiSrCaCuO</span></div> <b> 薄膜 </b><div id="answer" class="dropdown-content-term"><span>thin film</span></div> を作製した。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1968,14 +1974,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">The both are c <b> <b> axis </b><ul id="answer"><li>軸</li></ul> orientation films </b><ul id="answer"><li>軸配向膜</li></ul> with c <b> axis </b><ul id="answer"><li>軸</li></ul> length corresponding to that of the <b> Bi2212 </b><ul id="answer"><li>Bi2212</li></ul> <b> phase </b><ul id="answer"><li>相</li></ul> .</td>
+<td style="width:60%">The both are c <b> <b> axis </b><div id="answer" class="dropdown-content-term"><span>軸</span></div> orientation films </b><div id="answer" class="dropdown-content-term"><span>軸配向膜</span></div> with c <b> axis </b><div id="answer" class="dropdown-content-term"><span>軸</span></div> length corresponding to that of the <b> Bi2212 </b><div id="answer" class="dropdown-content-term"><span>Bi2212</span></div> <b> phase </b><div id="answer" class="dropdown-content-term"><span>相</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">ともにc <b> 軸 </b><ul id="answer"><li>axis</li></ul> 長が <b> Bi2212 </b><ul id="answer"><li>Bi2212</li></ul> <b> 相 </b><ul id="answer"><li>phase</li></ul> に対応するc <b> 軸 </b><ul id="answer"><li>axis</li></ul>配向膜 であった。</td>
+<td style="width:60%">ともにc <b> 軸 </b><div id="answer" class="dropdown-content-term"><span>axis</span></div> 長が <b> Bi2212 </b><div id="answer" class="dropdown-content-term"><span>Bi2212</span></div> <b> 相 </b><div id="answer" class="dropdown-content-term"><span>phase</span></div> に対応するc <b> 軸 </b><div id="answer" class="dropdown-content-term"><span>axis</span></div>配向膜 であった。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -1988,14 +1994,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">However , there are the film which shows <b> temperature </b><ul id="answer"><li>温度</li></ul> <b> resistance </b><ul id="answer"><li>抵抗</li></ul> <b> characteristics </b><ul id="answer"><li>特性</li></ul> like the one of <b> semiconductor </b><ul id="answer"><li>半導体</li></ul> and the one which shows <b> superconducting </b><ul id="answer"><li>超伝導</li></ul> <b> characteristics </b><ul id="answer"><li>特性</li></ul> .</td>
+<td style="width:60%">However , there are the film which shows <b> temperature </b><div id="answer" class="dropdown-content-term"><span>温度</span></div> <b> resistance </b><div id="answer" class="dropdown-content-term"><span>抵抗</span></div> <b> characteristics </b><div id="answer" class="dropdown-content-term"><span>特性</span></div> like the one of <b> semiconductor </b><div id="answer" class="dropdown-content-term"><span>半導体</span></div> and the one which shows <b> superconducting </b><div id="answer" class="dropdown-content-term"><span>超伝導</span></div> <b> characteristics </b><div id="answer" class="dropdown-content-term"><span>特性</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">しかし,作製条件により <b> 半導体 </b><ul id="answer"><li>semiconductor</li></ul> 的 <b> 温度 </b><ul id="answer"><li>temperature</li></ul> <b> 抵抗 </b><ul id="answer"><li>resistance</li></ul> <b> 特性 </b><ul id="answer"><li>character</li><li>characteristic</li><li>characteristics</li></ul> を示すものと, <b> 超伝導 </b><ul id="answer"><li>superconductivity</li><li>superconducting</li></ul> <b> 特性 </b><ul id="answer"><li>character</li><li>characteristic</li><li>characteristics</li></ul> を示すものが存在した</td>
+<td style="width:60%">しかし,作製条件により <b> 半導体 </b><div id="answer" class="dropdown-content-term"><span>semiconductor</span></div> 的 <b> 温度 </b><div id="answer" class="dropdown-content-term"><span>temperature</span></div> <b> 抵抗 </b><div id="answer" class="dropdown-content-term"><span>resistance</span></div> <b> 特性 </b><div id="answer" class="dropdown-content-term"><span>character</span><span>characteristic</span><span>characteristics</span></div> を示すものと, <b> 超伝導 </b><div id="answer" class="dropdown-content-term"><span>superconductivity</span><span>superconducting</span></div> <b> 特性 </b><div id="answer" class="dropdown-content-term"><span>character</span><span>characteristic</span><span>characteristics</span></div> を示すものが存在した</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -2008,14 +2014,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">In this <b> method </b><ul id="answer"><li>方法</li></ul> , <b> two <b> point </b><ul id="answer"><li>点</li></ul> correlation </b><ul id="answer"><li>2点相関</li></ul> of <b> turbulent flow fluctuation equation </b><ul id="answer"><li>乱流変動方程式</li></ul> is separated into <b> variables </b><ul id="answer"><li>変数</li></ul> corresponding to each <b> point </b><ul id="answer"><li>点</li></ul> .</td>
+<td style="width:60%">In this <b> method </b><div id="answer" class="dropdown-content-term"><span>方法</span></div> , <b> two <b> point </b><div id="answer" class="dropdown-content-term"><span>点</span></div> correlation </b><div id="answer" class="dropdown-content-term"><span>2点相関</span></div> of <b> turbulent flow fluctuation equation </b><div id="answer" class="dropdown-content-term"><span>乱流変動方程式</span></div> is separated into <b> variables </b><div id="answer" class="dropdown-content-term"><span>変数</span></div> corresponding to each <b> point </b><div id="answer" class="dropdown-content-term"><span>点</span></div> .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">この <b> 方法 </b><ul id="answer"><li>method</li></ul> では <b> 乱流変動方程式 </b><ul id="answer"><li>turbulent flow fluctuation equation</li></ul> に含まれる <b> 2<b> 点 </b><ul id="answer"><li>point</li></ul>相関 </b><ul id="answer"><li>two point correlation</li></ul> を各 <b> 点 </b><ul id="answer"><li>point</li></ul> に対応する <b> 変数 </b><ul id="answer"><li>variable</li><li>variables</li></ul> に分離する。</td>
+<td style="width:60%">この <b> 方法 </b><div id="answer" class="dropdown-content-term"><span>method</span></div> では <b> 乱流変動方程式 </b><div id="answer" class="dropdown-content-term"><span>turbulent flow fluctuation equation</span></div> に含まれる <b> 2<b> 点 </b><div id="answer" class="dropdown-content-term"><span>point</span></div>相関 </b><div id="answer" class="dropdown-content-term"><span>two point correlation</span></div> を各 <b> 点 </b><div id="answer" class="dropdown-content-term"><span>point</span></div> に対応する <b> 変数 </b><div id="answer" class="dropdown-content-term"><span>variable</span><span>variables</span></div> に分離する。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -2028,14 +2034,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%"><b> Governing equation </b><ul id="answer"><li>支配方程式</li></ul> derived by this method is useful for <b> turbulent shear flow </b><ul id="answer"><li>せん断乱流</li></ul> like <b> turbulent flow </b><ul id="answer"><li>乱流</li></ul> near wall .</td>
+<td style="width:60%"><b> Governing equation </b><div id="answer" class="dropdown-content-term"><span>支配方程式</span></div> derived by this method is useful for <b> turbulent shear flow </b><div id="answer" class="dropdown-content-term"><span>せん断乱流</span></div> like <b> turbulent flow </b><div id="answer" class="dropdown-content-term"><span>乱流</span></div> near wall .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">これにより得られる <b> 支配方程式 </b><ul id="answer"><li>governing equation</li></ul> は壁面 <b> 乱流 </b><ul id="answer"><li>turbulent flow</li><li>turbulence</li><li>turbulent</li></ul> のような せん断<b> 乱流 </b><ul id="answer"><li>turbulent flow</li><li>turbulence</li><li>turbulent</li></ul> にも有用である。</td>
+<td style="width:60%">これにより得られる <b> 支配方程式 </b><div id="answer" class="dropdown-content-term"><span>governing equation</span></div> は壁面 <b> 乱流 </b><div id="answer" class="dropdown-content-term"><span>turbulent flow</span><span>turbulence</span><span>turbulent</span></div> のような せん断<b> 乱流 </b><div id="answer" class="dropdown-content-term"><span>turbulent flow</span><span>turbulence</span><span>turbulent</span></div> にも有用である。</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -2048,14 +2054,14 @@ b:hover + #answer{
 </tr>
 <tr>
 <td> Source (En)</td>
-<td style="width:60%">An <b> example </b><ul id="answer"><li>例</li></ul> of its <b> solution </b><ul id="answer"><li>解</li></ul> is shown .</td>
+<td style="width:60%">An <b> example </b><div id="answer" class="dropdown-content-term"><span>例</span></div> of its <b> solution </b><div id="answer" class="dropdown-content-term"><span>解</span></div> is shown .</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 </tr>
 <tr>
 <td>Target (Jp)</td>
-<td style="width:60%">その <b> 解 </b><ul id="answer"><li>solution</li></ul> の <b> 例 </b><ul id="answer"><li>example</li></ul> を示した</td>
+<td style="width:60%">その <b> 解 </b><div id="answer" class="dropdown-content-term"><span>solution</span></div> の <b> 例 </b><div id="answer" class="dropdown-content-term"><span>example</span></div> を示した</td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
 <td> <center>-</center> </td>
@@ -2066,6 +2072,7 @@ b:hover + #answer{
 <td>  <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select></td>
 <td> <select name="overall-score" id= "overall"><option value="1">1</option><option value="2">2</option><option value="3">3</option> </select> </td>
 </tr>
+
 </table>
 </div>
 </body>
