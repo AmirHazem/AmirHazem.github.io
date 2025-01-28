@@ -153,8 +153,8 @@ overflow: hidden;
 span{
   margin:5px;
   display:flex;
-  justify-content: center;
-        text-align:center;
+  /*justify-content: center;*/
+  text-align:left;
   flex-direction:row;
 }
 .login-mid-instructions{ 
@@ -270,7 +270,7 @@ width:50%;
         border-radius: 9px;
     }
     table{
-   table-layout: fixed;
+   table-layout: auto;
      border: 1px solid black;
      border-collapse: collapse;
      width: 100%;
