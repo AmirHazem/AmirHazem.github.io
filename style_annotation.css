@@ -368,7 +368,7 @@ width:50%;
         /*display: flex;*/
         display: none;
         width:80%;
-        flex-direction: row;
+        flex-direction: column;
                 /*margin-left:20px;*/
         margin-top: 20px;
           flex-direction: column;
