@@ -159,7 +159,7 @@ span{
   flex-direction:row;
 }
 
-span #span-login{
+#span-login{
   
   display:flex;
   justify-content: center;
