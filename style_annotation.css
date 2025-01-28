@@ -1,0 +1,533 @@
+    body {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    height:100%;
+    /*font-family: "Ysabeau", sans-serif;
+     /*  font-family: "Crimson", sans-serif;
+       font-family: Montserrat, sans-serif;*/
+
+    }
+
+
+    header{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+         background-color:white;
+  
+    }
+ #loadsave-block{
+   display:none;
+ }
+ footer{
+   display: flex;
+   
+  
+        flex-direction: row;
+        height: 50px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+   background-image: linear-gradient(white, #2F539B );
+    /*background-image: linear-gradient( black,green);*/
+   }
+ .header-left 
+  { width:20%;
+      
+      background-color:white;
+      align-items: center;
+        text-align: center;
+        justify-content: center;
+   }
+   input[type="file"] {
+width:100px;
+overflow: hidden;
+}
+   .header-right 
+  {width:20%;
+      /*color:white; */
+      
+   }
+  .header-mid 
+  {width:60%;
+      color:white; 
+        background-image: linear-gradient(#2F539B,#e4e9f5 );
+        /*background-image: linear-gradient( black,green) ;*/
+   }
+   
+   .loadsave{
+   display: flex;
+   
+  
+        flex-direction: row;
+        height: 50px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+   /*background-image: linear-gradient(white, #2F539B );*/
+    /*background-image: linear-gradient( black,green);*/
+   }
+ 
+  .loadsave-right 
+  {width:20%;
+      /*color:white; */
+      
+   }
+  .loadsave-mid 
+  {display:flex;
+    flex-direction: row;
+    width:60%;
+    
+      /*  background-image: linear-gradient(#2F539B,#e4e9f5 );*/
+        /*background-image: linear-gradient( black,green) ;*/
+   }
+   .loadsave-left 
+  {width:20%;
+      /*color:white; */
+      
+   }
+ 
+  .loadsave-mid-mid{
+    display:flex;
+    flex-direction: column;
+     text-align: right;
+    width:10%;
+     
+     /*   background-image: linear-gradient(#2F539B,#e4e9f5 );*/
+        /*background-image: linear-gradient( black,green) ;*/
+   }
+  .loadsave-mid-left  {width:45%;
+      /*color:white; */
+      
+   }
+  .loadsave-mid-right   {width:45%;
+      /*color:white; */
+      
+   }
+   
+   
+  .footer-left 
+  { width:20%;
+      color:white; 
+      
+   }
+   .footer-right 
+  {width:20%;
+      
+      
+   }
+  .footer-mid 
+  {width:60%;
+      color:black; 
+   } 
+   
+   
+   .login
+   {  
+      display:flex;
+      padding-top:15px;
+      align-items: center;
+        justify-content: center;
+        text-align:center;
+      flex-direction:row;
+      color:black;
+      height:150px; 
+   }
+   .login-mid
+    { width:60%;
+      color:black; 
+    
+      /*background-color: #f6f6f6;*/ 
+   }
+
+span{
+  margin:5px;
+  display:flex;
+  justify-content: center;
+        text-align:center;
+  flex-direction:row;
+}
+.login-mid-instructions{ 
+  
+width:100%;
+  display:flex;
+  flex-direction:row;
+  text-align:left;
+  justify-content: center;
+ 
+  }
+
+.instructions
+{ margin:5px;
+width:50%;
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  justify-content: center;
+  line-height: 1.42857143 !important;
+  }
+  .annotation
+  {margin:5px;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+         background-color:white;
+  
+    }
+  .annotation-mid
+  {width:60%;
+  height:auto;
+      /*color:white; */
+        background-image: linear-gradient(#2F539B,#e4e9f5 );
+        /*background-image: linear-gradient( black,green) ;*/
+   } 
+   
+   
+   /* Style the button that is used to open and close the collapsible content */
+    .collapse{
+        display:flex;
+        width:100%;
+        
+        flex-direction:column;
+        display-elements:center;
+        align-items:center ;
+        background-color:rgba(100,200,200, .1); 
+        /* border-right: 1px solid rgb(14, 13, 13);*/
+    }
+    .collapsible {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+        background-color: #ccc;
+    }
+
+    /* Style the collapsible content. Note: hidden by default */
+    .content {
+        padding: 5 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
+    .collapsible:after {
+        content: '\02795';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: black;
+        float: right;
+        margin-left: 5px;
+    }
+  
+    .active:after {
+        content: "\2796";
+        /* Unicode character for "minus" sign (-) */
+    }
+  
+  select {
+        width: 66px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 0;
+        /* background:#2ecc71;*/
+        background: lightgrey;
+
+        color: #fff;
+        border: 1px solid crimson;
+        padding: 4px;
+        border-radius: 9px;
+    }
+    table{
+   table-layout: auto;
+     border: 1px solid black;
+     border-collapse: collapse;
+     width: 100%;
+     
+   }
+    
+    
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        width:20%;
+    }
+    
+
+  td {
+      
+     height:70px;
+     
+    }
+    th {
+        background-color: #04AA6d;
+       
+        color: white;
+        /*z-index: 0;*/
+        
+        height:100px;
+    }
+
+
+    tr:hover {
+        background-color: coral;
+    }
+
+    .tab_src {
+        background-color: #dcdcde;
+    }
+
+    .tab_tgt {
+        background-color: lightgreen;
+    }
+
+    /*  tr:nth-child(even) {background-color:#f2f2f2;}*/
+    .answer {
+        display: none;
+    }
+    
+    .dropdown-content-term {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        /*min-width: 160px;*/
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+ 
+      b:hover+.dropdown-content-terms {
+        display: flex;
+        position: absolute;
+        /*top: 345px; 
+    left: 705px;*/
+        flex-direction: column;
+        color: black;
+        font-size: 28px;
+        padding: 12px 16px;
+        /*text-align:center;*/
+        justify-content: flex-end;
+    }
+    b:hove + .dropdown-content-term {
+        display: flex;
+        position: absolute;
+        /*top: 345px; 
+        left: 705px;*/
+        flex-direction: column;
+        color: black;
+        font-size: 28px;
+        padding: 12px 16px;
+    
+        justify-content: flex-end;
+    }
+
+
+.dropdown-content-ter {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        /*min-width: 160px;*/
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+/* Slideshow container */
+ .slideshow-container {
+        /*display: flex;*/
+        display: none;
+        width:80%;
+        flex-direction: row;
+                /*margin-left:20px;*/
+        margin-top: 20px;
+        
+        
+    }
+
+    /* Slides */
+    .mySlides {
+        display: none;
+       
+        /*padding: 8px;*/
+        flex-direction: column;
+        text-align: center;
+         justify-content: center;
+         display-elements:center;
+        align-items:center ;
+
+    }
+
+.main   
+ {      width:100%;
+        display: flex;
+        flex-direction: row;
+        
+        /*margin-left:20px;*/
+        margin-top: 20px;
+        margin-bottom: 20px;
+        /*background: #f1f1f1f1;*/
+    }
+    
+.main-left  
+ {      width:10%;
+        display: flex;
+        flex-direction: row;
+        
+        /*margin-left:20px;*/
+        margin-top: 20px;
+
+    }
+.main-right 
+ {      width:10%;
+        display: flex;
+        flex-direction: row;
+        
+        /*margin-left:20px;*/
+        margin-top: 20px;
+
+    }       
+
+    
+
+    .left {
+        width: 20%;
+        background-color: lightgrey;
+    }
+
+    .botomleft {
+        width: 10%;
+
+    }
+
+    .centertab {
+        display: flex;
+        flex-direction: row;
+
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .lefttab {
+        display: flex;
+        flex-direction: row;
+
+        width: 50%;
+        justify-content: left;
+
+    }
+
+    .righttab {
+        display: flex;
+        flex-direction: row;
+
+        width: 50%;
+        justify-content: right;
+
+    }
+.content{
+	justify-content: left;
+	text-align:left;
+	}
+.prevnext{ 
+    width:100%;
+    display: flex;
+        height: 50px;
+        
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        /*height: auto;
+        /*padding: 10px;*/
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        /*background-color:grey;*/
+  
+}
+  
+  
+.prevnext-left, .prevnext-right {
+    width:10%;
+    /*background-color:green;*/ 
+    }
+
+.prevnext-mid  {
+    width:80%;
+        display: flex;
+        flex-direction: row;
+        /*background-color:yellow;*/
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }   
+.prevnext-mid-mid{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*background-color:black;*/
+    }       
+.prevnext-mid-left,.prevnext-mid-right{
+        width:15%;
+        display: flex;
+        flex-direction: column;
+        /*background-color:blue;*/
+    }       
+/* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        /*position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -30px;
+  */
+
+        color: #488;
+        font-weight: bold;
+        font-size: 10px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+        color: white;
+    }
+  
