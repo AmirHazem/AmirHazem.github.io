@@ -1,0 +1,674 @@
+<html>
+
+<head>
+	<title>Communicatio-Europe - Course</title>
+	<meta charset="UTF-8" />
+	<meta name="author" content="Amir HAZEM">
+	<meta name="description" content=" Amir HAZEM Course Interface">
+	<meta name="keywords" content="Amir Hazem, Marketing, course">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+ 
+	<link href="./style_.css" rel="stylesheet" media="all" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+ <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gruppo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">  
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<style>
+
+    body
+    {
+      margin:0;
+     
+       
+      }
+  .prevnext{ 
+    width:100%;
+    display: flex;
+       /* height: 50px;*/
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        /*height: auto;
+        /*padding: 10px;*/
+      
+        /*background-color:grey;*/
+  
+}
+  
+  
+  
+.prevnext-mid{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: center;
+        text-align: center;
+       
+    }       
+.prevnext-left,.prevnext-right{
+        width:15%;
+        
+        display: flex;
+        flex-direction: column;
+        z-index: 0;
+       /* overflow: hidden;
+        /*background-color:blue;*/
+    }       
+/* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        /*position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -30px;
+  */
+
+        color: #488;
+        font-weight: bold;
+        font-size: 10px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(255, 0, 0, 0.8);
+        color: white;
+    }
+.slides{
+  /*display:flex;
+  flex-direction:column;
+  justify-content: center;
+        align-items: center;
+  padding:1%;*/
+        width:100%;
+        height:100%;
+        background-color:white ;
+        border: 1px solid black;/*crimson;*/
+        border-radius: 5px;
+        overflow-y: auto;
+    } 
+
+.slide {
+        display: none;
+        flex-direction:column;
+        width:100%; 
+        height:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+    
+      /*overflow-y: auto;*/
+     
+    }  
+ #slide2 {
+        display: flex;
+        flex-direction:column;
+        width:100%; 
+        height:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      /*overflow-y: auto;*/
+    }  
+ .slides-header{
+   display:flex;
+   color:white;
+  flex-direction:row;
+width:100%;
+   height:7.5%;
+      background-color:white ;
+    background-color:#222D52 ;
+      border: 1px solid black;/*crimson;*/
+  /*     background: rgb(1,191,241);
+ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 65%);
+
+/*background: radial-gradient(circle, rgba(161,154,140,0.7637255585828081) 0%, rgba(255,255,255,1) 0%, rgba(3,54,244,1) 74%); */
+/*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+        border-radius: 5px;
+        z-index: 1;
+    }   
+.slides-footer{
+   display:flex;
+  flex-direction:row;
+width:100%;
+   height:7.5%;
+      background-color:white ;
+    
+      border: 1px solid black;/*crimson;*/
+        
+        border-radius: 5px;
+       /* background: radial-gradient(circle, rgba(161,154,140,0.7637255585828081) 0%, rgba(255,255,255,1) 0%, rgba(3,54,244,1) 74%); */
+    }      
+ .course{
+  display:flex;
+  flex-direction:column;
+ 	width:100%;
+   height:100%;
+   
+      background-color:black ;
+    
+     /* border: 1px solid black;/*crimson;*/
+        
+        border-radius: 5px;
+    }  
+
+.screen {
+  background-color:blue;
+  height:600px;
+  
+}
+/*New*/
+
+.header {
+  background-color:blue;/*white;*/
+  height:110px;
+  
+}
+
+.top
+ {display:flex;
+ flex-direction:row;
+  background-color:white;
+  height:60px;
+
+}
+.bottom {
+  background-color:#222D52;/*#white;*/
+  height:50px;
+  
+}
+/*-----------------*/
+.screen .header .top{
+  margin-left:2%;
+  margin-right:2%;
+  display:flex;
+  flex-direction:row;
+  
+  background-color:white;
+  height:60px;
+ 
+  /* justify-content:space-between;*/
+    align-items: center;
+    text-align: center;
+  
+}
+.top-logocompany
+{ width:40%;
+  display:flex;
+  flex-direction:row;
+ /* justify-content:space-around;*/
+
+  }
+  .top-company-name
+{ 
+background-color:red;
+  display:flex;
+  flex-direction:row;
+ /* justify-content:space-around;*/
+  margin-left:5%;
+  margin-left:1%;
+  } 
+  
+.screen .header .bottom{
+  background-color:grey;
+  height:50px;
+    
+}
+
+  .logo-rotate
+{
+  /*padding-bottom:25px;*/
+  /*transform: rotate(-10deg);
+ /*width:7%;*/
+
+width:20.5%;
+
+  }
+  
+ .logo-flag{
+ width:30px;
+ 
+
+  }   
+.logo-text{
+
+  height:100%;
+  width: 200px;
+  margin-left:40px;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+
+
+  }
+  .search{
+    display:flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+   margin-left:20px;
+   /*background-color:red;*/
+   
+   } 
+.logo-text span{
+ 
+  margin-left:5px;
+  font-size:17px;
+ /* font: small bold 17px/1 serif-serif;*/
+  /*font-family: Montserrat, sans-serif;*/
+   /*  font-family: "Ysabeau", sans-serif;
+   /*    font-family: "Crimson", sans-serif;
+       font-family: Montserrat, sans-serif;*/
+       
+    /*color: #488;*/
+ /*  font-family: "Source Sans Pro", sans-serif; */
+   
+   font-style: normal; 
+   font-weight: 900; 
+   font-display: swap; 
+   
+    color:#222D52;
+    font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        
+        -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  }
+ input[type=text] {
+  width: 100%;
+  height:65%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 7px; 
+
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+ ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: row;
+  /*background-color:red;*/
+   align-items: center;
+  text-align: center;
+  justify-content: right;
+  /* overflow: hidden;*/
+ } 
+
+
+
+li {
+ 
+  display: block;
+ /*float: left;
+ border-right: 1px solid #bbb;
+ /*color:white;*/
+
+  
+}
+
+/*li a {
+  display: block;
+ /*color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+
+nav{
+  width:600px;
+ display:flex;
+ flex-direction:row;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /*background-color:yellow;*/
+}
+.start-page{
+  width:100%;
+  height:600px;
+ display:flex;
+ flex-direction:column;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.start-page-foto{
+  height:400px;
+  width: 200px;
+ display:flex;
+ flex-direction:row;
+ border-radius: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.login-buttons{
+  display:flex;
+  flex-direction:row;
+  margin-right:40px;
+   align-items: center;
+  text-align: center;
+  justify-content: center;
+  }
+  
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 40px;
+  font-weight: 600;
+ /* margin: 0 10px;
+  padding: 10px 0;*/
+  width: 70px;
+  
+  height:40;
+  
+  
+  transition: 0.4s;
+}
+.log {
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
+.but-signup{
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+}
+.but-login{
+  background-color:white;
+  /*color: rgb(104, 85, 224);*/
+  /*background-color: rgba(255, 255, 255, 1);
+  /*border: 1px solid rgba(104, 85, 224, 1);*/
+}
+button:hover {
+  color: white;
+  width:;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+
+hr {
+border-top-width: 1px;
+height: calc(var(--spacing)*5);
+
+}
+.dropbtn {
+ /* background-color: #4CAF50;*/
+  /*color: white;*/
+  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display:flex;
+  flex-direction:row;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 14px;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  flex-direction:row;
+    align-items: left;
+  text-align: left;
+  justify-content: left;
+  
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+ /* background-color: #3e8e41;*/
+ background-color: #f1f1f1;
+  border-radius: 40px;
+  
+}
+.dropdown-content a span{
+
+margin-left:15px;
+}
+.menuicon{
+  display:flex;
+  flex-direction:row;
+     align-items: center;
+  text-align:center;
+  justify-content: left;
+  
+ }  
+.intro-message
+{
+
+/*color:orange;*/
+}
+</style>  
+
+<body>
+
+<header>
+
+  <div class="header">
+
+      <div class="top">
+        <a class="logo-text">
+        <img src = "./img/bar-chart.svg"/>
+          <img  class='logo-rotate' src="./img/logo1.png" />
+          <span> Communicatio </span>
+          
+          <i class='fas fa-feather-alt' style='font-size:36px'></i>
+        </a>
+        <div class="search">                  
+            <input autocomplete="off" name="" placeholder="Search courses, services, Teachers..." spellcheck="false" type="text"> 
+
+          </div> 
+              <nav class="corps-header">
+     
+                   <ul>
+                   <li> 
+                     <div class="dropdown">
+                        <div class="dropbtn"> Home</div>
+                            <div class="dropdown-content">
+                              <a href="#">About us</a>
+                              <a href="#">Contact </a>
+                              </div>
+                        </div>
+                     </li>
+                     <li> 
+                     <div class="dropdown">
+                        <div class="dropbtn">Courses</div>
+                            <div class="dropdown-content">
+                              <a href="#">Business English</a>
+                              <a href="#">Legal English</a>
+                              <a href="#">Tourism</a>
+                              </div>
+                        </div>
+                     </li>
+                      <li> <div class="dropdown">
+                        <div class="dropbtn"> Resources</div>
+                            <div class="dropdown-content">
+                              <a href="#">Articles</a>
+                              <a href="#"><div class="menuicon"> <img src = "./img/book-open.svg"/> <span>Books</span> </div> </a>
+                              <a href="#"><div class="menuicon"><img src = "./img/book.svg"/> <spanp>Glossaries</span></div></a>
+                              
+                              </div>
+                        </div> </li>
+                        
+                      <li> <div class="dropdown">
+                        <div class="dropbtn"><img src = "./img/bell.svg" alt="My Happy SVG"/></div>
+                            <div class="dropdown-content">
+                              <a href="#">How it works</a>
+                              <a href="#">FAQ</a>
+                              <a href="#">Your AI assistant</a>
+                              </div>
+                        </div></li>
+                      
+                      <li> <div class="dropdown">
+                        <div class="dropbtn"><img src = "./img/exclamation2.svg" alt="My Happy SVG"/></div>
+                            <div class="dropdown-content">
+                              <a href="#">How it works</a>
+                              <a href="#">FAQ</a>
+                              <a href="#">Your AI assistant</a>
+                              </div>
+                        </div></li>
+                      
+                      <li><div class="dropdown">
+                        <div class="dropbtn"><img src = "./img/menu.svg" alt="Menu"/>
+</div>
+                            <div class="dropdown-content">
+                              <a href="#"> <div class="menuicon"> <img src = "./img/user.svg"/> <span>Account</span></div></a>
+                              <a href="#"> <div class="menuicon"> <img src = "./img/monitor.svg"/> <span>Profile</span></div></a>
+                              <a href="#"><div class="menuicon"> <img src = "./img/settings.svg"/> <span>Settings</span></div></a>
+                              </div>
+                        </div></li>
+                   
+                       
+                   
+                      </ul>
+          <div class="dropdown">
+                      <div class="dropbtn"><img  class='logo-flag' src="./img/en.png" /></div>
+                        
+                              <div class="dropdown-content">
+                              <a href="#"><img  class='logo-flag' src="./img/fr.png" /> <span>French</span></a>
+                              <a href="#"><img  class='logo-flag' src="./img/es.png" /> <span>Spanish</span></a>
+                              </div>
+                      </div>
+           
+                  
+                </nav> 
+                <hr>
+                   
+                 
+                 
+                    
+                <div class="login-buttons">
+               
+                <button class="but-login" role="button">Login</button>
+                <button class="but-signup" role="button">Sign up</button>
+                </div>
+     
+      </div>
+      <div class="bottom">
+      
+
+       </div>
+  </div>
+
+</header>
+
+<!--\<?php include "hugginface-main.php";?>
+\<?php include "hugginface-about.php";?>
+\<?php include "hugginface-how.php";?>
+\<?php include "hugginface-business.php";?>-->
+
+<div class="start-page">
+  <span class="intro-message">
+  <h1>Welcome to Communicatio e-learning platform</h1>
+  </span>
+   <img  class="start-page-foto" src="./img/femme-intro.png" />
+    
+  <span>
+    <h3>First time? Check out our user <a href="">guidelines</a>.</h3>
+  </span>   
+
+</div>
+
+</body>  
+
+
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+ 
+
+      showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  document.getElementById("slide").innerHTML="Slide " + n  
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1
+  document.getElementById("slide").innerHTML="Slide:" + slideIndex
+  }
+    if (n < 1) {slideIndex = slides.length
+     document.getElementById("page").innerHTML="Slide:" + slideIndex
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  
+ 
+  
+}   
+
+</script>
+</html>
