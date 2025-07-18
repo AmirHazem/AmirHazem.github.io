@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	  <link "rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gruppo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poiret+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  <style>
+.social-icon
+{
+  display:flex;
+  flex-direction: row;
+  float: right;
+font-size: 140%;
+padding-top: 7px;
+width: 25%;
+text-align: right;
+}
+.avatar {
+  vertical-align: middle;
+  /*width: 40%;
+  height: 70%;*/
+  width: 300px;
+  height: 180px;
+  border-radius: 2%;
+}
+p{ 
+ text-align:justify;  
+ }
+.banner{
+	 grid-area: alias-banner;
+	 width: 100%; 
+	 height:100%;
+	background-image: url("./img/shutter5.jpg");
+	background-size: cover;
+/**	background-attachment: fixed;
+	background-repeat: no-repeat;
+ background-position: center center;**/
+	
+	}
+	
+#box {
+	/* margin: 300px auto; /*as per your preferences*/
+  /*height: 600px;
+  width: 950px;
+  border: 2px solid crimson;*/
+	animation-name: example;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  
+}
+
+@keyframes example{
+ 
+   0%{
+     background-image: url("./img/shutter5-3.jpg");
+   }
+   50%{
+     background-image: url("./img/shutter2-3.jpg");
+	
+   }
+   100%{
+     background-image: url("./img/shutter3-3.jpg");
+   }
+   
+}
+ .head-logo
+{ /*width:50%;
+ height:50%;*/
+
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  align-items:center ;
+  justify-content:center;
+  
+  align-items:center;
+  border-right: 1px solid rgb(14, 13, 13);
+  /*background-color:rgb(255, 255, 255) ;  */
+}
+.logo-rotate
+{
+  /*padding-bottom:25px;*/
+  /*transform: rotate(-10deg);*/
+ /*width:7%;*/
+
+width:35%;
+  }
+  
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    /*background-color: #f4511e;*/
+    background-color: #e4e9f5; 
+    color: #fff;
+    /*padding: 100px 25px;*/
+    padding:0;
+    margin:0;
+    font-family: Montserrat, sans-serif;
+    width: 100%; 
+   
+	height:450px;
+	background-image: url("./img/shutter5.jpg");
+	background-size: cover;
+  }
+  .container-f {
+    /*padding: 60px 50px;*/
+    padding: 0px 150px;
+  }
+  .row-test
+  {
+     display: flex;
+  flex-direction: row;
+  align-items:right;
+	text-align: center;
+  justify-content:center ;
+	/*justify-content:space-between ;*/
+		height: 34px;
+    width:100%;
+	
+/*background-color: #062770;
+background-color:#f6f6f6;
+/* background-color: #f6f6f6;*/
+
+  /* font-family: "Ysabeau", sans-serif;*/
+  }
+  
+  .container-1 {
+    /*padding: 60px 50px;*/
+    /*padding: 30px 75px;*/
+      padding-bottom:60px;
+    paddig-top:10px;
+  }
+  .container-fluid {
+    /*padding: 60px 50px;*/
+    padding: 60px 150px;
+  
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    /*color: #f4511e;*/
+    color : #062770;
+    font-size: 200px;
+  }
+  .thumbnail {
+   /* padding: 0 0 15px 0;*/
+   padding: 2 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    /*width: 100%;
+    height: 100%;*/
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .img-thumbnail
+   {
+     width: 220px;
+    height: 240px;
+     margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+   
+  }
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    /*background-color: #f4511e;*/
+    background-color: #062770; 
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 3px;
+    border-radius: 0;
+   /* font-family: Montserrat, sans-serif;
+     font-family: "Ysabeau", sans-serif;*/
+       font-family: "Crimson", sans-serif;
+      /* font-family: Montserrat, sans-serif;*/
+   
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+     
+  }
+  footer 
+{
+  background-color: #062770; 
+    }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  
+  .start-page{
+  width:100%;
+  height:300px;
+ display:flex;
+ flex-direction:column;
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.start-page-foto{
+  height:200px;
+  width: 100px;
+ display:flex;
+ flex-direction:row;
+ border-radius: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Communicatio</a>
+          
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#courses">COURSES</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#coaching">COACHING</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" id="box"">
+ 
+</div>
+<!--<nav class="navbar">
+
+</nav>-->
+<div  class="container-1">
+  <div class="row-test" >
+     
+        
+         <div class="col-sm-4">
+             <div class="dropdown" >
+             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Test your level
+             <span class="caret"></span></button>
+             <ul class="dropdown-menu">
+              <li><a href="#">Test A1/A2</a></li>
+              <li><a href="#">Test B1/B2</a></li>
+              <li><a href="#">Test C1/C2</a></li>
+            </ul>
+            </div>
+         </div>
+    
+      <div class="col-sm-4"> 
+      
+          <img  class='logo-rotate' src="./img/logo1.png" />
+          
+             <div class="head-login">   
+                            
+                                <span id="l1-contact-separator-br"></span>
+                                <a href="contact.php">Contact</a>|&nbsp <a href="login.php">Login</a> &nbsp;|&nbsp;
+                                <a href="register.php">Register</a>
+                          </div>
+    </div>
+    
+    
+          <div class="col-sm-4">
+
+                <form>
+          
+                  <div class="input-group">
+                    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-danger">Subscribe</button>
+                    </div>
+                  </div>
+                 </form>
+                <div>Our news letter</div>
+           </div>
+      
+   </div>
+
+</div>
+
+
+
+
+
+
+<div id="about" class="container-f">
+  <div class="row">
+
+
+<div class="col-sm-4"> 
+      
+       
+          
+           
+    </div>
+
+
+  <div class="col-sm-4">
+ 
+            </div>
+   
+  
+    <div class="col-sm-4">
+     
+  </div>
+
+</div>
+</div>  
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+    
+      <h2>About US </h2>
+    <!--  <img  class='logo-rotate' src="./img/logo1.png" />-->
+      
+      <h4> <p>Our language courses offer a unique and dynamic learning experience that combines the best of different worlds: blended, face-to-face and e-learning programs. We have meticulously designed our courses to cater to the diverse needs and preferences of our clients, while ensuring flexibility for everyone. Communicatio was born out of a passion for language and the question of how people
+                  communicate. Founded in 2010 we have years of experience in developing and executing
+                  tailor-made courses to help individuals and professionals alike fulfill their potential.
+                  </p>
+      <br><button class="btn btn-default btn-lg">Subscribe</button>
+    </div>
+    <div class="col-sm-4">
+     
+      <span class="glyphicon glyphicon-signal logo"> </span>
+     
+     <!-- <span class="glyphicon glyphicon glyphicon-education logo"> </span>-->
+     
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Courses Section) -->
+<div id="courses" class="container-fluid text-center">
+  <h2>Courses</h2>
+  <!--<h4>What we offer</h4>-->
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-education logo-small"></span>
+      <h4>Legal English</h4>
+      <img src="./img/law.png" alt="E-learning" width="100%" height="10px;" class="img-thumbnail">
+      <p>In today's increasingly interconnected world the importance of English as a medium of communication for legal professionals cannot be denied. There is a need for actors in the legal field to demonstrate a high degree of linguistic competence</p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+         
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-usd logo-small"></span>
+      
+      <h4>Business English</h4>
+      <img src="./img/business.png" alt="E-learning" class="img-thumbnail" width="100%" height="10px;">
+      <p>Our courses are designed to meet your individual goals, whether you seek language proficiency for academic, professional, or personal purposes. We offer a range of levels and specialized programs to suit your needs.</p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+         
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-plane logo-small"></span>
+      <h4>English for Hospitality and Tourism trade</h4>
+       <img src="./img/tourism2.png" alt="E-learning" class="img-thumbnail" width="400px" height="100px">
+     
+      <p>Are you a professional in the tourism field who is looking to gain fluency? Whether you be working in a tourist information office, guiding visitors, for a tourist board, or welcoming visitors, having English language skills is essential. 
+      </p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+       
+    </div>
+  
+  </div>
+  <br><br>
+  
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center bg-grey">
+  <h2>Services</h2><br>
+  <!--<h4>What we offer </h4>-->
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+     <span class="glyphicon glyphicon-user logo-small"></span>
+      <h4>Face to Face</h4>
+      <div class="thumbnail">
+     
+        <img src="./img/facetoface-r.png" alt="Face to Face" class="img-thumbnail"  width="400" height="180">
+        <p><strong>Face to Face</strong></p>
+        <p>With our face to face classes focus on the communication skills and specialised vocabulary needed to boost your career. The small group formats ensure you maximise interaction in a range of practical situations from taking part in meetings and giving presentations to writing effective emails.</p>
+        <div class="readmore"> <a href="">Read more...</a></div>
+      </div>
+      
+    </div>
+    <div class="col-sm-4">
+    <span class="glyphicon glyphicon-facetime-video logo-small"></span>
+      <h4>E-Learning</h4>
+      <div class="thumbnail">
+        <img src="./img/online.png" alt="E-learning" class="img-thumbnail" width="400" height="300">
+        <p><strong>E-Learning</strong></p>
+        <p>Unlock your potential with our cutting-edge multimedia platform that provides a wealth of resources at your fingertips. Access engaging multimedia content, unlimited lessons, videos and resources. Study at your own pace and access these materials anytime and from anywhere.</p>
+        <div class="readmore"> <a href="">Read more...</a></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+     <span class="glyphicon glyphicon-th-list logo-small"></span>
+      <h4>Blended Learning</h4>
+      <div class="thumbnail">
+        <img src="./img/meeting.jpg" alt="Blended Learning" class="img-thumbnail" width="400px" height="300px">
+        <p><strong>Blended Learning</strong></p>
+        <p>Combine e-learning with face to face or visual sessions to benefit from increased flexibility. With our blended approach you will engage in interactive face-to-face classes led by experienced instructors. 		  
+                      Your personal trainer will help you devise a varied learning trajectory. 
+                        <!--These classes foster real-time communication and you will receive the guidance you need to excel.--></p>
+                <div class="readmore"> <a href="">Read more...</a></div>        
+      </div>
+    </div>
+  </div><br>
+  
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+<!-- Container (Coaching Section) -->
+<div id="coaching" class="container-fluid text-center">
+  <h2>Coaching</h2>
+  <!--<h4>What we offer</h4>-->
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+  <!-- <span class="glyphicon glyphicon-usd logo-small"></span>-->
+      
+      <img src="./img/Short-Coaching.jpg" alt="Flexible or short-term coaching"  class="avatar"> </img>
+     <h4>Flexible or short-term coaching</h4> 
+    
+      <p>Does your busy schedule demand flexibility? Or do you need a short-term solution to help you prepare for an important conference, presentation or negotiation? Our flexible training option allows you to choose when, where and how often (with a minimum of 4 x 45 minutes per month) your sessions will take place.</p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+    </div>
+    <div class="col-sm-4">
+     <!-- <span class="glyphicon glyphicon-usd logo-small"></span>-->
+      
+      <img src="./img/Interview-Coaching.jpg" alt="Job interview coaching"  class="avatar"/>
+      <h4>Job interview coaching</h4>
+      <p> During  interview coaching sessions you are taught various strategies and techniques to improve your responses to questions and to help you prepare for different interview formats (phone, video, panel interviews). 
+                      An interview coach will help you to developthe transferrable skills... <!-- to become a better candidate and gain the competitive edge to land your dream job.--></p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+    </div>
+    <div class="col-sm-4">
+     <!-- <span class="glyphicon glyphicon-plane logo-small"></span>-->
+      
+       <img src="./img/Premium-Coaching.jpg" alt="Premium training"  class="avatar"/>
+      <h4>Premium training</h4> 
+      
+      <p>Our premium training can prepare you for even the most high-pressure situations in English. A trainer with a specialised professional background in your field can give you the support you need to present your company at a tradefair, answer difficult questions posed by international investors, hold a speech... <!--in front of a large audience, moderate an emergency meeting or diplomatically talk your way through the crisis your company is facing.--> 
+      </p>
+         <div class="readmore"> <a href="">Read more...</a></div>
+    </div>
+  
+  </div>
+  <br><br>
+  
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center bg-grey">
+   
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+ 
+          <p><strong>8</strong> Lessons</p>
+          <p><strong>1 lesson = 45 minutes</strong></p>
+          <p> 4x90 or 6x60 minutes </p>
+          <p> 	Course materials included</p>
+          <p><strong>	Individual targets</strong></p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+                <p><strong>16</strong> Lessons</p>
+           <p><strong>1 lesson = 45 minutes</strong></p>
+          <p>	8x90 or 12x60 minutes </p>
+          <p>	Course materials included</p>
+          <p><strong>	Individual targets</strong></p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+               <p><strong>24</strong> Lessons</p>
+           <p><strong>1 lesson = 45 minutes</strong></p>
+          <p>12x90 or 18x60 minutes</p>
+          <p>	Course materials included</p>
+          <p><strong>	Individual targets</strong></p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>9 rue huet
+44000 Nantes, FR</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +33 618153244</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> contact@communicatio-europe.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">-->
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+
+  <div class="social-icons">
+                          <b>FOLLOW US</b> <br>    
+                          <i class="fa-brands fa-facebook-f"></i>
+                        
+                          <i class="fa-brands fa-twitter"></i>
+                        
+                          <i class="fa-brands fa-square-youtube"></i>
+                        
+                          <i class="fa-brands fa-instagram"></i>
+                        
+                          <i class="fa-brands fa-linkedin"></i>
+                    </div>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
+
