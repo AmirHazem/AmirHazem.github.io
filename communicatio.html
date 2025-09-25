@@ -1,1 +1,665 @@
+<html>
 
+<head>
+<title>Communicatio</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Amir Hazem"/>
+  <meta name="description" content = "Communicatio presentation website"/>
+  <meta name="keywords" content="Communicatio, E-learning, Business English, Legal English, Tourism" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="mystyle.css">
+ 
+</head>
+
+<body>
+
+  <header>
+          <!-- First Row (Logo + nav + Login)-->
+              <div class="header-first-row">
+                <div class="header-first-row-logo">
+                    <!--  <div class="chart">
+                      <img src = "./img/bar-chart.svg" width="50px;" />
+                   </div>-->
+                    <img  class='logo-rotate' src="./img/logo1.png" />
+                  <span class="communicatio"> <h3>COMMUNICATIO</h3> </span> 
+                </div> 
+                <nav id="roundcorner">
+                  <ul>
+                    <li> <div class="navbtn">HOME </div></li>
+                    <li><div class="navbtn">COURSES</div></li>
+                    <li> <div class="navbtn">SERVICES</div></li>
+                    <li> <div class="navbtn">COACHING</div></li>
+                    <li> <div class="navbtn">PRICING</div></li>
+                    <li> <div class="navbtn">CONTACT</div></li>
+                  </ul>
+                </nav>              
+                <div class="right-nav-login">    
+                  <div class="login-buttons">
+                    <button class="but-login" role="button">Login</button>
+                    <button class="but-signup" role="button">Sign up</button>
+                  </div>
+                </div>
+              </div>
+          <!-- End first row-->  
+          <!-- Animation frames -->
+              <div class="header-second-row"  id="box"> 
+                
+              </div> 
+          <!-- -->   
+  </header>  
+  <!-- Begin Panels: How it works-->
+  <div class="panels">
+ 
+      <div class="polaroid">
+                   
+          <div class="panel-text">
+               <img src="/img/9025728_number_square_one_icon.svg" alt="Norway" style="width:10%">
+               <span>Test your English level </span>
+          </div>
+          <div class="panel-img">
+                <img src="/img/cefr_0-698x310.jpg" alt="Norway" style="width:55%">
+          </div>
+          <button class="but-panel" role="button">Test</button>              
+      </div>
+      <div class="polaroid">
+          <div class="panel-text">
+                <img src="/img/9024578_number_square_two_light_icon.svg" alt="Norway" style="width:10%">
+                <span>Choose the appropriate course </span>
+          </div>
+          <div class="panel-img">
+                 <img src="/img/test-valid.png" alt="Norway" style="width:20%">
+          </div> 
+          <button class="but-panel" role="button">Choose</button>
+                   
+      </div>
+      <div class="polaroid">
+          <div class="panel-text">
+                  <img src="/img/9024799_number_square_three_light_icon.svg" alt="Norway" style="width:10%">
+                  <span> Start your learning journey  </span>
+          </div>
+          <div class="panel-img">
+                  <img src="/img/success.png" alt="Norway" style="width:20%">
+          </div> 
+          <button class="but-panel" role="button">Start</button>
+      </div>
+  
+  </div>
+  <!-- End Panels: How it works-->
+  
+  <!-- Begin About us -->
+      <div class="about" id="about">
+          <div class="about_text">
+              <h2><b>ABOUT US</b> </h2>
+              <!--  <img  class='logo-rotate' src="./img/logo1.png" />-->   
+               <p> Our language courses offer a unique and dynamic learning experience that combines the best of different worlds: blended, face-to-face and e-learning programs. We have meticulously designed our courses to cater to the diverse needs and preferences of our clients, while ensuring flexibility for everyone. Communicatio was born out of a passion for language and the question of how people communicate. Founded in 2010 we have years of experience in developing and executing tailor-made courses to help individuals and professionals alike fulfill their potential.
+              </p>
+          </div>
+            
+          <div class="about_logo">
+            <span class="glyphicon glyphicon-signal logo"> </span>
+            
+          </div>
+      </div>  
+  <!-- End About US -->
+
+  <!-- Begin Values -->
+      <div class="values">
+        <div class="about_logo">
+           <span class="glyphicon glyphicon-globe logo slideanim"></span>
+          </div>
+          <div class="about_text">
+          <h2><b>OUR VALUES</b></h2><br>
+          <p>
+            <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+          </p>
+          <p>
+              <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+      
+      </div>  
+      
+  <!-- End Values --> 
+
+ <!-- Begin Courses --> 
+    <div class="courses-all">
+            <div class="courses-header">
+              <div id="legal" class="tabcontent">
+                     <h1>Courses</h1>
+                     <p>Legal English</p>
+              </div>
+              <div id="business" class="tabcontent">
+                    <h1>Courses</h1>
+                    <p>Business English</p>
+              </div>
+              <div id="tourism" class="tabcontent">
+                    <h1>Courses</h1>
+                    <p>English for Tourism</p>
+              </div>
+              <button class="tablink" onclick="openCity('legal', this, '#FC600A')" id="defaultOpen">Legal English</button>       
+              <button class="tablink" onclick="openCity('business', this, '#B2D732')">Business English</button>
+              <button class="tablink" onclick="openCity('tourism', this, '#E3BD33')">English for Tourism trade</button>
+            </div> 
+            <div class="courses">
+        
+              <div class="course-legal" id="course-legal">
+                  <div class="course_img">
+                      <img class="img-legal" src="/img/law.png" alt="E-learning"/>
+                  </div>
+                  <div class="course_block">
+                          
+                        <div class="course_description">
+                    
+                            <div class="course_description_header">
+                              <div class="glyphicon glyphicon-education "></div>
+                              <h4><b>Legal English</b></h4> 
+                            </div> 
+                            <div class="course_text"> 
+                                <span>  In today's increasingly interconnected world the importance of English  as a medium of communication for legal
+                                professionals cannot be denied. There is a need for actors in the legal field to demonstrate a high degree of linguistic competence.
+                                </span>
+                               
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                                
+                             
+                            </div>
+              
+                            <div class="course_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="course_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+                   <div class="course-business" id="course-business">
+                  <div class="course_img">
+                      <img class="img-business" src="./img/business.jpg" alt="E-learning"/>
+                  </div>
+                  <div class="course_block">
+                          
+                        <div class="course_description">
+                    
+                            <div class="course_description_header">
+                               
+                              <div class="glyphicon glyphicon-usd "></div>
+                              <h4><b>Business English</b></h4> 
+                            </div> 
+                            <div class="course_text"> 
+                                <span> Our courses are designed to meet your individual goals, whether you seek language proficiency for academic, professional, or personal purposes. We offer a range of levels and specialized programs to suit your needs.
+                                </span>
+                                </br>
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                              
+                            </div>
+              
+                            <div class="course_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="course_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+                   <div class="course-tourism" id="course-tourism">
+                  <div class="course_img">
+                      <img class="img-tourism" src="/img/tourism2.png" alt="E-learning"/>
+                  </div>
+                  <div class="course_block">
+                          
+                        <div class="course_description">
+                    
+                            <div class="course_description_header">
+                              <div class="glyphicon glyphicon-plane "></div>
+                              <h4><b>English for Tourism</b></h4> 
+                            </div> 
+                            <div class="course_text"> 
+                                <span>  Are you a professional in the tourism field who is looking to gain fluency? Whether you be working in a tourist information office, guiding visitors, for a tourist board, or welcoming visitors, having English language skills is essential. 
+                                </span>
+                                </br>
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                                </br>
+                               
+                            </div>
+              
+                            <div class="course_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="course_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+           </div><!--End courses-->
+  </div>     
+ <!-- End Courses All -->
+ 
+  <!-- Begin Services All -->
+  <div class="services-all">
+        <div class="services-header">
+              <button class="tablink2" onclick="openservice('facetoface', this, '#FC600A')" >Face to face</button>       
+              <button class="tablink2" onclick="openservice('elearning', this, '#B2D732')">E-Learning</button>
+              <button class="tablink2" onclick="openservice('blended', this, '#E3BD33')" id="defaultOpen">Blended Learning</button>
+              <div id="facetoface" class="tabcontent2">
+                     <h1>Services</h1>
+                     <p>Face to face</p>
+              </div>
+              <div id="elearning" class="tabcontent2">
+                    <h1>Services</h1>
+                    <p>E-Learning</p>
+              </div>
+              <div id="blended" class="tabcontent2">
+                    <h1>Services</h1>
+                    <p>Blended Learning</p>
+              </div>  
+        </div>  
+        
+         <div class="services">
+        
+              <div class="service-facetoface" id="service-facetoface">
+                  <div class="service_img">
+                      <img class="img-facetoface" src="./img/facetoface-r.png" alt="E-learning"/>
+                  </div>
+                  <div class="service_block">
+                          
+                        <div class="service_description">
+                    
+                            <div class="service_description_header">
+                              <div class="glyphicon glyphicon-user "></div>
+                              <h4><b>Face to Face</b></h4> 
+                            </div> 
+                            <div class="service_text"> 
+                                <span> With our face to face classes focus on the communication skills and specialised vocabulary needed to boost your career. The small group formats ensure you maximise interaction in a range of practical situations from taking part in meetings and giving presentations to writing effective emails.
+                                </span>
+                                </br>
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                                </br>
+                               
+                            </div>
+              
+                            <div class="service_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+                   <div class="service-elearning" id="service-elearning">
+                  <div class="service_img">
+                      <img class="img-elearning" src="./img/online.png" alt="E-learning"/>
+                  </div>
+                  <div class="service_block">
+                          
+                        <div class="service_description">
+                    
+                            <div class="service_description_header">
+                               
+                              <div class="glyphicon glyphicon-facetime-video "></div>
+                              <h4><b>E-Learning</b></h4> 
+                            </div> 
+                            <div class="service_text"> 
+                                <span>Unlock your potential with our cutting-edge multimedia platform that provides a wealth of resources at your fingertips. Access engaging multimedia content, unlimited lessons, videos and resources. Study at your own pace and access these materials anytime and from anywhere.
+                                </span>
+                                </br>
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                              
+                            </div>
+              
+                            <div class="service_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+                   <div class="service-blended" id="service-blended">
+                  <div class="service_img">
+                      <img class="img-blended" src="/img/meeting.jpg" alt="E-learning"/>
+                  </div>
+                  <div class="service_block">
+                          
+                        <div class="service_description">
+                    
+                            <div class="service_description_header">
+                              <div class="glyphicon glyphicon-th-list "></div>
+                              <h4><b>Blended Learning</b></h4> 
+                            </div> 
+                            <div class="service_text"> 
+                                <span>  Combine e-learning with face to face or visual sessions to benefit from increased flexibility. With our blended approach you will engage in interactive face-to-face classes led by experienced instructors. 		  
+                                Your personal trainer will help you devise a varied learning trajectory. 
+                                </span>
+                                </br>
+                                <span>
+                                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </span>
+                                </br>
+                               
+                            </div>
+              
+                            <div class="service_info">
+                              
+                                <div class="badge-col">
+                                  <a href="#">Level </a> <span class="badge">B2</span>
+                                </div>  
+                                <div class="badge-col">  
+                                  <a href="#">Resources</a> <span class="badge">25</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">News</a> <span class="badge">5</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Comments</a> <span class="badge">10</span>
+                                </div>
+                                <div class="badge-col">
+                                  <a href="#">Updates</a> <span class="badge">2</span>
+                                </div>
+                            </div>
+                            
+                            <div class="service_footer">
+                                  <div class="rating">
+                                    <span><b>Rating</b></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                  </div>
+                                  </br>
+                                  
+                                  <div class="chip">
+                                    <img src="/img/femme.png" alt="Person" width="96" height="96">
+                                    Subscribe
+                                  </div>
+                            </div>
+                        </div><!--End course description-->
+  
+               
+                  </div><!--End course block-->
+               </div> <!--End course-->
+           </div><!--End services-->
+        
+  </div>
+  <!-- End Services All -->
+  
+  
+  
+</body>  
+
+
+<script>  
+function openCity(cityName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(cityName).style.display = "block";
+ 
+ // Show the specific tab content
+ if (cityName =="legal")
+ { course= "course-legal";
+ 
+
+  document.getElementById("course-business").style.display = "none";
+  document.getElementById("course-tourism").style.display = "none";
+   document.getElementById(course).style.display = "flex";
+ }
+if (cityName == "business")
+ { 
+   
+   course= "course-business";
+  
+  document.getElementById("course-legal").style.display = "none";
+  document.getElementById("course-tourism").style.display = "none";
+  document.getElementById(course).style.display = "flex";
+ 
+ }
+ if (cityName == "tourism")
+ {course= "course-tourism";
+
+  document.getElementById("course-business").style.display = "none";
+  document.getElementById("course-legal").style.display = "none";
+    document.getElementById(course).style.display = "flex";
+ }
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click(); 
+</script>
+
+<script>  
+function openservice(cityName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink2");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(cityName).style.display = "block";
+ 
+ // Show the specific tab content
+ if (cityName =="facetoface")
+ { service= "service-facetoface";
+ 
+
+  document.getElementById("service-elearning").style.display = "none";
+  document.getElementById("service-blended").style.display = "none";
+   document.getElementById(service).style.display = "flex";
+ }
+if (cityName == "elearning")
+ { 
+   
+   service= "service-elearning";
+  
+  document.getElementById("service-facetoface").style.display = "none";
+  document.getElementById("service-blended").style.display = "none";
+  document.getElementById(service).style.display = "flex";
+ 
+ }
+ if (cityName == "blended")
+ {service= "service-blended";
+
+  document.getElementById("service-facetoface").style.display = "none";
+  document.getElementById("service-elearning").style.display = "none";
+    document.getElementById(service).style.display = "flex";
+ }
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click(); 
+</script>
+</html>  
