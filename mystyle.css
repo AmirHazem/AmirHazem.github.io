@@ -1,0 +1,784 @@
+body 
+{
+	/*background-color:#04AA6d;*/
+	/*color:white;*/
+	margin:0;
+  
+  font-family: LucidaBrightRegular;
+} 
+@font-face {
+  font-family: LucidaBrightDemiBold;
+  src: url("/ttf/LucidaBrightDemiBold");
+}
+
+@font-face {
+  font-family: LucidaSansDemiBold;
+  src: url("/ttf/LucidaSansDemiBold");
+}
+@font-face {
+  font-family: LucidaBrightRegular;
+  src: url("/ttf/LucidaBrightRegular");
+}
+/***-------- 1) Begin Header style --------- ***/
+header{
+ /*border: 35px solid rgba(10, 18, 24, 1);*/
+  border: 10px solid #222D52; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*box-shadow: 0 0 20px rgba(104, 85, 224, 0.1);*/
+/*background-color: #f1f1f1;*/
+}
+
+.header-first-row
+{
+  display:flex;
+  flex-direction:row; 
+  margin:40;
+  margin-left:10;
+  height:60px;
+  /*background-color:#222D52;*/
+}
+
+.header-first-row-logo
+{
+  margin-top:20;
+  display:flex;
+  flex-direction:column;
+  width: 15%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+.logo-rotate
+{ 
+  /*padding-bottom:25px;*/
+  /*transform: rotate(-10deg);
+ /*width:7%;*/
+    width:45%;
+  }
+.communicatio
+{
+  display:flex;
+  flex-direction:row;
+  align-items: right;
+  text-align: right;
+  justify-content: right;
+  color:#f4511e;
+  
+  font-family: LucidaBrightDemiBold;
+
+ /* font-family: "Montserrat", sans-serif;
+  /*
+  font-family: "Crimson", sans-serif;
+  font-family: "LucidaBrightDemiBold", sans-serif;*/
+  } 
+nav{   
+  
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 0;
+  width: 75%;
+  height:60px;
+  color:white;
+  background-color:#222D52;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /*background-color: #f4511e;*/
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 2px;
+  border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbtn
+{ 
+  display:flex;
+  flex-direction:row;
+  padding: 16px;
+  font-size: 16px;
+  height:60px;
+  border: none;
+  cursor: pointer;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+
+} 
+#roundcorner
+{
+border-radius: 20px;
+}
+ ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  /*background-color:red;*/
+  align-items: center;
+  text-align: center;
+  justify-content: right;
+  /* overflow: hidden;*/
+ }
+ 
+ li{
+ display: block;
+ /*float: left;
+ border-right: 1px solid #bbb;
+ /*color:white;*/
+
+}
+ li:hover {
+    color: #f4511e !important;
+    background-color: #fff !important;
+	
+  }
+  
+.right-nav-login
+{ 
+  display:flex;
+  flex-direction:row;
+  width:10%;  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  }
+ .login-buttons{
+  display:flex;
+  flex-direction:row;
+  margin-left:20px;
+   align-items: center;
+  text-align: center;
+  justify-content: center;
+  }
+.but-signup{
+   border-radius: 40px;
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  font-weight: 600;
+}
+.but-login{
+   border-radius: 40px;
+  font-weight: 600;
+  background-color:white;
+  /*color: rgb(104, 85, 224);*/
+  /*background-color: rgba(255, 255, 255, 1);
+  /*border: 1px solid rgba(104, 85, 224, 1);*/
+}
+button {
+  cursor: pointer;
+  border: 0;
+  /* margin: 0 10px;
+  padding: 10px 0;*/
+  width: 75px;
+  height:50px;   
+  transition: 0.4s;
+}
+button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+   
+}
+
+.header-second-row
+{
+    background-color: #e4e9f5; 
+    color: #fff;
+    /*padding: 100px 25px;*/
+    font-family: Montserrat, sans-serif;
+    width: 100%;   
+	height:450px;
+	background-image: url("shutter5.jpg");
+	background-size: cover;
+}
+#box {
+	/* margin: 300px auto; /*as per your preferences*/
+  /*height: 600px;
+  width: 1250px;/*
+  border: 2px solid crimson;*/
+
+	animation-name: example;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+
+}
+
+@keyframes example{
+ 
+   0%{
+     background-image: url("./img/shutter5-4.jpg");
+   }
+   50%{
+     background-image: url("./img/shutter2-3.jpg");
+      
+   }
+   100%{
+     background-image: url("./img/shutter3-4.jpg");
+     
+   }
+   
+} 
+/***-------- 1) End Header Style ----------***/
+
+/***-------- 2) Begin Panel style --------- ***/
+.panels
+{ display:flex;
+  flex-direction:row;
+  
+  padding-top:50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom:50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /*background-color: #f1f1f1;*/
+  
+}
+
+div.polaroid {
+  display:flex;
+  flex-direction:column;
+  width: 33%;
+  height:220px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin:10;
+ 
+}
+
+.panel-img {
+  
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  width:100%;
+  height:140px;
+}
+.panel-text {
+  background-color: #f1f1f1;
+  display:flex;
+   color: #222D52 !important;
+   font-family: LucidaBrightDemiBold;
+   font-weight: 600;
+   font-size: 16px;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  width:100%;
+  height:60px;
+}
+.but-panel{
+  border-radius: 40px;
+  background-color:white;
+  color: #222D52;
+  font-weight: 500;
+ } 
+
+.panel-text .img{
+  border: 5px solid  #222D52; /* Gray border */
+  border-radius: 4px;
+  width: 240px;
+  height: 240px;        
+    }
+ spans {
+   margin:20px;
+     }
+  .start-page-foto{
+  height:200px;
+  width: 100px;
+ display:flex;
+ flex-direction:row;
+ border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}	 
+/***-------- 2) End Panel Style ----------***/
+
+/***-------- 3) Begin About US style --------- ***/
+
+.about{
+  display:flex;
+  flex-direction:row;
+  padding: 60px 180px;
+  width:100%;
+  height:450px;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family: Montserrat, sans-serif; 
+  background-color:#F8F8F8;
+}
+
+.about_text
+ {
+  display:flex;
+  flex-direction:Column;
+  width:60%;
+  align-items:justify;
+  justify-content:center;
+  text-align:justify;
+  margin: 25px 25px;
+   font-size: 16px !important;
+  line-height: 1.82857143 !important;
+}
+.about_logo
+ {
+  width:40%;
+  height:100%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+   margin: 25px 0;
+}
+
+.about .glyphicon {
+    font-size: 180px;
+    /*margin-bottom: 20px;*/
+    color: #222D52;
+  }
+
+/***-------- 3) End About US style --------- ***/
+
+/***-------- 4) Begin Our Values style --------- ***/
+/* same as about us*/
+.values{
+ padding: 60px 180px;
+ display:flex;
+ flex-direction:row;
+ width:100%;
+ height:450px;
+ align-items:center;
+ justify-content:center;
+ text-align:center;
+  font-family: Montserrat, sans-serif;
+  background-color:white;
+}
+.values .glyphicon {
+    font-size: 180px;
+    /*margin-bottom: 20px;*/
+    color: #222D52;
+  } 
+
+/***-------- 4) End Our Values style --------- ***/
+/***-------- 5) Begin Courses style --------- ***/
+/* Style each tab content individually */
+#legal {background-color:#FC600A;}
+#business {background-color:#B2D732;}
+#tourism {background-color:#E3BD33;}
+a{color:#222D52;}
+.courses-all
+{width:100%;
+  display:flex;
+  flex-direction: column;
+   align-items:center;
+ justify-content:center;
+ text-align:center;
+}
+.courses-header
+{ 
+  padding:2%;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  color: #222D52;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+} 
+.courses{        
+          width:100%;
+          display:flex;
+          flex-direction:column;
+           align-items: center;
+           text-align: center;
+           justify-content: center;
+        /*   background-color:blue;*/
+           
+       } 
+.course{
+       width:80%;
+       height:550px;
+       display:flex;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+      background-color:#F9F9F5;
+} 
+.course-legal{
+       width:80%;
+       height:550px;
+       display:flex;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       }   
+ .course-business{
+       width:80%;
+       height:550px;
+       display:none;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       } 
+ .course-tourism{
+       width:80%;
+       height:550px;
+       display:none;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       }
+.course_block{
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;  
+  /*background-color:black;*/
+ 
+}
+.course_text{
+  text-align:justify;
+  
+}
+.course_description_header
+{
+  display:flex;
+  flex-direction:row;
+   align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.course_description{
+  margin:20px;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  
+  /*background-color:grey;*/
+   
+}
+ span {  
+           text-align:justify;
+}
+
+.course_info{
+   padding:10px;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  align-items:center;
+   justify-content: center;
+    text-align: center;
+  /*background-color:lightgrey;*/
+  
+}
+ .course_img
+   {
+   background-color:grey;
+   } 
+       .img-legal{
+           border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+             width: 240px;
+             height: 320px;   
+                
+       }
+       .img-business{
+            border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+             width: 240px;
+             height:320px;  
+             
+       }
+       .img-tourism{
+            border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+             width: 240px;
+             height:320px; 
+                 
+       }
+     .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+     
+     }    
+  .glyphicon-education {
+   
+   font-size: 80px;
+    padding-right:0px;
+ } 
+ .glyphicon-usd{
+   font-size: 60px;
+    padding-right:0px;
+ }
+ .glyphicon-plane{
+   font-size: 60px;
+    padding-right:0px;
+   transform: rotate(40deg);
+ }
+ 
+ 
+ 
+ 
+.tabcontent{
+  width:33%;
+  
+}
+.tablink{
+  width:33%;
+}
+
+.badge {
+ 
+  display:flex;
+  flex-direction:row;
+  height: 35px;
+  width: 35px;
+  text-align:center;
+  align-items:center;
+   justify-content: center;
+  background-color: green;
+  color: white;
+ /* padding: 4px 8px;*/
+ padding:20px;
+ 
+  border-radius: 30px;
+}
+.badge-col
+{
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+   justify-content: center;
+  
+}
+.badge-col a {
+  padding:4px 8px;
+}
+.checked {
+  color: orange;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+/***-------- 5) End Courses style --------- ***/    
+/***-------- 6) Begin Services style --------- ***/    
+/* Style each tab content individually */
+#facetoface {background-color:#FC600A;}
+#elearning {background-color:#B2D732;display:none;}
+#blended {background-color:#E3BD33;display:none;}
+
+.services-all
+{width:100%;
+  display:flex;
+  flex-direction: column;
+   align-items:center;
+ justify-content:center;
+ text-align:center;
+}
+.services-header
+{   padding:2%;
+    width:100%;
+   display:flex;
+    flex-direction:row;
+   color: #222D52;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+ }
+.services{
+       width:80%;
+       height:550px;
+       display:flex;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       }  
+ .service-facetoface{
+       width:80%;
+       height:550px;
+       display:flex;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       }   
+ .service-elearning{
+       width:80%;
+       height:550px;
+       display:none;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       } 
+ .service-blended{
+       width:80%;
+       height:550px;
+       display:none;
+       flex-direction:row;
+       justify-content: center;
+       border: 0px solid  #222D52; /* Gray border */
+       border-radius: 4px;
+       align-items:center;  
+       background-color:#F9F9F5;
+       }                          
+ .service_block{
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;  
+  /*background-color:black;*/
+ 
+}
+.service_description{
+  margin:20px;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  
+  /*background-color:grey;*/
+  
+  
+}
+.service_description_header
+{
+  display:flex;
+  flex-direction:row;
+   align-items: center;
+           text-align: center;
+           justify-content: center;
+  
+}
+.service_text{
+  text-align:justify;
+  
+}
+.service_info{
+   padding:10px;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  align-items:center;
+   justify-content: center;
+    text-align: center;
+  /*background-color:lightgrey;*/
+  
+}   
+
+ 
+ .glyphicon-user{
+   font-size: 50px;
+   padding-right:10px;
+   
+ }
+  .glyphicon-facetime-video{
+   font-size: 50px;
+   transform: rotate(-40deg);
+   padding-right:10px;
+ }
+ 
+.glyphicon-th-list
+{
+  font-size: 50px;
+  padding-right:10px;
+} 
+ .service_img
+      {
+    /*  background-color:grey;*/
+      height:100%;
+       display:flex;
+  flex-direction:row;
+   align-items: center;
+           text-align: center;
+           justify-content: center;
+           
+      } 
+       .img-facetoface{
+           border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+           /*  width: 240px;
+             height: 240px;  */
+               width: 100%;
+             height: 50%;  
+             
+       }
+       .img-elearning{
+            border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+             width: 240px;
+             height:240px;
+               width: 100%;
+             height: 50%; 
+       }  
+       .img-blended{
+            border: 5px solid  #222D52; /* Gray border */
+            border-radius: 4px;
+             width: 240px;
+             height:240px;
+               width: 100%;
+             height: 50%; 
+       }  
+.tabcontent2{
+  width:33%;
+  
+}
+.tablink2{
+  width:33%;
+}
+        
+/***-------- 6) End Services style --------- ***/    
