@@ -1,0 +1,77 @@
+    :root {
+        --lch-padding: 4rem 1.5rem;
+        --lch-bg-color: #f9fafb;
+        /*--lch-text-color: #374151;
+        --lch-headline-color: #111827;*/
+         --lch-text-color: #374151;
+        --lch-headline-color: #222D52;;
+        --lch-max-width: 900px;
+        --lch-anim-duration: 40s;
+    }
+    .logo-carousel-hero {
+        box-sizing: border-box;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        background-color: var(--lch-bg-color);
+        padding: var(--lch-padding);
+        width: 100%;
+    }
+    .logo-carousel-hero * {
+         box-sizing: border-box;
+    }
+    .logo-carousel-hero-content {
+        max-width: var(--lch-max-width);
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo-carousel-hero .title {
+        color: var(--lch-headline-color);
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0 0 1rem;
+    }
+    .logo-carousel-hero .subtitle {
+        color: var(--lch-text-color);
+        font-size: 1.15rem;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    .logo-carousel {
+        margin-top: 3rem;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        /* Gradient mask for smooth edges */
+        mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+
+    }
+    .logo-carousel-slider {
+        display: flex;
+        width: 200%; /* Because we have two sets of logos */
+        animation: scroll var(--lch-anim-duration) linear infinite;
+    }
+    .logo-carousel-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%; /* Each list is half of the slider's total width */
+        gap: 2rem;
+    }
+    .logo-carousel .logo-item {
+        flex-shrink: 0;
+        height: 40px;
+        transition: filter 0.3s ease;
+        filter: grayscale(100%);
+        opacity: 0.6;
+    }
+     .logo-carousel .logo-item:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+    
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }

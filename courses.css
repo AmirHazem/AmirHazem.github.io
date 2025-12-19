@@ -1,0 +1,102 @@
+ :root {
+        --coh-padding: 4rem 1.5rem;
+        --coh-bg-color: #fafafa;
+        --coh-content-bg: #ffffff;
+        --coh-text-color: #3f3f46;
+        --coh-headline-color: #18181b;
+        --coh-accent-color: #059669;
+        --coh-cta-bg: #059669;
+        --coh-cta-hover-bg: #047857;
+        --coh-cta-text-color: #ffffff;
+        --coh-max-width: 1024px;
+        --coh-border-radius: 12px;
+        
+    }
+    .curriculum-overview-hero {
+        box-sizing: border-box;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        background-color: var(--coh-bg-color);
+        padding: var(--coh-padding);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .curriculum-overview-hero * {
+         box-sizing: border-box;
+    }
+    .curriculum-hero-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: var(--coh-max-width);
+        width: 100%;
+        background-color: var(--coh-content-bg);
+        border-radius: var(--coh-border-radius);
+        padding: 2rem;
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -4px rgba(0,0,0,0.05);
+    }
+    .coh-content .title {
+        color: var(--coh-headline-color);
+        font-size: clamp(2rem, 5vw, 2.75rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0 0 1rem;
+    }
+    .coh-content .description {
+        color: var(--coh-text-color);
+        margin: 0 0 2rem;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        text-align:justify;
+        
+    }
+    .coh-content .cta {
+        display: inline-block;
+        background-color: var(--coh-cta-bg);
+        color: var(--coh-cta-text-color);
+        padding: 0.9rem 2rem;
+        border-radius: 8px;
+        font-size: 1.05rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    .coh-content .cta:hover {
+        background-color: var(--coh-cta-hover-bg);
+    }
+    .coh-curriculum .list-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0 0 1.5rem 0;
+        color: var(--coh-headline-color);
+    }
+    .coh-curriculum .curriculum-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .coh-curriculum .curriculum-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        color: var(--coh-text-color);
+    }
+    .coh-curriculum .curriculum-item svg {
+        flex-shrink: 0;
+        width: 1.25em;
+        height: 1.25em;
+        color: var(--coh-accent-color);
+        margin-top: 0.15em;
+    }
+
+    @media(min-width: 992px) {
+        .curriculum-hero-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem;
+            padding: 4rem;
+        }
+    }

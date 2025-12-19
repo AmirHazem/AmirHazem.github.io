@@ -1,0 +1,101 @@
+ :root {
+        --nsh-padding: 4rem 1.5rem;
+        --nsh-bg-color: #f1f5f9;
+        --nsh-text-color: #334155;
+        --nsh-headline-color: #0f172a;
+        --nsh-input-bg: #ffffff;
+        --nsh-input-border: #cbd5e1;
+        --nsh-input-focus-border: #3b82f6;
+        --nsh-cta-bg: #2563eb;
+        --nsh-cta-hover-bg: #1d4ed8;
+        --nsh-cta-text-color: #ffffff;
+        --nsh-max-width: 700px;
+    }
+    .newsletter-signup-hero {
+        box-sizing: border-box;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        background-color: var(--nsh-bg-color);
+        padding: var(--nsh-padding);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .newsletter-signup-hero * {
+         box-sizing: border-box;
+    }
+    .nsh-content {
+        max-width: var(--nsh-max-width);
+    }
+    .nsh-content .title {
+        color: var(--nsh-headline-color);
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin: 0 0 1rem;
+    }
+    .nsh-content .subtitle {
+        color: var(--nsh-text-color);
+        line-height: 1.6;
+        margin: 0 auto 2.5rem;
+    }
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem; /* For stacked mobile layout */
+    }
+    .newsletter-form .form-input {
+        background-color: var(--nsh-input-bg);
+        border: 1px solid var(--nsh-input-border);
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        color: #0f172a;
+    }
+     .newsletter-form .form-input:focus {
+        outline: none;
+        border-color: var(--nsh-input-focus-border);
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+        z-index: 1; /* Ensures focus ring is on top */
+    }
+    .newsletter-form .form-button {
+        background-color: var(--nsh-cta-bg);
+        color: var(--nsh-cta-text-color);
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .newsletter-form .form-button:hover {
+        background-color: var(--nsh-cta-hover-bg);
+    }
+    .nsh-content .form-footer {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        color: #64748b;
+    }
+    .sr-only {
+        position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+        overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+    }
+    @media(min-width: 576px) {
+        .newsletter-form {
+            flex-direction: row;
+            gap: 0; 
+        }
+        .newsletter-form .form-input {
+            flex-grow: 1;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-right: -1px; /* Overlap borders for seamless connection */
+        }
+        .newsletter-form .form-button {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }

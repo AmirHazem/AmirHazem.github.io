@@ -1,0 +1,112 @@
+
+.pricing-table-container {
+    overflow-x: auto;
+    padding-bottom: 15px; /* space for scrollbar */
+    padding-top: 20px;    /* Provides space for the 'Most Popular' badge */
+  
+}
+.pricing-table-detailed {
+    width: 100%;
+    min-width: 800px;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+}
+
+.pricing-table-detailed th, 
+.pricing-table-detailed td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+/* Feature Name (First Column) */
+.pricing-table-detailed tbody th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+}
+.pricing-table-detailed tbody td {
+    border-bottom: 1px solid #f0f0f0;
+    color: #555;
+}
+
+/* Plan Column Headers */
+.pricing-table-detailed .plan-header {
+    background: #fff;
+    border-bottom: 2px solid #e9ecef;
+}
+.pricing-table-detailed .plan-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.pricing-table-detailed .plan-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1d2d35;
+}
+.pricing-table-detailed .plan-price span {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #777;
+}
+
+/* Call-to-action button */
+.pricing-table-detailed .btn-select {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+.pricing-table-detailed .btn-select:hover {
+    background-color: #2980b9;
+}
+
+
+/* ---- Highlighted Plan Styling ---- */
+.pricing-table-detailed .plan-highlight {
+    background-color: #fcfcfc;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    position: relative;
+    transform: scale(1.05); /* Makes the column slightly larger */
+    z-index: 10;
+}
+.pricing-table-detailed .plan-highlight .plan-header {
+    background-color: #ebf5fb;
+    border-radius: 6px 6px 0 0;
+}
+.pricing-table-detailed .plan-highlight .btn-select {
+    background-color: #e67e22;
+}
+.pricing-table-detailed .plan-highlight .btn-select:hover {
+    background-color: #d35400;
+}
+.pricing-table-detailed .popular-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+/* ---- End Highlighted Styling ---- */
+
+
+.pricing-table-detailed .check { color: #2ecc71; font-size: 1.2rem; }
+.pricing-table-detailed .cross { color: #e74c3c; font-size: 1.2rem; }

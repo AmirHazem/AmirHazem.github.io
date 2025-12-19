@@ -1,0 +1,113 @@
+  
+        /* ==========================================================================
+           Step-by-Step List Component Styles - Copy from here
+           ========================================================================== */
+        .steps-template {
+            --steps-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --primary-text-color: #212529;
+            --secondary-text-color: #6c757d;
+            --accent-color: #0d6efd;
+            --line-color: #dee2e6;
+            --counter-bg-color: #fff;
+            --counter-text-color: var(--accent-color);
+            --counter-border-color: var(--accent-color);
+            --counter-size: 40px;
+            --line-width: 2px;
+
+            font-family: var(--steps-font-family);
+            color: var(--primary-text-color);
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .steps-template *,
+        .steps-template *::before,
+        .steps-template *::after {
+            box-sizing: border-box;
+        }
+        
+        .steps-template .steps-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .steps-template .steps-header h2 {
+            font-size: 2.25rem;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .steps-template .steps-list {
+            list-style: none;
+            padding-left: 0;
+            margin-left: 20px;
+            /* Creates the space for the counter and line */
+            padding-left: calc(var(--counter-size) + 20px); 
+            position: relative;
+            counter-reset: steps-counter; /* Initialize the counter */
+        }
+        
+        /* The connecting timeline */
+        .steps-template .steps-list::before {
+            content: '';
+            position: absolute;
+            left: calc(var(--counter-size) / 2);
+            top: 20px;
+            bottom: 20px;
+            width: var(--line-width);
+            background-color: var(--line-color);
+            transform: translateX(-50%);
+        }
+
+        .steps-template .steps-list-item {
+            position: relative;
+            padding-bottom: 2.5rem;
+            color: #222D52;
+        }
+        
+        /* Hide the final trailing padding */
+        .steps-template .steps-list-item:last-child {
+            padding-bottom: 0;
+        }
+ /* The custom number counter */
+        .steps-template .steps-list-item::before {
+            counter-increment: steps-counter; /* Increment the counter for each li */
+            content: counter(steps-counter); /* Display the counter value */
+            position: absolute;
+            left: calc(-1 * (var(--counter-size) + 20px)); /* Position it to the left */
+            top: -2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: var(--counter-size);
+            height: var(--counter-size);
+            border: var(--line-width) solid var(--counter-border-color);
+            border-radius: 50%;
+            background-color: var(--counter-bg-color);
+            color: var(--counter-text-color);
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .steps-template .steps-list-item h3 {
+            font-size: 1.25rem;
+            margin: 0 0 0.5rem 0;
+        }
+
+        .steps-template .steps-list-item p {
+            margin: 0;
+            color: var(--secondary-text-color);
+            line-height: 1.6;
+        }
+.subtitle{
+    /*color:darkorange;*/
+}
+.panel-img {
+  
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  text-align: center;
+  justify-content: center; 
+  width:100%;
+  height:140px;
+}
