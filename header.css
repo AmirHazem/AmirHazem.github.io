@@ -181,10 +181,10 @@
 @keyframes example{
  
    0%{
-     background-image: url("./img/shutter5-4.jpg");
+     background-image: url("./img/shutter5.jpg");
    }
    50%{
-     background-image: url("./img/shutter3-4.jpg");
+     background-image: url("./img/shutter3.jpg");
       
    }
    100%{
