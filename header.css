@@ -52,8 +52,8 @@
             text-align: center;
             /*background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop');*/
             background-image: url('./img/shutter2-3.jpg');
-            background-image: url('./img/shutter5-4.jpg');
-            background-image: url('./img/shutter3-4.jpg');
+            /*background-image: url('./img/shutter5-4.jpg');
+            background-image: url('./img/shutter3-4.jpg');*/
             background-size: cover;
             background-position: center center;
         }
@@ -181,14 +181,14 @@
 @keyframes example{
  
    0%{
-     background-image: url("./img/shutter5.jpg");
+     background-image: url("./img/shutter5-3.jpg");
    }
    50%{
-     background-image: url("./img/shutter2-3.jpg");
+     background-image: url("./img/shutter3-4.jpg");
       
    }
    100%{
-     background-image: url("./img/shutter3.jpg");
+     background-image: url("./img/shutter2-3.jpg");
      
    }
    
