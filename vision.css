@@ -4,9 +4,10 @@
             Replace with your own image.
         */
         
-        --psh-bg-image: url('./img/map.png');
+      /*  --psh-bg-image: url('./img/map.png');
         --psh-bg-image: url('./img/Interview-Coaching.jpg');
-        --psh-bg-image: url('./img/thecoachspace.jpg');
+        --psh-bg-image: url('./img/thecoachspace.jpg');*/
+        --psh-bg-image: url('./img/thecoachspace-bright.jpg');
         
         
         --psh-min-height: 70vh;

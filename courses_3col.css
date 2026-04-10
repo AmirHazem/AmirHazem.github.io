@@ -2,9 +2,15 @@
 .cards-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    width:80%;
+    /*display: flex;
+    flex-direction: row;
+    width:80%;*/
+    /*background-color: rgb(132, 0, 255);*/
     gap: 1.5rem;
     padding: 1rem; /* Optional: provides spacing from the viewport edges */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+   
 }
 
 /* === General Card Styles === */
@@ -33,6 +39,7 @@
 /* === Card Image === */
 .it-card-container .it-card-image {
     width: 100%;
+   
     height: 220px;
     object-fit: cover;
     display: block;
@@ -41,6 +48,7 @@
 /* === Card Content === */
 .it-card-container .it-card-content {
     padding: var(--it-card-padding);
+    
 }
 
 .it-card-container .it-card-title {
@@ -74,3 +82,12 @@
 .it-card-container .it-card-action:hover {
     background-color: #e5e7eb;
 }
+.centering
+{ 
+  width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+    justify-content: space-between;
+  }
