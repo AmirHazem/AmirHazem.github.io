@@ -1,1 +1,662 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Communication Main Page</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+
+<link rel="stylesheet" href="template_menu.css">
+<link rel="stylesheet" href="template_hero.css">
+ <link rel="stylesheet" href="hiw.css">
+<link rel="stylesheet" href="template_about.css">
+<link rel="stylesheet" href="template_vision.css">
+<link rel="stylesheet" href="template_mission.css">
+<link rel="stylesheet" href="template_courses.css">
+<link rel="stylesheet" href="template_services.css">
+<link rel="stylesheet" href="template_coaching.css">
+<link rel="stylesheet" href="template_plan.css">
+<link rel="stylesheet" href="template_contact.css">
+<link rel="stylesheet" href="template_footer.css">
+<style>
+
+
+*{
+  margin:0;
+  padding:0;
+ 
+  
+}
+.band-container{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  color:white;
+  height:50px;
+  width:100%;
+  background-color:#222D52;
+  padding:20px; 
+}
+
+.band
+{
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  align-items:left;
+  justify-content: space-around;
+  color:white;
+}
+
+.band > div >span {
+  color:#8c94b8;
+}
+.band > div >b {
+  /*color:green;*/
+  font-weight:bold;
+}
+
+
+.outer-headings{
+
+  font-family:sans-serif;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:20px;
+    
+}
+
+.inner-headings{
+
+ padding-left:12px;
+ padding-right:12px;
+  font-family:sans-serif;
+ border:0px solid #ddd;
+ height:50px;
+ line-height:50px;
+ font-size:14px;
+ text-transform:uppercase;
+  overflow:hidden;
+  background-color:#f2f2f2;
+  background-color:white;
+  border-radius:10px;
+}
+
+.inner-headings span{
+  position:relative;
+color:crimson;
+animation:animation 20s ease infinite;
+}
+
+.inner-headings-static{
+
+ padding-left:12px;
+ padding-right:12px;
+  font-family:sans-serif;
+ border:0px solid #ddd;
+ height:35px;
+ line-height:35px;
+ font-size:14px;
+ /*text-transform:uppercase;*/
+  overflow:hidden;
+  background-color:#f2f2f2;
+  background-color:white;
+  border-radius:5.5px;
+}
+.inner-headings-static span{
+ /* position:relative;*/
+color:crimson;
+/*animation:animation 20s ease infinite;*/
+}
+.inner-headings-static span i { 
+  color:#222D52;
+  }
+  
+ .inner-headings-static span:hover{
+
+color:#222D52;
+color:green;
+
+
+cursor:pointer;
+} 
+@keyframes animation{
+  0%,100%{
+    top:0;
+  }
+  20%{
+    top:0;
+  }
+  25%{
+    top:-50px;
+   
+  }
+  45%{
+    top:-50px;
+  }
+  50%{
+    top:-100px;
+  }
+  70%{
+    top:-100px;
+  }
+   75%{
+    top:-150px;
+  }
+   95%{
+    top:-150px;
+    
+  }
+  
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+     
+    <div class="navbar__container">
+        <!-- logo-->
+           
+        <a href="/" id="navbar__logo" class="navbar__logo">
+            <img  class='logo-rotate' id='logo-rotate' src="./img/logonobg.png" />
+            <span class="logo_text">COMMUNICATIO</span>
+        </a>
+       
+        <!-- toggle bar for mobile-->
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>   
+       
+        <!-- navbar menu-->
+        <ul class="navbar__menu">
+            <li class="navbar__item"><a href="/" class="navbar__links">Home</a></li>
+            <li class="navbar__item"><a href="#courses" class="navbar__links">Courses</a></li>
+            <li class="navbar__item"><a href="#services" class="navbar__links">Services</a></li>
+            <li class="navbar__item"><a href="#coaching" class="navbar__links">Coaching</a></li>
+            <!--<li class="navbar__item"><a href="/" class="navbar__links">Resources</a></li>-->
+            <li class="navbar__item"><a href="#plan" class="navbar__links">Pricing</a></li>
+            <li class="navbar__item"><a href="#contact" class="navbar__links">Contact</a></li>
+            <li class="navbar__btn"> <a href="/"  class="button">Sign Up</a></li>
+        </ul>
+          
+    </div>
+  </nav>  
+
+
+<header class="main-header" id="box">
+    <div class="wrapper">
+      <div class="main-wrapper">  
+       <h1 class="company-name" >COMMUNICATIO<h1> 
+        </div> 
+    </div>
+
+    <div class="element-2" >
+      <p>
+        <h3>Engage, learn and thrive with our<br> 
+        language learning platform.</h3>  
+      </p> 
+    </div>
+
+    <div class="element-3" >
+  <!--   <h3>Unlock your linguistic potential<br> 
+      with our specialised language courses.</h3>  -->
+    </div>
+    
+    <div class="element-4" >
+     <h3>Sign up NOW!<br> and get 10%  discount on your first lesson<br> 
+      </h3>  
+    </div>
+</header>
+
+<div class="band-container">
+    
+  <div class="band">
+
+      <div>
+        <b>You can learn:</b> 
+      </div>
+       <div>
+          Legal <span>English </span> 
+           </div>
+  <div> Business <span> English</span>  </div>
+    <div> <span>English for </span>tourism and hospitality </div>
+  </div>  
+  
+   <div class="outer-headings">
+     <h3><!--With Communicatio-->
+  <!--</br>
+   </br>-->
+  
+   
+       <div class="inner-headings-static">
+          
+            <span> 
+              <i class="fa-solid fa-book"></i>
+              Free resources
+            </span>
+         
+        </div> 
+     </h3>
+  </div>  
+</div>  
+
+
+
+<!-- Section 1 -->
+   
+
+<div class="container-about">
+<div class="header-about">
+  <h1>About <span>Us</span> </h1>
+  <p>COMMUNICATIO is your cutting-edge platform to learn specialised English.  </p>
+</div>
+<section class="section-about">  
+  <img class="content-section-header-img" src="./img/professional.jpg"  alt="About Communicatio"> </img> 
+<div class="content">
+  <h2>A brief history of our company</h2>
+  <p>Communicatio was born out of a passion for language and the question of  how people communicate. Founded in 2010 we have years of experience in  developing and  executing tailor-made courses to help individuals and  professionals alike fulfill their potential. As  a leading  provider of specialised English courses we have decided to focus on 3 specific branches which require a certain degree of linguistic competence. </p>
+  <button class="readmore-about">Read more</button>
+</div>  
+
+</section>
+
+</div>       
+             
+<!-- Section 1 -->  
+  
+
+<!--Section 0-->
+
+       
+<div class="container-hiw">
+    <div class="steps-template">
+        <div class="steps-header">
+            <h2>How it Works</h2>
+        </div>
+
+      <ol class="steps-list">
+        <li class="steps-list-item">
+            <h3>Check our list of available courses</h3>
+            <p> Browse our  specialised courses by topic, level, or industry. Each includes objectives, duration, and outcomes so you know exactly what you’re signing up for.
+                Getting started is simple and intuitive. Our platform is designed to guide you step by step, so you can focus on what really matters: learning and progressing with confidence. From registration to your first lesson, everything is clear, fast, and accessible. </p> 
+        </li>
+        <li class="steps-list-item">
+            <h3>Test your English level</h3>
+            <p>  Before signing up for a module, you are first asked to complete a short multiple choice questions test to gauge your linguistic competencies.
+            After completing the enquiry form, you will be asked to take a free 20 minute test to evaluate your language competency.</p>
+            <br>
+            <br>
+               <div class="panel-img" >
+                <img src="./img/Levels.png" alt="Test your level" style="width:55%">
+                </div>
+             <br>
+             <br>
+             <p>
+              We know that people are not machines and each individual has their own appoach to learning. That is why we feel it is essential to contact you personally to draw up a personalised learning trajectory together.
+             </p>     
+          
+
+        </li>
+         <li class="steps-list-item">
+            <h3>Choose your Plan</h3>
+            <p>Select the subscription that best fits your goals, schedule, and learning pace. Choose from online, blended and face to face. Whether you are looking for self-study resources, guided courses, or live sessions with experts, each plan gives you access to high-quality content and practical tools tailored to your needs. Change or upgrade anytime.</p>
+        </li>
+         <li class="steps-list-item">
+            <h3>Log in and start your learning journey</h3>
+            <p>Once registered, log in to access your personalised learning space. Track your progress, complete interactive lessons, join live sessions, and revisit resources whenever you need. Learn at your own pace, anywhere, anytime, and take steady steps toward your personal or professional goals.</p>
+        </li>
+    </ol>
+  </div>
+</div>
+
+
+<section class="vision-hero" id="vision-hero-section">
+      <div class="vision-content">
+        <h1 class="title">Our Vision</h1>
+        <p class="subtitle"> Designed  by humans for humans. We know that people are not machines and each individual has their own approach to learning. 
+        If algorithms help track and set goals on the the human touch is indispensable. </p>
+       <!-- <a href="#" role="button" class="cta">Learn More About Our Coaching Courses</a>-->
+    </div>
+</section> 
+
+
+<section class="mission" >
+      
+      <div class="mission-content">
+        <h1 class="title">Our Mission</h1>
+        <p class="subtitle"> 
+            Our mission is to empower learners with the language skills they need to succeed in their academic and professional lives. We believe that English is more than just a subject—it is a bridge to opportunity, connection, and personal growth. By offering tailored courses that focus on practical communication, cultural awareness, and sector-specific vocabulary, we aim to create a learning environment where every learner can build on their copetencies and achieve their goals with confidence. </p>
+       <!-- <a href="#" role="button" class="cta">Learn More About Our Coaching Courses</a>-->
+    </div>
+</section> 
+
+
+
+<div class="container-courses">  
+<div class="grid-container-courses-header">  
+        <h1 class="title">Courses</h1>
+        <p class="content">Our language courses offer a unique and dynamic learning experience that combines the best of different worlds: blended, face-to-face and e-learning programs. We have meticulously designed our courses to cater to the diverse needs and preferences of our clients, while ensuring flexibility for everyone.</p>  
+  
+ </div> 
+<div class="grid-container-courses">  
+  
+  <div class="grid-item">
+    <a class="link">
+    <img src="./img/law3.png" alt="Legal English"> </img>
+    <div class="content"> 
+      <h3>Legal English</h3>
+      <p> This specialised legal English course aims to develop learners’ ability to  master key legal terminology and interpret legal documents, while strengthening understanding of  the Common Law  system. The live sessions focus on participating effectively in professional interactions such as negotiations and client consultations.</p>
+      <div class="readmore"> Read More</div>
+    </div>
+    </a>
+  </div>
+  <div class="grid-item">
+    <img src="./img/business.jpg" alt="Business English"> </img>
+    <div class="content"> 
+      <h3>Business English</h3>
+      <p> Participants strengthen their ability to communicate effectively in professional and corporate settings. The focus is on meetings, presentations, negotiations, and clear written communication.  Learners develop strategic vocabulary and an appropriate professional tone. Attention is also given to intercultural awareness in business environments.</p>
+      <div class="readmore"> Read More</div>
+  </div>
+  </div>
+
+  <div class="grid-item">
+    <img src="./img/tourism_llm.png" alt="English for Tourism"> </img>
+    <div class="content"> 
+      <h3>English for Tourism</h3>
+      <p> Designed for service-oriented roles, this programme focuses on practical communication skills for the tourism sector.  Learners acquire strategies to interact with visitors in real-life situations such as bookings, tours, and customer support.
+                                  Our objective is to ensure confident and professional communication.</p>
+      <div class="readmore"> Read More</div>
+   </div>
+  </div>
+
+
+</div>
+
+ </div>
+ 
+
+
+<!--Section 0-->
+
+
+
+
+
+<div class="container-services">  
+
+    <div class="grid-container-services-header">  
+        <h1 class="title">Services</h1>
+        <p class="content">Our training packages offer a unique and dynamic learning experience that combines the best of different worlds: <b>blended</b>, <b>face-to-face</b> and <b>e-learning</b> programs. We have meticulously designed our courses to cater to the diverse needs and preferences of our clients, while ensuring flexibility for everyone.
+        </p>  
+    </div> 
+
+  <div class="grid-container-services">  
+      <div class="grid-item">
+            <a class="link">
+                <img src="./img/online.png" alt="E-learning"> </img>
+                <div class="content"> 
+                  <h3>E-learning</h3>
+                  <p> Our learning platform is the first step in the learning journey. The logic behind the resources is to introduce English language learners to specific domains which require specific concepts, specialised vocabulary and specialist comptencies.
+                  All modules are devised to work on a variety of activities  from reading comprehension through vocabulary  and audio comprehension.<!--
+                  There are regular reviews to check  concepts and at the end of each module your progress is calculated, giving you the possibility to review if needed.
+                  Once you feel confident, you can sign up for one of the live sessions and put your newly acquired knowledge into practice through role-plays, discussons and interactive tasks.-->
+                  </p>
+                  <div class="readmore"> Read More</div>
+                </div>
+            </a>
+      </div>
+      <div class="grid-item">
+            <img src="./img/meeting.jpg" alt="Blended learning"> </img>
+            <div class="content"> 
+                  <h3>Blended learning</h3>
+                  <p> Blended learning combines the benefits of live instruction with the flexibility of online learning. Unlike a fully face-to-face course, it allows learners to progress partly at their own pace, revisit materials whenever needed, and fit part of their training around their personal or professional schedule.
+                  <!--Live sessions, remain an essential part of the programme. They provide direct interaction with the instructor, real-time practice, personalised feedback, and opportunities for discussion. At the same time, the e-learning component reinforces progress between sessions through targeted exercises, self-study activities, and additional resources.--></p>
+                  <div class="readmore"> Read More</div>
+            </div>
+      </div>
+      <div class="grid-item">
+            <img src="./img/facetoface-r.png" alt="Face to face"> </img>
+            <div class="content"> 
+                <h3>Face to face</h3>
+                <p> Experience the value of an in-person learning experience for maximum interaction, structure, and direct support. Our face-to-face classes offer a dynamic environment in which learners benefit from continuous contact with their instructor and fellow participants. This format encourages spontaneous communication, immediate feedback, and active participation throughout each session.<!--
+                With 100% face-to-face learning, every lesson takes place in a dedicated classroom setting, allowing for full concentration and strong human connection. This approach is ideal for those who value personal contact, a clear routine, and the motivation that comes from learning in a live group setting.--></p> <!--Your personal trainer will accompany you through every step of your learning journey, stimulate you to unlock your possibilities, while setting regular goals.-->
+                </p>
+                <div class="readmore"> Read More</div>
+            </div>
+        </div>
+
+  </div>
+
+</div> 
+
+
+
+<!---->
+<div class="container-coaching">  
+<div class="grid-container-coaching-header">  
+        <h1 class="title ">Coaching</h1>
+        <p class="content ">Our one-on-one coaching sessions are built around your daily tasks and challenges in English to ensure that your training is practical and effective. Before defining a programme and setting goals with you we focus on your role within the company, your objectives and the context in which you are required to express yourself in a foreign language in order to define the necessary steps.</p>  
+  
+ </div> 
+
+ 
+<div class="grid-container-coaching">  
+  
+<div class="grid-item">
+  <div class="content"> 
+      <h3>Job Interview</h3>
+      <p> It is well-known that managing a professional transition can be stressful.
+                    We carefully match you with a trainer who specialises in interview strategies and communication skills. Our trainer will not only prepare you for different interview formats but also offer advice on  verbal and non-verbal communication. Detailed session notes are provided to enable you to review points. An interview coach will help you to develop the transferrable skills to become a better candidate and gain the competitive edge to land your dream job.</p>
+      <div class="readmore "> Read More</div>
+    </div>
+  
+</div>    
+<div class="grid-item ">
+  
+   <img  src="./img/Candidate.png" alt="Coaching Job Enterview"> </img>
+</div>
+<div class="grid-item">
+   <img src="./img/flexibleCoaching.png" alt="Flexible Coaching"> </img>
+</div>
+<div class="grid-item">
+   <div class="content"> 
+      <h3>Competence Coaching</h3>
+      <p> Do you feel the need to boost your assertiveness in another language? Are you looking to build on a specific competency while gaining in  confidence and ease?
+                    In today's rapidly evolving business environment, staying competitive requires continuous skill improvement. Individual coaching is by definition a break in a hectic world  and allows you to take a step back and regain capacity for action.
+
+                    Our flexible format enables you to determine the time and length of your course with a minimum of 4x 45 minute sesions per month.</p>
+      <div class="readmore"> Read More</div>
+    </div>
+</div>
+
+
+</div>
+
+ </div>
+
+<!---->
+
+
+<!--Section -->
+ <div class="grid-container-coaching-header">
+  <h1 class="title ">Plan</h1>
+        <p class="content "> Choose the appropriate plan for your learning journey.  </p>
+</div>
+<div class="grid_container-plan">
+
+<table class="table-container-plan">
+
+<thead>
+    <tr>
+    <th></th>
+    <th class="plan-header">
+        <div class="plan-name">Digital Flex</div>
+        <div class="plan-price">15<span>/mo</span></div>
+        <a class="btn-select">Choose Plan</a>
+    </th>
+   <th class="plan-header plan-highlight">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-name">Hybrid Plus</div>
+        
+        <div class="plan-price">35<span>/mo</span></div>
+        <a class="btn-select">Choose Plan</a>
+    </th>
+    <th>
+        <div class="plan-name">Pro Pass</div>
+        <div class="plan-price">89<span>/mo</span></div>
+        <a class="btn-select">Choose Plan</a>
+    </th>
+    
+    </tr>
+</thead>
+
+<tbody>
+<tr>
+    <th></img> English Branches </th>
+    <td> 1 </td>
+    <td> 2 </td>
+    <td> 3 </td>
+</tr> 
+<tr>
+    <th> Modules </th>
+    <td> 18 </td>
+    <td> 32 </td>
+    <td> 54 </td>
+</tr>    
+<tr>
+    <th>Live Classes </th>
+    <td> <span class="cross">✗</span> </td>
+    <td> 2 x month </td>
+    <td> Weekly </td>
+</tr> 
+<!--<tr>
+    <th>Teacher feedback </th>
+    <td> <span class="cross">✗</span> </td>
+    <td> Limited </td>
+    <td> Priority </td>
+</tr> 
+<tr>
+    <th>Individual sessions </th>
+    <td> <span class="cross">✗</span> </td>
+    <td> <span class="cross">✗</span> </td>
+    <td> 1 x Month </td>
+</tr> -->
+<tr>
+    <th>Certificate </th>
+    <td> <span class="check">✓</span> </td>
+    <td> <span class="check">✓</span> </td>
+    <td> <span class="check">✓+</span> </td>
+</tr> 
+<tr>
+    <th>Best for </th>
+    <td> Self-study  </td>
+    <td> Flexible learning </td>
+    <td> Professionals </td>
+</tr> 
+
+
+
+
+</tbody>    
+    
+</table>    
+
+</div>
+<!--Section -->
+  
+  
+<section class="contact">
+  <div class="contact-container">
+     <h2>Contact</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name">
+      <input type="emailt" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button>Send Message </button>
+    </form> 
+  
+  </div>  
+
+</section>  
+  
+  
+  
+<!-- Footer -->
+<footer>
+  <!-- logo -->
+    <div class="logo">
+      Communicatio
+    </div> 
+  <!-- Social media -->
+    <div class="social-media">
+       <a href="https://www.instagram.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Youtube"> <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com" class="social__icon-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin"></i></a>
+    </div>  
+  <!-- Menu --> 
+  <div class="footer-container">
+    <div class="footer-wrapper">
+      <h4>ABOUT</h4>
+      <a href="#">Company</a>
+      <a href="#">Team</a>
+      <a href="#">Careers</a>
+      <a href="#">Github</a>
+    </div>
+    <div class="footer-wrapper">
+      <h4>SERVICE</h4>
+      <a href="#">Products</a>
+      <a href="#">Courses</a>
+      <a href="#">Coaching</a>
+      <a href="#">Resources</a>
+    </div>
+    <div class="footer-wrapper">
+      <h4>SUPPORT</h4>
+      <a href="#">FAQ</a>
+      <a href="#">Resources</a>
+      <a href="#">Sitemap</a>
+      <a href="#">Community</a>
+    </div> 
+    <div class="footer-wrapper">
+      <h4>NEWSLETTER</h4>
+      <p>Follow us on social media for the latest updates.</p>  
+      <div class="footer-newsletter">
+        <input type="email" placeholder="Your email">
+        <button>SEND</button>
+        
+       </div> 
+
+      </div>  
+     
+  </div>
+  <!-- Webright-->
+  <hr class="divider">
+  <div class="webright">
+      <div class="webright-left">
+        © Communicatio <span id="year"> 2026</span> All rights reserved
+      </div> 
+         <div class="webright-right">
+         <a href="#">Terms</a>
+         <a href="#">Cookie Policy</a>
+         <a href="#">Privacy Policy</a>
+      </div>  
+  </div>  
+</footer>  
+</body>  
+
+</html>
