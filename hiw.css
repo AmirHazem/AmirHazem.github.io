@@ -2,6 +2,15 @@
         /* ==========================================================================
            Step-by-Step List Component Styles - Copy from here
            ========================================================================== */
+      .container-hiw {
+            padding: 3rem 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.7;
+            align-items:justify;
+            justify-content:justify;
+             text-align:justify;
+        }
         .steps-template {
             --steps-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             --primary-text-color: #212529;
@@ -111,3 +120,19 @@
   width:100%;
   height:140px;
 }
+
+  .curriculum-hero-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: var(--coh-max-width);
+        width: 100%;
+      
+        background-color: var(--coh-content-bg);
+        border-radius: var(--coh-border-radius);
+        padding: 2rem;
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -4px rgba(0,0,0,0.05);
+        align-items: center;
+        justify-content: center;
+      
+    }
