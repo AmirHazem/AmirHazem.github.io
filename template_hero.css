@@ -1,0 +1,144 @@
+*{
+  box-sizing:border-box;
+  /*font-family:Raleway;
+  font-family:Libre+Bodoni;*/
+ /* color:#777;*/
+  
+}
+/*html, body{
+  margin:0;
+  padding:0;
+}*/
+
+.main-header{
+
+  display:flex;
+  flex-direction:column;
+   justify-content:center;
+ align-content:center;
+ text-align:right;
+ 
+  background-color:rgba(0,0,0,0.2);
+  background-image:url('./img/shutter5.jpg');
+  background-size:cover;
+  background-blend-mode:multiply;
+margin-top:60px;
+ /* margin-bottom:10px;*/
+  height:450px;
+ /*height:650px;*/
+  width:100%;
+  /*color:fff;*/
+  
+  color:#f2f2f2;
+  
+}
+
+.element-1{
+   font-family:oswald;
+  font-size:2rem;
+  padding-right:3rem;
+  
+}
+.element-2{
+   font-family:oswald;
+  font-size:1.5rem;
+  padding-top:2rem;
+  padding-right:5rem;
+   
+  
+  text-shadow:
+    1px 1px 2px rgb(13, 17, 209),
+    0 0 1em #fdf7f6,
+    0 0 0.2em rgb(2, 2, 34);
+  color: rgb(255, 255, 255);
+  /*font:
+    1.5em "Georgia",
+    serif; */
+   
+  
+}
+
+.element-3{
+   font-family:oswald;
+  font-size:1.rem;
+  padding-top:2rem;
+  padding-right:5rem;
+  
+}
+
+.element-4{
+   font-family:oswald;
+  font-size:0.95rem;
+  padding-top:2rem;
+  padding-right:5rem;
+  /*color:green;*/
+    text-shadow:
+    1px 1px 2px rgb(7, 0, 0),
+    0 0 1em #fdf7f6,
+    0 0 0.2em rgb(2, 2, 34);
+  color: rgb(255, 255, 255);
+  
+}
+
+
+ .element-2 > p > h3{
+text-align: justify;
+line-height: 1.5;
+
+
+}
+.company-name{
+    font-family:  sans-serif;
+     font-family:oswald; 
+ 
+  text-shadow:
+    1px 1px 2px rgb(243, 241, 241),
+    0 0 1em rgb(235, 235, 241),
+    0 0 0.2em rgb(234, 234, 238);
+  color: white;
+ 
+  justify-content: center;
+  align-items: center;
+  margin:0;
+ font-size:3.8rem;
+  padding-right:5rem;
+ font-weight:bold;
+ color:#222D52;
+   
+}
+
+
+#box {
+	/* margin: 300px auto; /*as per your preferences*/
+  /*height: 600px;
+  width: 1250px;/*
+  border: 2px solid crimson;*/
+
+	animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+
+}
+
+@keyframes example{
+ 
+   0%{
+     background-image: url("./img/shutter2-3.jpg");
+     
+     
+   }
+   50%{
+     background-image: url("./img/shutter5.jpg");
+     
+     
+   }
+   100%{
+     background-image: url("./img/shutter3.jpg");
+     
+   }
+   
+} 
+
+
+

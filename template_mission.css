@@ -1,0 +1,41 @@
+
+  
+.mission{
+   box-sizing:border-box;
+   display:flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    margin:0 0;
+    padding:20px;
+    width:100%;
+    background-color:white;
+    
+}  
+.mission-content{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    /*background-color:#f2f2f2;*/
+} 
+
+.mission-content h1{
+   margin:20px;
+    color:#222D52;
+    font-size:1.8rem;
+   /* text-transform:uppercase;*/
+  }   
+.mission-content p{
+    max-width:650px;
+  
+  padding:0 1.5rem; 
+  text-align:justify;
+   font-size:1.2rem;
+     color:#666; 
+  margin:15px 0;
+  line-height:1.5;
+ 
+ }     
+
