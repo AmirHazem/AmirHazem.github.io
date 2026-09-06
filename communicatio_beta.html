@@ -10,9 +10,10 @@
 
 <link rel="stylesheet" href="template_menu.css">
 <link rel="stylesheet" href="template_hero.css">
- <link rel="stylesheet" href="template_hiw.css">
+<link rel="stylesheet" href="template_bar.css">
 <link rel="stylesheet" href="template_about.css">
-<link rel="stylesheet" href="template_vision.css">
+ <link rel="stylesheet" href="template_hiw.css">
+ <link rel="stylesheet" href="template_vision.css">
 <link rel="stylesheet" href="template_mission.css">
 <link rel="stylesheet" href="template_courses.css">
 <link rel="stylesheet" href="template_services.css">
@@ -20,151 +21,155 @@
 <link rel="stylesheet" href="template_plan.css">
 <link rel="stylesheet" href="template_contact.css">
 <link rel="stylesheet" href="template_footer.css">
+
 <style>
 
 
+
+
+
+@font-face {
+  font-family: Lucida;
+  src: url(./ttf/LucidaSansRegular.ttf);
+}
+
+@font-face {
+  font-family: Valley;
+  src: url(./ttf/ValleySans-Regular.ttf);
+}
+
+
+@font-face{
+  
+  font-family:Ubuntu;
+  src:url(./ttf/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+  
+  font-family:Scoutie;
+  src:url(./ttf/ScoutieSans-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Raleway;
+  src:url(./ttf/Raleway-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Outfit;
+  src:url(./ttf/Outfit-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Oswald;
+  src:url(./ttf/Oswald-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Nunito;
+  src:url(./ttf/Nunito-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Montserrat;
+  src:url(./ttf/Montserrat-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Manrope;
+  src:url(./ttf/Manrope-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Lustria;
+  src:url(./ttf/Lustria-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Lora;
+  src:url(./ttf/Lora-Regular.ttf);
+}
+
+@font-face {
+  font-family: Bodoni;
+  src: url(./ttf/LibreBodoni-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Lato;
+  src:url(./ttf/Lato-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Inter;
+  src:url(./ttf/Inter_28pt-Regular.ttf);
+}
+@font-face{
+  
+  font-family:IBM;
+  src:url(./ttf/IBMPlexSans-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Google;
+  src:url(./ttf/GoogleSans-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Crimson;
+  src:url(./ttf/CrimsonText-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Cormorant;
+  src:url(./ttf/CormorantGaramond-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Barlow;
+  src:url(./ttf/Barlow-Regular.ttf);
+}
+@font-face{
+  
+  font-family:Arimo;
+  src:url(./ttf/Arimo-Regular.ttf);
+}
+
+.font{
+  padding:2px 2px;
+  background-Color:#222D52;
+  color:white;
+}
+
+.wrapper{
+  max-inline-size:2000px;
+  margin-inline:auto;
+  height:auto;
+}  
+
+
+.navbar {
+  
+ /* Color : green;*/
+}
 *{
-  margin:0;
-  padding:0;
- 
   
-}
-.band-container{
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: space-between;
-  color:white;
-  height:50px;
-  width:100%;
-  background-color:#222D52;
-  padding:20px; 
+/*   font-family: Bodoni;*/
 }
 
-.band
-{
-  width:60%;
-  display:flex;
-  flex-direction:row;
-  align-items:left;
-  justify-content: space-around;
-  color:white;
-}
-
-.band > div >span {
-  color:#8c94b8;
-}
-.band > div >b {
-  /*color:green;*/
-  font-weight:bold;
-}
-
-
-.outer-headings{
-
-  font-family:sans-serif;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content: center;
-  font-size:20px;
-    
-}
-
-.inner-headings{
-
- padding-left:12px;
- padding-right:12px;
-  font-family:sans-serif;
- border:0px solid #ddd;
- height:50px;
- line-height:50px;
- font-size:14px;
- text-transform:uppercase;
-  overflow:hidden;
-  background-color:#f2f2f2;
-  background-color:white;
-  border-radius:10px;
-}
-
-.inner-headings span{
-  position:relative;
-color:crimson;
-animation:animation 20s ease infinite;
-}
-
-.inner-headings-static{
-
- padding-left:12px;
- padding-right:12px;
-  font-family:sans-serif;
- border:0px solid #ddd;
- height:35px;
- line-height:35px;
- font-size:14px;
- /*text-transform:uppercase;*/
-  overflow:hidden;
-  background-color:#f2f2f2;
-  background-color:white;
-  border-radius:5.5px;
-}
-.inner-headings-static span{
- /* position:relative;*/
-color:crimson;
-/*animation:animation 20s ease infinite;*/
-}
-.inner-headings-static span i { 
-  color:#222D52;
-  }
-  
- .inner-headings-static span:hover{
-
-color:#222D52;
-color:green;
-
-
-cursor:pointer;
-} 
-@keyframes animation{
-  0%,100%{
-    top:0;
-  }
-  20%{
-    top:0;
-  }
-  25%{
-    top:-50px;
-   
-  }
-  45%{
-    top:-50px;
-  }
-  50%{
-    top:-100px;
-  }
-  70%{
-    top:-100px;
-  }
-   75%{
-    top:-150px;
-  }
-   95%{
-    top:-150px;
-    
-  }
-  
-}
-
-
-
-</style>
+</style>  
 
 </head>
 
 
-<body>
 
-  <nav class="navbar">
+<body>
+  
+  
+<!-- Nav -->
+<div class="wrapper">
+ <nav class="navbar">
      
     <div class="navbar__container">
         <!-- logo-->
@@ -191,18 +196,58 @@ cursor:pointer;
             <li class="navbar__item"><a href="#plan" class="navbar__links">Pricing</a></li>
             <li class="navbar__item"><a href="#contact" class="navbar__links">Contact</a></li>
             <li class="navbar__btn"> <a href="/"  class="button">Sign Up</a></li>
+           <div class="font">
+               <hr/>
+            <h4>Font </h4>
+            <hr/>  
+            <select>
+              <option value="">Fonts</option>
+              <hr/>
+              
+              <option value="Arimo">Arimo</option>
+              <option value="Barlow">Barlow</option>
+              <option value="Bodoni">Bodoni</option>
+              <option value="Cormorant">Cormorant</option>
+              <option value="Crimson">Crimson</option>
+              <option value="Google">Google</option>
+              <option value="IBM">IBM</option>
+              <option value="Inter">Inter</option>
+              <option value="Lato">Lato</option>
+              <option value="Lora">Lora</option>
+              <option value="Lustria">Lustria</option>
+              <option value="Manrope">Manrope</option>
+              <option value="Montserrat">Montserrat</option>
+              <option value="Nunito">Nunito</option>
+              <option value="Oswald">Oswald</option>
+              <option value="Outfit">Outfit</option>
+              <option value="Raleway">Raleway</option>
+              <option value="Scoutie">Scoutie</option>
+              <option value="Ubuntu">Ubuntu</option>
+               <option value="Valley">Valley</option>
+              
+              
+              <option value="Lucida">Lucida</option>
+              
+              <option value="Verdana">Verdana</option>
+              <!--<option value="Times">Times</option>-->
+              
+            </select>
+        
+           </div> 
         </ul>
           
     </div>
-  </nav>  
+  </nav> 
+ </div> 
+<!--------->
 
-
+<!-- Hero -->
 <header class="main-header" id="box">
-    <div class="wrapper">
-      <div class="main-wrapper">  
-       <h1 class="company-name" >COMMUNICATIO<h1> 
+    <div class="wrappers">
+       <div class="main-wrapper">  
+         <h1 class="company-name" >COMMUNICATIO<h1> 
         </div> 
-    </div>
+   </div>
 
     <div class="element-2" >
       <p>
@@ -220,8 +265,14 @@ cursor:pointer;
      <h3>Sign up NOW!<br> and get 10%  discount on your first lesson<br> 
       </h3>  
     </div>
+     
 </header>
+<!---------->
 
+
+
+<!-- body -->
+<div class="wrapper">
 <div class="band-container">
     
   <div class="band">
@@ -253,12 +304,12 @@ cursor:pointer;
      </h3>
   </div>  
 </div>  
+</div>
+
+<!---------->
 
 
-
-<!-- Section 1 -->
-   
-
+<div class="wrapper">
 <div class="container-about">
 <div class="header-about">
   <h1>About <span>Us</span> </h1>
@@ -267,25 +318,25 @@ cursor:pointer;
 <section class="section-about">  
   <img class="content-section-header-img" src="./img/professional.jpg"  alt="About Communicatio"> </img> 
 <div class="content">
-  <h2>A brief history of our company</h2>
+  <h2>Our Story </h2>
   <p>Communicatio was born out of a passion for language and the question of  how people communicate. Founded in 2010 we have years of experience in  developing and  executing tailor-made courses to help individuals and  professionals alike fulfill their potential. As  a leading  provider of specialised English courses we have decided to focus on 3 specific branches which require a certain degree of linguistic competence. </p>
   <button class="readmore-about">Read more</button>
 </div>  
 
 </section>
 
-</div>       
-             
-<!-- Section 1 -->  
-  
+</div> 
+</div>
 
-<!--Section 0-->
 
-       
+
+
+
+<div class="wrapper">
 <div class="container-hiw">
     <div class="steps-template">
         <div class="steps-header">
-            <h2>How it Works</h2>
+            <h1>How it Works</h1>
         </div>
 
       <ol class="steps-list">
@@ -322,7 +373,11 @@ cursor:pointer;
     </ol>
   </div>
 </div>
+</div>  
 
+
+
+<div class="wrapper">
 
 <section class="vision-hero" id="vision-hero-section">
       <div class="vision-content">
@@ -333,7 +388,10 @@ cursor:pointer;
     </div>
 </section> 
 
+</div>  
 
+
+<div class="wrapper">
 <section class="mission" >
       
       <div class="mission-content">
@@ -343,9 +401,12 @@ cursor:pointer;
        <!-- <a href="#" role="button" class="cta">Learn More About Our Coaching Courses</a>-->
     </div>
 </section> 
+</div>  
 
 
 
+
+<div class="wrapper">
 <div class="container-courses">  
 <div class="grid-container-courses-header">  
         <h1 class="title">Courses</h1>
@@ -388,14 +449,11 @@ cursor:pointer;
 
  </div>
  
-
-
-<!--Section 0-->
-
+</div>
 
 
 
-
+<div class="wrapper">
 <div class="container-services">  
 
     <div class="grid-container-services-header">  
@@ -442,11 +500,11 @@ cursor:pointer;
   </div>
 
 </div> 
+</div>
 
 
-
-<!---->
-<div class="container-coaching">  
+<div class="wrapper">
+  <div class="container-coaching">  
 <div class="grid-container-coaching-header">  
         <h1 class="title ">Coaching</h1>
         <p class="content ">Our one-on-one coaching sessions are built around your daily tasks and challenges in English to ensure that your training is practical and effective. Before defining a programme and setting goals with you we focus on your role within the company, your objectives and the context in which you are required to express yourself in a foreign language in order to define the necessary steps.</p>  
@@ -487,17 +545,16 @@ cursor:pointer;
 </div>
 
  </div>
-
-<!---->
-
-
-<!--Section -->
- <div class="grid-container-coaching-header">
-  <h1 class="title ">Plan</h1>
-        <p class="content "> Choose the appropriate plan for your learning journey.  </p>
 </div>
-<div class="grid_container-plan">
 
+
+<div class="wrapper">
+<div class="grid_container-plan">
+<div class="grid-container-courses-header">  
+        <h1 class="title">Plan</h1>
+        <p class="content">Choose between the following plans.</p>  
+  
+ </div>
 <table class="table-container-plan">
 
 <thead>
@@ -576,8 +633,14 @@ cursor:pointer;
 </table>    
 
 </div>
-<!--Section -->
-  
+
+</div>        
+
+
+
+
+
+<div class="wrapper">
   
 <section class="contact">
   <div class="contact-container">
@@ -591,11 +654,15 @@ cursor:pointer;
   
   </div>  
 
-</section>  
-  
-  
-  
+</section> 
+
+</div>  
+
+
+
 <!-- Footer -->
+
+<div class="wrapper">
 <footer>
   <!-- logo -->
     <div class="logo">
@@ -656,7 +723,44 @@ cursor:pointer;
          <a href="#">Privacy Policy</a>
       </div>  
   </div>  
-</footer>  
-</body>  
+</footer> 
 
-</html>
+</div>
+<!------------>
+
+
+
+<script>
+let select = document.querySelector('select');
+let status = document.querySelector('h4');
+let button = document.querySelector('button');
+const menu = document.getElementsByClassName("wrapper");
+const hero = document.getElementsByClassName("main-header");
+
+select.addEventListener('change', ()=>
+{
+   status.innerText = select.value;
+    for (let i =0; i< menu.length;i++)
+   {
+     /*menu[i].style.backgroundColor = "red";*/
+     menu[i].style.fontFamily=select.value;
+     
+   }
+  /* menu[0].style.fontFamily=select.value;*/
+  hero[0].style.fontFamily=select.value;
+  /* button.style.backgroundColor = "lightgrey";
+  
+   button.style.fontFamily=select.value;
+  
+   button.style.fontstyle='italic';*/
+   
+  
+  
+  
+}
+);
+
+</script>  
+
+</body>
+</html>  
