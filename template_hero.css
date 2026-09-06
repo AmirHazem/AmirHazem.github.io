@@ -34,13 +34,13 @@ margin-top:60px;
 }
 
 .element-1{
-   font-family:oswald;
+   /*font-family:oswald;*/
   font-size:2rem;
   padding-right:3rem;
   
 }
 .element-2{
-   font-family:oswald;
+  /* font-family:oswald;*/
   font-size:1.5rem;
   padding-top:2rem;
   padding-right:5rem;
@@ -59,7 +59,7 @@ margin-top:60px;
 }
 
 .element-3{
-   font-family:oswald;
+ /*  font-family:oswald;*/
   font-size:1.rem;
   padding-top:2rem;
   padding-right:5rem;
@@ -67,7 +67,7 @@ margin-top:60px;
 }
 
 .element-4{
-   font-family:oswald;
+  /* font-family:oswald;*/
   font-size:0.95rem;
   padding-top:2rem;
   padding-right:5rem;
@@ -88,8 +88,8 @@ line-height: 1.5;
 
 }
 .company-name{
-    font-family:  sans-serif;
-     font-family:oswald; 
+  /*  font-family:  sans-serif;
+     font-family:oswald; */
  
   text-shadow:
     1px 1px 2px rgb(243, 241, 241),

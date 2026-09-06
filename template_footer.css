@@ -4,7 +4,7 @@
  padding:0;
  outline:none;
  box-sizing:border-box;
- font-family:"poppins",sans-serif;  
+ /*font-family:"poppins",sans-serif;  */
  } 
 
 body{
@@ -53,7 +53,7 @@ footer{
 }
 .logo{
   color:#d5d5d5;
-  font-family:"Permanent Marker", cursive;
+ /* font-family:"Permanent Marker", cursive;*/
   font-size:2.8rem;
   text-align:center;
 }

@@ -6,7 +6,7 @@ grid-template-rows:100px, 1fr;
 background-color:grey;*/
 
 box-sizing: border-box;
-font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/*font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
 background-color:#f9fafb;
      padding: 2rem 1.5rem;
         width: 100%;
@@ -48,7 +48,7 @@ grid-template-rows:350px 350px;
 /*background-color:grey;*/
 gap: 1.0rem;
 padding: 1rem;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;  
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;  */
  
  justify-content:center;
  align-content:center;

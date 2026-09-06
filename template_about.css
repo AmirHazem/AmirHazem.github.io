@@ -3,9 +3,9 @@
   margin:0 auto;
  
   box-sizing:border-box;
-  font-family:arial,Helverica, sans-serif;
+ 
 
-  width:100%;
+  width:80%;
   height:auto;
   border-radius:10px;
   margin-bottom: 20px;
@@ -74,7 +74,7 @@
 
 .section-about .content p{
   color:#666;
-  font-size:20px;
+  font-size:19px;
   margin:15px 0;
   line-height:1.5;
   text-align:justify;

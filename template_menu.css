@@ -4,7 +4,8 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
-   
+   /* font-family:'Lucida Sans', 'Lucida Sans Regular';
+    
    
    /* font-family: 'Helvetica Neue', sans-serif;*/
     --color-solid-shadow: rgba(0, 0, 0, 0.1);
@@ -61,7 +62,7 @@
 }
 
    .logo_text{
-      font-family: oswald;
+      /*font-family: oswald;*/
     }
     .navbar__logo{
        display:flex;
@@ -74,7 +75,7 @@
     align-items:center;
     list-style:none;
     text-align:center;
-     font-family: verdana;
+   /*  font-family: verdana;*/
 }
 
 .navbar__item{
@@ -224,6 +225,16 @@
      #mobile-menu.is-active .bar:nth-child(3){
          transform:translateY(-8px) rotate(-45deg);
      }      
+
+      .logo-rotate
+{ 
+  /*padding-bottom:25px;*/
+  /*transform: rotate(-10deg);
+ /*width:7%;
+     width:auto;
+     height:auto;
+    /*display: none;*/
+  } 
 }
 
     .logo-rotate
@@ -231,7 +242,7 @@
   /*padding-bottom:25px;*/
   /*transform: rotate(-10deg);
  /*width:7%;*/
-     width:15%;
+    width:15%;
      height:auto;
     /*display: none;*/
   } 

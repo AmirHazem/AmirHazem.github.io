@@ -24,7 +24,8 @@
 .mission-content h1{
    margin:20px;
     color:#222D52;
-    font-size:1.8rem;
+   /* font-size:1.8rem;*/
+    font-size:45px;
    /* text-transform:uppercase;*/
   }   
 .mission-content p{
