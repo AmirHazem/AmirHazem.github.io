@@ -1,0 +1,65 @@
+.band-container{
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  color:white;
+  height:50px;
+  width:100%;
+  background-color:#222D52;
+  padding:20px; 
+}
+
+.band
+{
+  width:60%;
+  display:flex;
+  flex-direction:row;
+  align-items:left;
+  justify-content: space-around;
+  color:white;
+}
+
+.band > div >span {
+  color:#8c94b8;
+}
+.band > div >b {
+  /*color:green;*/
+  font-weight:bold;
+}
+ 
+ .inner-headings-static{
+
+ padding-left:12px;
+ padding-right:12px;
+ 
+ border:0px solid #ddd;
+ height:35px;
+ line-height:35px;
+ font-size:14px;
+ /*text-transform:uppercase;*/
+  overflow:hidden;
+  background-color:#f2f2f2;
+  background-color:white;
+  border-radius:5.5px;
+}
+ 
+.inner-headings-static span{
+ /* position:relative;*/
+color:crimson;
+/*animation:animation 20s ease infinite;*/
+}
+.inner-headings-static span i { 
+  color:#222D52;
+  }
+  
+ .inner-headings-static span:hover{
+
+color:#222D52;
+color:green;
+
+
+cursor:pointer;
+}  
